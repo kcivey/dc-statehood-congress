@@ -1,0 +1,20 @@
+{
+  "name": "dc-statehood-congress",
+  "version": "0.0.1",
+  "description": "Tracking members of Congress and challengers who support DC statehood",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcivey/dc-statehood-congress.git"
+  },
+  "author": "Keith C. Ivey <keith@iveys.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcivey/dc-statehood-congress/issues"
+  },
+  "homepage": "https://github.com/kcivey/dc-statehood-congress#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "js-yaml": "^3.12.0",
+    "propublica-congress": "^3.0.0"
+  }
+}
