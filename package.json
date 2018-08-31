@@ -13,8 +13,14 @@
   },
   "homepage": "https://github.com/kcivey/dc-statehood-congress#readme",
   "dependencies": {
+    "cache-manager": "^2.9.0",
+    "cache-manager-fs": "^1.0.6",
+    "cheerio": "^1.0.0-rc.2",
     "dotenv": "^6.0.0",
     "js-yaml": "^3.12.0",
-    "propublica-congress": "^3.0.0"
+    "propublica-congress": "^3.0.0",
+    "request": "^2.88.0",
+    "request-plus": "^1.0.1",
+    "us-states-normalize": "^1.0.0"
   }
 }
