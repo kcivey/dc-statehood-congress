@@ -38,3 +38,12 @@ Promise.all(promises).then(
         )))
     }
 );
+
+// Get all members
+promises = ['house', 'senate'].map(chamber => ppc.getMemberList(chamber));
+Promise.all(promises).then(
+    responses => {
+        console.log(yaml.safeDump(responses.map(r => r.results[0].members)))
+    }
+);
+// @todo Filter out sponsors who are no longer active
