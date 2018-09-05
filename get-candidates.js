@@ -3,34 +3,49 @@
 const cheerio = require('cheerio');
 const yaml = require('js-yaml');
 const request = require('./request');
-const url = 'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2018';
+const urls = [
+        'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2018',
+        'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2018',
+    ];
 const normalizeState = require('us-states-normalize');
+let races = {};
 
-request(url).then(processHtml);
+Promise.all(urls.map(processPage)).then(() => console.log(yaml.safeDump(races)));
 
-function processHtml(html) {
-    const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
-    let data = [];
-    $('table.wikitable').each(
-        (i, table) => {
-            let $table = $(table);
-            let text1 = $table.find('tr').eq(0).find('th').eq(0).text().trim();
-            let text2 = $table.find('tr').eq(1).find('th').eq(0).text().trim();
-            if (text1 === 'District') {
-                if (text2 === 'Location') {
-                    data.push(...processTable($, $table, 2));
-                }
-                else {
-                    console.log(processTable($, $table, 1));
-                    process.exit();
-                }
-            }
+function processPage(url) {
+    return request(url).then(
+        html => {
+            const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
+            $('table.wikitable').each(
+                (i, table) => processTable($, $(table))
+            );
         }
     );
-    console.log(yaml.safeDump(data));
 }
 
-function processTable($, $table, headerRows) {
+function processTable($, $table) {
+    let headerRows = 1;
+    let text1 = $table.find('tr').eq(0).find('th').eq(0).text().trim();
+    let text2 = $table.find('tr').eq(1).find('th').eq(0).text().trim();
+    //console.log([text1, text2]);
+    if (text1 === 'District') {
+        if (text2 === 'Location') {
+            headerRows = 2;
+        }
+        else {
+            //console.log(processTable($, $table));
+            //process.exit();
+            return;
+        }
+    }
+    else if (text1 === 'State') {
+        //console.log(processTable($, $table));
+        //process.exit();
+        return;
+    }
+    else {
+        return;
+    }
     let heads = [];
     let tableData = [];
     $table.find('tr').each(
@@ -60,8 +75,9 @@ function processTable($, $table, headerRows) {
             if (!inHeader) {
                 if (rowData.Location) {
                     let m = rowData.Location.match(/^([\w ]+)\s+(\d\d?|at-large)$/);
-                    tableData.push({
-                        district: normalizeState(m[1]) + '-' + (m[2] === 'at-large' ? 1 : m[2]),
+                    let district = normalizeState(m[1]) + '-' + (m[2] === 'at-large' ? 1 : m[2]);
+                    races[district] = {
+                        district,
                         pvi: rowData['2017 PVI'],
                         party: rowData.Party,
                         candidates: rowData.Candidates.split('\n').map(
@@ -72,7 +88,8 @@ function processTable($, $table, headerRows) {
                                     party: m[2],
                                 }
                             }),
-                    });
+                    };
+                    tableData.push(races[district]);
                 }
                 else {
                     tableData.push(rowData);
