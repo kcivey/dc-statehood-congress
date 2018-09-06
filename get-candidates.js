@@ -25,28 +25,19 @@ function processPage(url) {
 
 function processTable($, $table) {
     let headerRows = 1;
-    let text1 = $table.find('tr').eq(0).find('th').eq(0).text().trim();
+    let text1 = $table.find('tr').eq(0).find('th').eq(0).text().replace(/\s+/g, ' ').trim();
     let text2 = $table.find('tr').eq(1).find('th').eq(0).text().trim();
-    //console.log([text1, text2]);
-    if (text1 === 'District') {
-        if (text2 === 'Location') {
-            headerRows = 2;
-        }
-        else {
-            //console.log(processTable($, $table));
-            //process.exit();
-            return;
-        }
+    if (text1 === 'District' && text2 === 'Location') {
+        headerRows = 2;
     }
-    else if (text1 === 'State') {
-        //console.log(processTable($, $table));
-        //process.exit();
-        return;
+    else if (text1 === 'State (linked to summaries below)' && text2 === 'Senator') {
+        headerRows = 2;
     }
     else {
         return;
     }
     let heads = [];
+    let rowspans = [];
     let tableData = [];
     $table.find('tr').each(
         (rowIndex, row) => {
@@ -61,21 +52,31 @@ function processTable($, $table) {
                 (cellIndex, cell) => {
                     let $cell = $(cell);
                     let colspan = +$cell.attr('colspan') || 1;
+                    let rowspan = +$cell.attr('rowspan') || 1;
                     let text = $(cell).text().trim();
+                    while (rowspans[columnIndex]) {
+                        rowspans[columnIndex]--;
+                        columnIndex++;
+                    }
                     while (colspan--) {
+                        rowspans[columnIndex] = rowspan - 1;
                         if (inHeader) {
-                            heads[columnIndex++] = text.replace(/\s+/g, ' ').replace(/\s*\[[^\]]+\]/g, '');
+                            heads[columnIndex] = text.replace(/\s+/g, ' ').replace(/\s*\[[^\]]+\]/g, '');
                         }
                         else {
-                            rowData[heads[columnIndex++]] = text;
+                            rowData[heads[columnIndex]] = text;
                         }
+                        columnIndex++;
                     }
                 }
             );
+            while (rowspans[columnIndex]) {
+                rowspans[columnIndex]--;
+                columnIndex++;
+            }
             if (!inHeader) {
                 if (rowData.Location) {
-                    let m = rowData.Location.match(/^([\w ]+)\s+(\d\d?|at-large)$/);
-                    let district = normalizeState(m[1]) + '-' + (m[2] === 'at-large' ? 1 : m[2]);
+                    let district = makeRaceCode(rowData.Location);
                     races[district] = {
                         district,
                         pvi: rowData['2017 PVI'],
@@ -91,11 +92,32 @@ function processTable($, $table) {
                     };
                     tableData.push(races[district]);
                 }
-                else {
-                    tableData.push(rowData);
+                else if (rowData['State (linked to summaries below)']) {
+                    let district = makeRaceCode(rowData['State (linked to summaries below)']);
+                    races[district] = {
+                        district,
+                        party: rowData.Party,
+                        candidates: rowData.Candidates.split('\n').map(
+                            text => {
+                                let m = text.match(/^(.+?) \(([^)]+)\)/);
+                                return {
+                                    name: m[1],
+                                    party: m[2],
+                                }
+                            }),
+                    };
+                    tableData.push(races[district]);
                 }
             }
         }
     );
     return tableData;
+}
+
+function makeRaceCode(text) {
+    const m = text.match(/^([\w ]+)(?:\s+(\d\d?|at-large|\(Class \d\)))?$/);
+    if (!m) {
+        throw new Error(`Unrecognized race ${text}`);
+    }
+    return normalizeState(m[1]) + '-' + (m[2] ? (m[2] === 'at-large' ? 'AL' : m[2].padStart(2, '0')) : 'Sen');
 }
