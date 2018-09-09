@@ -12,6 +12,9 @@
     "url": "https://github.com/kcivey/dc-statehood-congress/issues"
   },
   "homepage": "https://github.com/kcivey/dc-statehood-congress#readme",
+  "engines": {
+    "node": ">=6.4.0"
+  },
   "dependencies": {
     "cache-manager": "^2.9.0",
     "cache-manager-fs": "^1.0.6",
