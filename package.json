@@ -1,6 +1,6 @@
 {
   "name": "dc-statehood-congress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tracking members of Congress and challengers who support DC statehood",
   "repository": {
     "type": "git",
