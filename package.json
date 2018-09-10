@@ -26,5 +26,10 @@
     "request-plus": "^1.0.1",
     "underscore": "^1.9.1",
     "us-states-normalize": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-bump": "^0.8.0",
+    "load-grunt-tasks": "^4.0.0"
   }
 }
