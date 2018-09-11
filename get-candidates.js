@@ -4,49 +4,27 @@ const assert = require('assert');
 const cheerio = require('cheerio');
 const yaml = require('js-yaml');
 const request = require('./request');
-const MongoClient = require('mongodb').MongoClient;
-const dbUrl = 'mongodb://localhost:27017';
+const db = require('./db')('mongodb://localhost:27017', 'dc-statehood-congress');
 const urls = [
         'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2018',
         'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2018',
     ];
 const normalizeState = require('us-states-normalize');
 
-MongoClient.connect(dbUrl, (err, client) => {
-    assert.strictEqual(null, err);
-    console.log('Connected successfully to database');
-    let db = client.db('dc-statehood-congress');
-    Promise.all(urls.map(processPage))
-        .then(
-            () => {
-                client.close();
-                console.log('Connection closed');
-            });
-
-    function processPage(url) {
-        return request(url).then(
-            html => {
-                const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
-                let districts = [];
-                $('table.wikitable').each((i, table) => districts.push(...processTable($, $(table))));
-                return new Promise(
-                    (resolve, reject) => {
-                        console.log('inserting', districts);
-                        db.collection('districts').insertMany(districts, (err, result) => {
-                            if (err) {
-                                reject(err);
-                            }
-                            else {
-                                console.log('inserted', result);
-                                resolve(result);
-                            }
-                        });
-                    }
-                );
-            }
-        );
-    }
+Promise.all(urls.map(processPage)).then(function (results) {
+    process.exit();
 });
+
+function processPage(url) {
+    return request(url).then(
+        html => {
+            const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
+            let districts = [];
+            $('table.wikitable').each((i, table) => districts.push(...processTable($, $(table))));
+            return db.insertMany('districts', districts).then(console.log);
+        }
+    );
+}
 
 function processTable($, $table) {
     let headerRows = 1;
