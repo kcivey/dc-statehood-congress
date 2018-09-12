@@ -1,16 +1,8 @@
 const MongoClient = require('mongodb').MongoClient;
 
 module.exports = function (url) {
-    const connectionPromise = new Promise(function (resolve, reject) {
-        MongoClient.connect(url, {useNewUrlParser: true}, function (err, client) {
-            if (err) {
-                reject(err);
-            }
-            else {
-                resolve(client.db());
-            }
-        });
-    });
+    const connectionPromise = MongoClient.connect(url, {useNewUrlParser: true})
+        .then(client => client.db());
 
     // Proxy all methods to collection
     return new Proxy({}, {
