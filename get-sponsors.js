@@ -5,6 +5,7 @@ const yaml = require('js-yaml');
 const _ = require('underscore');
 const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY);
 const makeRaceCode = require('./utils').makeRaceCode;
+const db = require('./db')(process.env.MONGODB_URL);
 
 Promise.all([
     getMembers(),
@@ -55,7 +56,18 @@ Promise.all([
                 }
             );
             console.log(yaml.safeDump(sponsors));
-            process.exit();
+            let operations = sponsors.map(
+                sponsor => ({
+                    updateMany: {
+                        filter: {id: sponsor.id},
+                        update: {$set: sponsor},
+                        upsert: true,
+                    }
+                })
+            );
+            db.createIndex('sponsors', {id: 1}, {unique: true})
+                .then(() => db.bulkWrite('sponsors', operations))
+                .then(() => process.exit());
         }
     );
 
