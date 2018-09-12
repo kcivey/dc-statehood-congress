@@ -20,9 +20,20 @@ function processPage(url) {
     return request(url).then(
         html => {
             const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
-            let districts = [];
-            $('table.wikitable').each((i, table) => districts.push(...processTable($, $(table))));
-            return db.insertMany('districts', districts).then(console.log);
+            let races = [];
+            $('table.wikitable').each((i, table) => races.push(...processTable($, $(table))));
+            let operations = races.map(
+                race => ({
+                    updateMany: {
+                        filter: {code: race.code},
+                        update: {$set: race},
+                        upsert: true,
+                    }
+                })
+            );
+            return db.createIndex('races', {code: 1}, {unique: true})
+                .then(() => db.bulkWrite('races', operations))
+                .then(console.log);
         }
     );
 }
@@ -80,9 +91,9 @@ function processTable($, $table) {
             }
             if (!inHeader) {
                 if (rowData.Location) {
-                    let district = makeRaceCode(rowData.Location);
+                    let code = makeRaceCode(rowData.Location);
                     tableData.push({
-                        district,
+                        code,
                         pvi: rowData['2017 PVI'],
                         party: rowData.Party,
                         candidates: rowData.Candidates.split('\n').map(
@@ -96,9 +107,9 @@ function processTable($, $table) {
                     });
                 }
                 else if (rowData['State (linked to summaries below)']) {
-                    let district = makeRaceCode(rowData['State (linked to summaries below)']);
+                    let code = makeRaceCode(rowData['State (linked to summaries below)']);
                     tableData.push({
-                        district,
+                        code,
                         party: rowData.Party,
                         candidates: rowData.Candidates.split('\n').map(
                             text => {
