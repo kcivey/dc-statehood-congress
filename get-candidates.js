@@ -10,7 +10,7 @@ const urls = [
         'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2018',
         'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2018',
     ];
-const normalizeState = require('us-states-normalize');
+const makeRaceCode = require('./utils').makeRaceCode;
 
 Promise.all(urls.map(processPage)).then(function (results) {
     process.exit();
@@ -125,12 +125,4 @@ function processTable($, $table) {
         }
     );
     return tableData;
-}
-
-function makeRaceCode(text) {
-    const m = text.match(/^([\w ]+)(?:\s+(\d\d?|at-large|\(Class \d\)))?$/);
-    if (!m) {
-        throw new Error(`Unrecognized race ${text}`);
-    }
-    return normalizeState(m[1]) + '-' + (m[2] ? (m[2] === 'at-large' ? 'AL' : m[2].padStart(2, '0')) : 'Sen');
 }
