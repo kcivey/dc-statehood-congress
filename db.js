@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 
 module.exports = function (url) {
     const connectionPromise = new Promise(function (resolve, reject) {
-        MongoClient.connect(url, function (err, client) {
+        MongoClient.connect(url, {useNewUrlParser: true}, function (err, client) {
             if (err) {
                 reject(err);
             }
