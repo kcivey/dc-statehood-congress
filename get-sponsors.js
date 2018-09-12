@@ -52,7 +52,7 @@ Promise.all([
                         throw new Error(`id ${sponsor.id} not found`);
                     }
                     sponsor.inOffice = member.in_office;
-                    sponsor.code = makeRaceCode(sponsor.state, sponsor.district);
+                    sponsor.code = makeRaceCode(member.state, member.district);
                 }
             );
             console.log(yaml.safeDump(sponsors));
