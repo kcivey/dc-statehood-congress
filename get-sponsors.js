@@ -4,6 +4,7 @@ require('dotenv').config();
 const yaml = require('js-yaml');
 const _ = require('underscore');
 const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY);
+const makeRaceCode = require('./utils').makeRaceCode;
 
 Promise.all([
     getMembers(),
@@ -13,21 +14,11 @@ Promise.all([
     .then(
         responses => {
             let members = responses.shift();
-            console.log(yaml.safeDump(responses.map(
+            let sponsors = [];
+            responses.forEach(
                 r => {
                     const results = r.results[0];
-                    let sponsors = results.cosponsors.map(
-                        c => ({
-                            id: c.cosponsor_id,
-                            name: c.name,
-                            title: c.cosponsor_title,
-                            state: c.cosponsor_state,
-                            party: c.cosponsor_party,
-                            uri: c.cosponsor_uri,
-                            date: c.date,
-                        })
-                    );
-                    sponsors.unshift(
+                    sponsors.push(
                         {
                             id: results.sponsor_id,
                             name: results.sponsor_name,
@@ -38,22 +29,32 @@ Promise.all([
                             date: results.introduced_date,
                         }
                     );
-
-                    return sponsors.map(
-                        sponsor => {
-                            const member = _.findWhere(members, {id: sponsor.id});
-                            if (!member) {
-                                throw new Error(`id ${sponsor.id} not found`);
-                            }
-                            sponsor.inOffice = member.in_office;
-                            if (member.district) {
-                                sponsor.district = member.district;
-                            }
-                            return sponsor;
-                        }
+                    sponsors = sponsors.concat(
+                        results.cosponsors.map(
+                            c => ({
+                                id: c.cosponsor_id,
+                                name: c.name,
+                                title: c.cosponsor_title,
+                                state: c.cosponsor_state,
+                                party: c.cosponsor_party,
+                                uri: c.cosponsor_uri,
+                                date: c.date,
+                            })
+                        )
                     );
                 }
-            )));
+            );
+            sponsors.forEach(
+                sponsor => {
+                    const member = _.findWhere(members, {id: sponsor.id});
+                    if (!member) {
+                        throw new Error(`id ${sponsor.id} not found`);
+                    }
+                    sponsor.inOffice = member.in_office;
+                    sponsor.code = makeRaceCode(sponsor.state, sponsor.district);
+                }
+            );
+            console.log(yaml.safeDump(sponsors));
             process.exit();
         }
     );
