@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
+require('dotenv').config();
 const assert = require('assert');
 const cheerio = require('cheerio');
 const yaml = require('js-yaml');
 const request = require('./request');
-const db = require('./db')('mongodb://localhost:27017', 'dc-statehood-congress');
+const db = require('./db')(process.env.MONGODB_URL);
 const urls = [
         'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2018',
         'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2018',

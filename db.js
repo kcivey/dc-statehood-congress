@@ -1,13 +1,13 @@
 const MongoClient = require('mongodb').MongoClient;
 
-module.exports = function (url, dbName) {
+module.exports = function (url) {
     const connectionPromise = new Promise(function (resolve, reject) {
         MongoClient.connect(url, function (err, client) {
             if (err) {
                 reject(err);
             }
             else {
-                resolve(client.db(dbName));
+                resolve(client.db());
             }
         });
     });
