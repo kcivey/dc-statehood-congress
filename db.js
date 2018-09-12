@@ -18,10 +18,7 @@ module.exports = function (url) {
             return function (...args) {
                 const collectionName = args.shift();
                 return connectionPromise.then(
-                    db => new Promise(function (resolve, reject) {
-                        args.push((err, result) => err ? reject(err) : resolve(result));
-                        return db.collection(collectionName)[methodName](...args);
-                    })
+                    db => db.collection(collectionName)[methodName](...args)
                 );
             }
         }
