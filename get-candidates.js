@@ -54,15 +54,13 @@ function processTable($, $table) {
     let heads = [];
     let rowspans = [];
     let tableData = [];
+    let expectedDistrict = 0;
     $table.find('tr').each(
         (rowIndex, row) => {
             let $row = $(row);
             let rowData = {};
             let columnIndex = 0;
             let inHeader = (rowIndex < headerRows);
-            if (/Redistricted from the/.test($row.find('th,td').eq(0).text())) {
-                return; // skip row (Pennsylvania weirdness)
-            }
             $row.find('th,td').each(
                 (cellIndex, cell) => {
                     let $cell = $(cell);
@@ -91,7 +89,11 @@ function processTable($, $table) {
             }
             if (!inHeader) {
                 if (rowData.Location) {
+                    expectedDistrict++;
                     let code = makeRaceCode(rowData.Location);
+                    if (code.substr(-2) !== 'AL') {
+                        assert.strictEqual(expectedDistrict, +code.substr(-2), `Expected ${expectedDistrict} for ${code}`);
+                    }
                     tableData.push({
                         code,
                         pvi: rowData['2017 PVI'],
