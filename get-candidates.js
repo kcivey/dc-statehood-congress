@@ -22,18 +22,30 @@ function processPage(url) {
             const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
             let races = [];
             $('table.wikitable').each((i, table) => races.push(...processTable($, $(table))));
-            let operations = races.map(
-                race => ({
-                    updateMany: {
-                        filter: {code: race.code},
-                        update: {$set: race},
-                        upsert: true,
+            return Promise.all(
+                races.map(
+                    race => {
+                        let names = race.candidates.map(c => c.name);
+                        return db.find('sponsors', {code: race.code, name: {$in: names}}).then(cursor => cursor.toArray())
                     }
-                })
+                )
+            ).then(
+                results => {
+                    console.log(results.filter(r=>r.length).length);
+                    let operations = races.map(
+                        race => ({
+                            updateMany: {
+                                filter: {code: race.code},
+                                update: {$set: race},
+                                upsert: true,
+                            }
+                        })
+                    );
+                    return db.createIndex('races', {code: 1}, {unique: true})
+                        .then(() => db.bulkWrite('races', operations))
+                        .then(console.log);
+                }
             );
-            return db.createIndex('races', {code: 1}, {unique: true})
-                .then(() => db.bulkWrite('races', operations))
-                .then(console.log);
         }
     );
 }
