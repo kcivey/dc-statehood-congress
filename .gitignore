@@ -63,3 +63,6 @@ typings/
 # cache dir for request cache
 /cache
 
+# OAuth
+credentials.json
+token.json
