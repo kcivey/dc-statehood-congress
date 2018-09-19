@@ -1,8 +1,33 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
+const assert = require('assert');
 const readline = require('readline');
 const {google} = require('googleapis');
+const _ = require('underscore');
+const raceProperties = [
+        'district',
+        'code',
+        'clinton2016',
+        'trump2016',
+        'obama2012',
+        'romney2012',
+        'incumbentParty',
+        'raceRating',
+    ];
+const candidateProperties = [
+    'party',
+    'status',
+    'firstName',
+    'lastName',
+    'phoneticPronunciation',
+    'ipaPronunciation',
+    'birthYear',
+    'gender',
+    'raceEthnicity',
+    'religion',
+    'Lgbtq',
+];
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
@@ -12,7 +37,7 @@ const TOKEN_PATH = 'token.json';
 fs.readFile('credentials.json', (err, content) => {
     if (err) return console.log('Error loading client secret file:', err);
     // Authorize a client with credentials, then call the Google Sheets API.
-    authorize(JSON.parse(content), listMajors);
+    authorize(JSON.parse(content), processData);
 });
 
 /**
@@ -65,25 +90,48 @@ function getNewToken(oAuth2Client, callback) {
     });
 }
 
-/**
- * Prints the names and majors of students in a sample spreadsheet:
- * @see https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
- * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
- */
-function listMajors(auth) {
+function processData(auth) {
     const sheets = google.sheets({version: 'v4', auth});
     sheets.spreadsheets.values.get({
         spreadsheetId: '1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w',
         range: 'House',
-    }, (err, res) => {
-        if (err) return console.log('The API returned an error: ' + err);
+    }).then(res => {
         const rows = res.data.values;
-        if (rows.length) {
-            rows.map((row, i) => {
-                console.log(row);
-            });
-        } else {
-            console.log('No data found.');
+        assert(rows.length, 'No data found');
+        const sheetData = [];
+        rows.forEach((row, rowIndex) => {
+            if (rowIndex < 2) {
+                return;
+            }
+            const rowData = _.object(
+                raceProperties,
+                row.slice(0, raceProperties.length)
+            );
+            rowData.candidates = [];
+            let colIndex = raceProperties.length;
+            while (colIndex < row.length) {
+                const candidate = _.object(
+                    candidateProperties,
+                    row.slice(colIndex, colIndex + candidateProperties.length)
+                );
+                if (candidate.status !== 'None') {
+                    rowData.candidates.push(removeEmptyProperties(candidate));
+                }
+                colIndex += candidateProperties.length;
+            }
+            removeEmptyProperties(rowData);
+            console.log(rowData);
+            sheetData.push(rowData);
+        });
+    });
+}
+
+function removeEmptyProperties(obj) {
+    Object.keys(obj).forEach(key => {
+        const value = obj[key];
+        if (value == null || value === '') {
+            delete obj[key];
         }
     });
+    return obj;
 }
