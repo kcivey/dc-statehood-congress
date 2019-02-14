@@ -7,8 +7,8 @@ const yaml = require('js-yaml');
 const request = require('./request');
 const db = require('./db')(process.env.MONGODB_URL);
 const urls = [
-        'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2018',
-        'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2018',
+        'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2020',
+        'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
     ];
 const makeRaceCode = require('./utils').makeRaceCode;
 
@@ -113,11 +113,17 @@ function processTable($, $table) {
                         candidates: rowData.Candidates.split('\n').map(
                             text => {
                                 let m = text.match(/^(.+?) \(([^)]+)\)/);
+                                if (!m) {
+                                    if (text === '') {
+                                        return null;
+                                    }
+                                    throw new Error(`Unexpected format "${text}"`);
+                                }
                                 return {
                                     name: m[1],
                                     party: m[2],
                                 }
-                            }),
+                            }).filter(v => !!v),
                     });
                 }
                 else if (rowData['State (linked to summaries below)']) {
@@ -128,11 +134,17 @@ function processTable($, $table) {
                         candidates: rowData.Candidates.split('\n').map(
                             text => {
                                 let m = text.match(/^(.+?) \(([^)]+)\)/);
+                                if (!m) {
+                                    if (text === 'TBD') {
+                                        return null;
+                                    }
+                                    throw new Error(`Unexpected format "${text}"`);
+                                }
                                 return {
                                     name: m[1],
                                     party: m[2],
                                 }
-                            }),
+                            }).filter(v => !!v),
                     });
                 }
             }
