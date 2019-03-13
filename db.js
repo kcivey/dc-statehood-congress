@@ -12,7 +12,7 @@ module.exports = function (url) {
                 return connectionPromise.then(
                     db => db.collection(collectionName)[methodName](...args)
                 );
-            }
-        }
+            };
+        },
     });
 };

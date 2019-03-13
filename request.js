@@ -9,7 +9,7 @@ const cacheReady = new Promise(
                 ttl: 6 * 60 * 60 /* seconds */,
                 maxsize: 100e6 /* max size in bytes on disk */,
                 fillcallback: () => resolve(cache),
-            }
+            },
         });
     }
 ).then(

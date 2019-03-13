@@ -3,13 +3,12 @@
 require('dotenv').config();
 const assert = require('assert');
 const cheerio = require('cheerio');
-const yaml = require('js-yaml');
 const request = require('./request');
 const db = require('./db')(process.env.MONGODB_URL);
 const urls = [
-        'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2020',
-        'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
-    ];
+    'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2020',
+    'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
+];
 const makeRaceCode = require('./utils').makeRaceCode;
 
 Promise.all(urls.map(processPage)).then(function (results) {
@@ -18,42 +17,47 @@ Promise.all(urls.map(processPage)).then(function (results) {
 
 function processPage(url) {
     return request(url).then(
-        html => {
+        function (html) {
             const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
-            let races = [];
+            const races = [];
             $('table.wikitable').each((i, table) => races.push(...processTable($, $(table))));
-            return Promise.all(
-                races.map(
-                    race => {
-                        let names = race.candidates.map(c => c.name);
-                        return db.find('sponsors', {code: race.code, name: {$in: names}}).then(cursor => cursor.toArray())
-                    }
+            return Promise
+                .all(
+                    races.map(
+                        function (race) {
+                            const names = race.candidates.map(c => c.name);
+                            return db.find('sponsors', {code: race.code, name: {$in: names}})
+                                .then(cursor => cursor.toArray());
+                        }
+                    )
                 )
-            ).then(
-                results => {
-                    console.log(results.filter(r=>r.length).length);
-                    let operations = races.map(
-                        race => ({
-                            updateMany: {
-                                filter: {code: race.code},
-                                update: {$set: race},
-                                upsert: true,
+                .then(
+                    function (results) {
+                        console.log(results.filter(r=>r.length).length);
+                        const operations = races.map(
+                            function (race) {
+                                return {
+                                    updateMany: {
+                                        filter: {code: race.code},
+                                        update: {$set: race},
+                                        upsert: true,
+                                    },
+                                };
                             }
-                        })
-                    );
-                    return db.createIndex('races', {code: 1}, {unique: true})
-                        .then(() => db.bulkWrite('races', operations))
-                        .then(console.log);
-                }
-            );
+                        );
+                        return db.createIndex('races', {code: 1}, {unique: true})
+                            .then(() => db.bulkWrite('races', operations))
+                            .then(console.log);
+                    }
+                );
         }
     );
 }
 
 function processTable($, $table) {
     let headerRows = 1;
-    let text1 = $table.find('tr').eq(0).find('th').eq(0).text().replace(/\s+/g, ' ').trim();
-    let text2 = $table.find('tr').eq(1).find('th').eq(0).text().trim();
+    const text1 = $table.find('tr').eq(0).find('th').eq(0).text().replace(/\s+/g, ' ').trim();
+    const text2 = $table.find('tr').eq(1).find('th').eq(0).text().trim();
     if (text1 === 'District' && text2 === 'Location') {
         headerRows = 2;
     }
@@ -63,22 +67,22 @@ function processTable($, $table) {
     else {
         return [];
     }
-    let heads = [];
-    let rowspans = [];
-    let tableData = [];
+    const heads = [];
+    const rowspans = [];
+    const tableData = [];
     let expectedDistrict = 0;
     $table.find('tr').each(
-        (rowIndex, row) => {
-            let $row = $(row);
-            let rowData = {};
+        function (rowIndex, row) {
+            const $row = $(row);
+            const rowData = {};
             let columnIndex = 0;
-            let inHeader = (rowIndex < headerRows);
+            const inHeader = (rowIndex < headerRows);
             $row.find('th,td').each(
-                (cellIndex, cell) => {
-                    let $cell = $(cell);
+                function (cellIndex, cell) {
+                    const $cell = $(cell);
                     let colspan = +$cell.attr('colspan') || 1;
-                    let rowspan = +$cell.attr('rowspan') || 1;
-                    let text = $(cell).text().trim();
+                    const rowspan = +$cell.attr('rowspan') || 1;
+                    const text = $(cell).text().trim();
                     while (rowspans[columnIndex]) {
                         rowspans[columnIndex]--;
                         columnIndex++;
@@ -86,7 +90,8 @@ function processTable($, $table) {
                     while (colspan--) {
                         rowspans[columnIndex] = rowspan - 1;
                         if (inHeader) {
-                            heads[columnIndex] = text.replace(/\s+/g, ' ').replace(/\s*\[[^\]]+\]/g, '');
+                            heads[columnIndex] = text.replace(/\s+/g, ' ')
+                                .replace(/\s*\[[^\]]+\]/g, '');
                         }
                         else {
                             rowData[heads[columnIndex]] = text;
@@ -102,38 +107,42 @@ function processTable($, $table) {
             if (!inHeader) {
                 if (rowData.Location) {
                     expectedDistrict++;
-                    let code = makeRaceCode(rowData.Location);
+                    const code = makeRaceCode(rowData.Location);
                     if (code.substr(-2) !== 'AL') {
-                        assert.strictEqual(expectedDistrict, +code.substr(-2), `Expected ${expectedDistrict} for ${code}`);
+                        assert.strictEqual(expectedDistrict, +code.substr(-2),
+                            `Expected ${expectedDistrict} for ${code}`);
                     }
                     tableData.push({
                         code,
                         pvi: rowData['2017 PVI'],
                         party: rowData.Party,
-                        candidates: rowData.Candidates.split('\n').map(
-                            text => {
-                                let m = text.match(/^(.+?) \(([^)]+)\)/);
-                                if (!m) {
-                                    if (text === '') {
-                                        return null;
+                        candidates: rowData.Candidates.split('\n')
+                            .map(
+                                function (text) {
+                                    const m = text.match(/^(.+?) \(([^)]+)\)/);
+                                    if (!m) {
+                                        if (text === '') {
+                                            return null;
+                                        }
+                                        throw new Error(`Unexpected format "${text}"`);
                                     }
-                                    throw new Error(`Unexpected format "${text}"`);
+                                    return {
+                                        name: m[1],
+                                        party: m[2],
+                                    };
                                 }
-                                return {
-                                    name: m[1],
-                                    party: m[2],
-                                }
-                            }).filter(v => !!v),
+                            )
+                            .filter(v => !!v),
                     });
                 }
                 else if (rowData['State (linked to summaries below)']) {
-                    let code = makeRaceCode(rowData['State (linked to summaries below)']);
+                    const code = makeRaceCode(rowData['State (linked to summaries below)']);
                     tableData.push({
                         code,
                         party: rowData.Party,
                         candidates: rowData.Candidates.split('\n').map(
-                            text => {
-                                let m = text.match(/^(.+?) \(([^)]+)\)/);
+                            function (text) {
+                                const m = text.match(/^(.+?) \(([^)]+)\)/);
                                 if (!m) {
                                     if (text === 'TBD') {
                                         return null;
@@ -143,8 +152,9 @@ function processTable($, $table) {
                                 return {
                                     name: m[1],
                                     party: m[2],
-                                }
-                            }).filter(v => !!v),
+                                };
+                            })
+                            .filter(v => !!v),
                     });
                 }
             }

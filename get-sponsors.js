@@ -7,14 +7,15 @@ const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY
 const makeRaceCode = require('./utils').makeRaceCode;
 const db = require('./db')(process.env.MONGODB_URL);
 
-Promise.all([
-    getMembers(),
-    ppc.getAdditionalBillDetails('hr1291', 'cosponsors'),
-    ppc.getAdditionalBillDetails('s1278', 'cosponsors'),
-])
+Promise
+    .all([
+        getMembers(),
+        ppc.getAdditionalBillDetails('hr1291', 'cosponsors'),
+        ppc.getAdditionalBillDetails('s1278', 'cosponsors'),
+    ])
     .then(
-        responses => {
-            let members = responses.shift();
+        function (responses) {
+            const members = responses.shift();
             let sponsors = [];
             responses.forEach(
                 r => {
@@ -46,7 +47,7 @@ Promise.all([
                 }
             );
             sponsors.forEach(
-                sponsor => {
+                function (sponsor) {
                     const member = _.findWhere(members, {id: sponsor.id});
                     if (!member) {
                         throw new Error(`id ${sponsor.id} not found`);
@@ -56,14 +57,16 @@ Promise.all([
                 }
             );
             console.log(yaml.safeDump(sponsors));
-            let operations = sponsors.map(
-                sponsor => ({
-                    updateMany: {
-                        filter: {id: sponsor.id},
-                        update: {$set: sponsor},
-                        upsert: true,
-                    }
-                })
+            const operations = sponsors.map(
+                function (sponsor) {
+                    return {
+                        updateMany: {
+                            filter: {id: sponsor.id},
+                            update: {$set: sponsor},
+                            upsert: true,
+                        },
+                    };
+                }
             );
             db.createIndex('sponsors', {id: 1}, {unique: true})
                 .then(() => db.bulkWrite('sponsors', operations))
@@ -74,8 +77,8 @@ Promise.all([
 function getMembers() {
     const promises = ['house', 'senate'].map(chamber => ppc.getMemberList(chamber));
     return Promise.all(promises).then(
-        responses => {
-            let members = [];
+        function (responses) {
+            const members = [];
             responses.forEach(r => members.push(...r.results[0].members));
             return members;
         }
