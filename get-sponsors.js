@@ -18,7 +18,7 @@ Promise
             const members = responses.shift();
             let sponsors = [];
             responses.forEach(
-                r => {
+                function (r) {
                     const results = r.results[0];
                     sponsors.push(
                         {
@@ -33,15 +33,17 @@ Promise
                     );
                     sponsors = sponsors.concat(
                         results.cosponsors.map(
-                            c => ({
-                                id: c.cosponsor_id,
-                                name: c.name,
-                                title: c.cosponsor_title,
-                                state: c.cosponsor_state,
-                                party: c.cosponsor_party,
-                                uri: c.cosponsor_uri,
-                                date: c.date,
-                            })
+                            function (c) {
+                                return {
+                                    id: c.cosponsor_id,
+                                    name: c.name,
+                                    title: c.cosponsor_title,
+                                    state: c.cosponsor_state,
+                                    party: c.cosponsor_party,
+                                    uri: c.cosponsor_uri,
+                                    date: c.date,
+                                };
+                            }
                         )
                     );
                 }

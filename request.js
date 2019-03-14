@@ -2,7 +2,7 @@ const fsStore = require('cache-manager-fs');
 const requestPlus = require('request-plus');
 const cacheManager = require('cache-manager');
 const cacheReady = new Promise(
-    (resolve, reject) => {
+    function (resolve) {
         const cache = cacheManager.caching({
             store: fsStore,
             options: {
@@ -12,8 +12,6 @@ const cacheReady = new Promise(
             },
         });
     }
-).then(
-    cache => requestPlus({cache: {cache}})
-);
+).then(cache => requestPlus({cache: {cache}}));
 
 module.exports = (...args) => cacheReady.then(rp => rp(...args));
