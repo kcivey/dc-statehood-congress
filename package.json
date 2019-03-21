@@ -22,7 +22,7 @@
     "cheerio": "^1.0.0-rc.2",
     "dotenv": "^7.0.0",
     "googleapis": "^38.0.0",
-    "js-yaml": "^3.12.2",
+    "js-yaml": "^3.13.0",
     "mongodb": "^3.1.13",
     "propublica-congress": "^3.0.0",
     "request": "^2.88.0",
@@ -31,7 +31,7 @@
     "us-states-normalize": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.1",
+    "eslint": "^5.15.3",
     "eslint-config-google": "^0.12.0",
     "grunt": "^1.0.3",
     "grunt-bump": "^0.8.0",
