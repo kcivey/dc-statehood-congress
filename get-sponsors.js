@@ -3,6 +3,7 @@
 require('dotenv').config();
 const yaml = require('js-yaml');
 const _ = require('underscore');
+const currentCongress = 116;
 const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY);
 const makeRaceCode = require('./utils').makeRaceCode;
 const db = require('./db')(process.env.MONGODB_URL);
@@ -10,8 +11,8 @@ const db = require('./db')(process.env.MONGODB_URL);
 Promise
     .all([
         getMembers(),
-        ppc.getAdditionalBillDetails('hr1291', 'cosponsors'),
-        ppc.getAdditionalBillDetails('s1278', 'cosponsors'),
+        ppc.getAdditionalBillDetails('hr51', 'cosponsors'),
+        ppc.getAdditionalBillDetails('s631', 'cosponsors'),
     ])
     .then(
         function (responses) {
