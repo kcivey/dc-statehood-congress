@@ -74,6 +74,7 @@ Promise
                 .then(() => db.bulkWrite('sponsors', operations));
         }
     )
+    .then(() => db.close())
     .catch(err => console.error(err));
 
 function getMembers() {
