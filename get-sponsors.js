@@ -70,11 +70,11 @@ Promise
                     };
                 }
             );
-            db.createIndex('sponsors', {id: 1}, {unique: true})
-                .then(() => db.bulkWrite('sponsors', operations))
-                .then(() => process.exit());
+            return db.createIndex('sponsors', {id: 1}, {unique: true})
+                .then(() => db.bulkWrite('sponsors', operations));
         }
-    );
+    )
+    .catch(err => console.error(err));
 
 function getMembers() {
     const promises = ['house', 'senate'].map(chamber => ppc.getMemberList(chamber));
