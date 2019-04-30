@@ -3,10 +3,15 @@
 require('dotenv').config();
 const yaml = require('js-yaml');
 const _ = require('underscore');
+const program = require('commander');
 const currentCongress = 116;
-const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY);
+const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY, currentCongress);
 const makeRaceCode = require('./utils').makeRaceCode;
-const db = require('./db')(process.env.MONGODB_URL);
+
+program.option('--mongo', 'Use MongoDB')
+    .parse(process.argv);
+
+const db = program.mongo && require('./db')(process.env.MONGODB_URL);
 
 Promise
     .all([
@@ -71,11 +76,13 @@ Promise
                     };
                 }
             );
-            return db.createIndex('sponsors', {id: 1}, {unique: true})
-                .then(() => db.bulkWrite('sponsors', operations));
+            if (db) {
+                return db.createIndex('sponsors', {id: 1}, {unique: true})
+                    .then(() => db.bulkWrite('sponsors', operations));
+            }
         }
     )
-    .then(() => db.close())
+    .then(() => db && db.close())
     .catch(err => console.error(err));
 
 function getMembers() {
