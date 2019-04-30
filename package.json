@@ -24,7 +24,7 @@
     "googleapis": "^39.0.0",
     "js-yaml": "^3.13.1",
     "mongodb": "^3.2.3",
-    "propublica-congress": "^3.0.0",
+    "propublica-congress": "github:kcivey/propublica-congress",
     "request": "^2.88.0",
     "request-plus": "^2.0.0",
     "underscore": "^1.9.1",
