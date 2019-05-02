@@ -3,15 +3,20 @@
 require('dotenv').config();
 const yaml = require('js-yaml');
 const _ = require('underscore');
-const program = require('commander');
+const argv = require('yargs')
+    .options({
+        mongo: {
+            type: 'boolean',
+            describe: 'use MongoDB',
+        },
+    })
+    .strict(true)
+    .argv;
 const currentCongress = 116;
 const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY, currentCongress);
 const makeRaceCode = require('./utils').makeRaceCode;
 
-program.option('--mongo', 'Use MongoDB')
-    .parse(process.argv);
-
-const db = program.mongo && require('./db')(process.env.MONGODB_URL);
+const db = argv.mongo && require('./db')(process.env.MONGODB_URL);
 
 Promise
     .all([
