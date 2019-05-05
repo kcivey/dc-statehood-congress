@@ -20,7 +20,7 @@
     "cache-manager": "^2.9.0",
     "cache-manager-fs": "^1.0.7",
     "cheerio": "^1.0.0-rc.3",
-    "dotenv": "^7.0.0",
+    "dotenv": "^8.0.0",
     "googleapis": "^39.0.0",
     "js-yaml": "^3.13.1",
     "mongodb": "^3.2.3",
