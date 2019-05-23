@@ -18,12 +18,15 @@ const makeRaceCode = require('./utils').makeRaceCode;
 
 const db = argv.mongo && require('./db')(process.env.MONGODB_URL);
 
-Promise
-    .all([
-        getMembers(),
-        ppc.getAdditionalBillDetails('hr51', 'cosponsors'),
-        ppc.getAdditionalBillDetails('s631', 'cosponsors'),
-    ])
+getMembers()
+    .then(function (members) {
+        return ppc.getAdditionalBillDetails('s631', 'cosponsors')
+            .then(senateResponse => [members, senateResponse]);
+    })
+    .then(function (responses) {
+        return ppc.getAdditionalBillDetails('hr51', 'cosponsors')
+            .then(houseResponse => responses.concat([houseResponse]));
+    })
     .then(
         function (responses) {
             const members = responses.shift();
@@ -70,24 +73,24 @@ Promise
                 }
             );
             console.log(yaml.safeDump(sponsors));
-            const operations = sponsors.map(
-                function (sponsor) {
-                    return {
-                        updateMany: {
-                            filter: {id: sponsor.id},
-                            update: {$set: sponsor},
-                            upsert: true,
-                        },
-                    };
-                }
-            );
             if (db) {
+                const operations = sponsors.map(
+                    function (sponsor) {
+                        return {
+                            updateMany: {
+                                filter: {id: sponsor.id},
+                                update: {$set: sponsor},
+                                upsert: true,
+                            },
+                        };
+                    }
+                );
                 return db.createIndex('sponsors', {id: 1}, {unique: true})
-                    .then(() => db.bulkWrite('sponsors', operations));
+                    .then(() => db.bulkWrite('sponsors', operations))
+                    .then(() => db.close());
             }
         }
     )
-    .then(() => db && db.close())
     .catch(err => console.error(err));
 
 function getMembers() {
