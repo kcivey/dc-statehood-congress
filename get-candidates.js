@@ -17,42 +17,43 @@ Promise.all(urls.map(processPage)).then(function (results) {
 });
 
 function processPage(url) {
-    return request(url).then(
-        function (html) {
-            const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
-            const races = [];
-            $('table.wikitable').each((i, table) => races.push(...processTable($, $(table))));
-            return Promise
-                .all(
-                    races.map(
-                        function (race) {
-                            const names = race.candidates.map(c => c.name);
-                            return db.find('sponsors', {code: race.code, name: {$in: names}})
-                                .then(cursor => cursor.toArray());
-                        }
-                    )
-                )
-                .then(
-                    function (results) {
-                        // console.log(results.filter(r=>r.length).length);
-                        const operations = races.map(
+    return request(url)
+        .then(
+            function (html) {
+                const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
+                const races = [];
+                $('table.wikitable').each((i, table) => races.push(...processTable($, $(table))));
+                return Promise
+                    .all(
+                        races.map(
                             function (race) {
-                                return {
-                                    updateMany: {
-                                        filter: {code: race.code},
-                                        update: {$set: race},
-                                        upsert: true,
-                                    },
-                                };
+                                const names = race.candidates.map(c => c.name);
+                                return db.find('sponsors', {code: race.code, name: {$in: names}})
+                                    .then(cursor => cursor.toArray());
                             }
-                        );
-                        return db.createIndex('races', {code: 1}, {unique: true})
-                            .then(() => db.bulkWrite('races', operations))
-                            .then(() => races);
+                        )
+                    )
+                    .then(() => races);
+            }
+        )
+        .then(
+            function (races) {
+                const operations = races.map(
+                    function (race) {
+                        return {
+                            updateMany: {
+                                filter: {code: race.code},
+                                update: {$set: race},
+                                upsert: true,
+                            },
+                        };
                     }
                 );
-        }
-    );
+                return db.createIndex('races', {code: 1}, {unique: true})
+                    .then(() => db.bulkWrite('races', operations))
+                    .then(() => races);
+            }
+        );
 }
 
 function processTable($, $table) {
