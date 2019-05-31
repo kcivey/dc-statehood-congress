@@ -72,7 +72,7 @@ getMembers()
                     sponsor.code = makeRaceCode(member.state, member.district);
                 }
             );
-            console.log(yaml.safeDump(sponsors));
+            let promise = Promise.resolve();
             if (db) {
                 const operations = sponsors.map(
                     function (sponsor) {
@@ -85,10 +85,25 @@ getMembers()
                         };
                     }
                 );
-                return db.createIndex('sponsors', {id: 1}, {unique: true})
-                    .then(() => db.bulkWrite('sponsors', operations))
-                    .then(() => db.close());
+                promise = promise.then(function () {
+                    db.createIndex('sponsors', {id: 1}, {unique: true})
+                        .then(() => db.bulkWrite('sponsors', operations))
+                        .then(() => db.close());
+                });
             }
+            return promise.then(function () {
+                const codes = sponsors.map(s => s.code).sort();
+                const data = {};
+                codes.forEach(function (code) {
+                    data[code] = null;
+                });
+                sponsors.forEach(function (sponsor) {
+                    const s = Object.assign({}, sponsor); // clone
+                    data[s.code] = s;
+                    delete s.code;
+                });
+                console.log(yaml.safeDump(data));
+            });
         }
     )
     .catch(err => console.error(err));

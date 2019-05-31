@@ -12,6 +12,7 @@ const urls = [
 ];
 
 Promise.all(urls.map(processPage)).then(function (results) {
+    console.log(results);
     process.exit();
 });
 
@@ -33,7 +34,7 @@ function processPage(url) {
                 )
                 .then(
                     function (results) {
-                        console.log(results.filter(r=>r.length).length);
+                        // console.log(results.filter(r=>r.length).length);
                         const operations = races.map(
                             function (race) {
                                 return {
@@ -47,7 +48,7 @@ function processPage(url) {
                         );
                         return db.createIndex('races', {code: 1}, {unique: true})
                             .then(() => db.bulkWrite('races', operations))
-                            .then(console.log);
+                            .then(() => races);
                     }
                 );
         }
