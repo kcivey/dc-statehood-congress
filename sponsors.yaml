@@ -673,6 +673,15 @@ GA-13:
   uri: 'https://api.propublica.org/congress/v1/members/S001157.json'
   date: '2019-01-03'
   inOffice: true
+GU-AL:
+  id: S001204
+  name: Michael San Nicolas
+  title: Del.
+  state: GU
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/S001204.json'
+  date: '2019-02-13'
+  inOffice: true
 HI-01:
   id: C001055
   name: Ed Case
@@ -1148,6 +1157,15 @@ MO-05:
   state: MO
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/C001061.json'
+  date: '2019-01-03'
+  inOffice: true
+MP-AL:
+  id: S001177
+  name: Gregorio Kilili Camacho Sablan
+  title: Del.
+  state: MP
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/S001177.json'
   date: '2019-01-03'
   inOffice: true
 MS-02:
@@ -1906,6 +1924,15 @@ VA-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/W000805.json'
   date: '2019-02-28'
   inOffice: true
+VI-AL:
+  id: P000610
+  name: Stacey Plaskett
+  title: Del.
+  state: VI
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/P000610.json'
+  date: '2019-01-09'
+  inOffice: true
 VT-AL:
   id: W000800
   name: Peter Welch
@@ -2004,14 +2031,5 @@ WI-Sen:
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/B001230.json'
   date: '2019-02-28'
-  inOffice: true
-null-AL:
-  id: S001204
-  name: Michael San Nicolas
-  title: Del.
-  state: GU
-  party: D
-  uri: 'https://api.propublica.org/congress/v1/members/S001204.json'
-  date: '2019-02-13'
   inOffice: true
 

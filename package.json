@@ -28,7 +28,6 @@
     "request": "^2.88.0",
     "request-plus": "^2.0.0",
     "underscore": "^1.9.1",
-    "us-states-normalize": "^1.0.0",
     "yargs": "^13.2.4"
   },
   "devDependencies": {
