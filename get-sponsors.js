@@ -14,9 +14,9 @@ const argv = require('yargs')
     .argv;
 const currentCongress = 116;
 const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY, currentCongress);
-const makeRaceCode = require('./utils').makeRaceCode;
+const makeRaceCode = require('./lib/utils').makeRaceCode;
 
-const db = argv.mongo && require('./db')(process.env.MONGODB_URL);
+const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL);
 
 getMembers()
     .then(function (members) {

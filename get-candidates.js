@@ -3,13 +3,13 @@
 require('dotenv').config();
 const assert = require('assert');
 const cheerio = require('cheerio');
-const request = require('./request');
-const db = require('./db')(process.env.MONGODB_URL);
+const request = require('./lib/request');
+const db = require('./lib/db')(process.env.MONGODB_URL);
+const makeRaceCode = require('./lib/utils').makeRaceCode;
 const urls = [
     'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2020',
     'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
 ];
-const makeRaceCode = require('./utils').makeRaceCode;
 
 Promise.all(urls.map(processPage)).then(function (results) {
     process.exit();
