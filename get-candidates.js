@@ -3,6 +3,7 @@
 require('dotenv').config();
 const assert = require('assert');
 const cheerio = require('cheerio');
+const yaml = require('js-yaml');
 const request = require('./lib/request');
 const db = require('./lib/db')(process.env.MONGODB_URL);
 const makeRaceCode = require('./lib/utils').makeRaceCode;
@@ -11,10 +12,22 @@ const urls = [
     'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
 ];
 
-Promise.all(urls.map(processPage)).then(function (results) {
-    console.log(results);
-    process.exit();
-});
+Promise.all(urls.map(processPage))
+    .then(function (results) {
+        let races = [];
+        results.forEach(function (result) {
+            races = races.concat(result);
+        });
+        const data = {};
+        races.sort((a, b) => a.code.localeCompare(b.code))
+            .forEach(function (race) {
+                const r = Object.assign({}, race);
+                data[r.code] = r;
+                delete r.code;
+            });
+        console.log(yaml.safeDump(data));
+        db.close();
+    });
 
 function processPage(url) {
     return request(url)
