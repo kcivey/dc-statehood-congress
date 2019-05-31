@@ -17,13 +17,13 @@
   },
   "dependencies": {
     "bson-ext": "^2.0.2",
-    "cache-manager": "^2.9.0",
+    "cache-manager": "^2.9.1",
     "cache-manager-fs": "^1.0.7",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
     "googleapis": "^40.0.0",
     "js-yaml": "^3.13.1",
-    "mongodb": "^3.2.5",
+    "mongodb": "^3.2.6",
     "propublica-congress": "github:kcivey/propublica-congress",
     "request": "^2.88.0",
     "request-plus": "^2.0.0",
@@ -36,6 +36,6 @@
     "eslint-config-google": "^0.13.0",
     "grunt": "^1.0.4",
     "grunt-bump": "^0.8.0",
-    "load-grunt-tasks": "^4.0.0"
+    "load-grunt-tasks": "^5.0.0"
   }
 }
