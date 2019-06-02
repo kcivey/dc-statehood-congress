@@ -6,9 +6,7 @@ AK-AL:
       party: Republican
 AK-Sen:
   party: Republican
-  candidates:
-    - name: David Paul Matheny
-      party: Independent
+  candidates: []
 AL-01:
   pvi: R+15
   party: Republican
@@ -822,8 +820,8 @@ IA-Sen:
       party: Republican
     - name: Kimberly Graham
       party: Democratic
-    - name: Eddie J Mauro
-      party: Democrat
+    - name: Eddie Mauro
+      party: Democratic
 ID-01:
   pvi: R+21
   party: Republican
@@ -914,6 +912,8 @@ IL-14:
     - name: Ted Gradel
       party: Republican
     - name: Danny Malouf
+      party: Republican
+    - name: James Marter
       party: Republican
     - name: Jim Oberweis
       party: Republican
@@ -1035,6 +1035,8 @@ KY-Sen:
     - name: Steven Cox
       party: Democratic
     - name: Mitch McConnell
+      party: Republican
+    - name: C. Wesley Morgan
       party: Republican
 LA-01:
   pvi: R+24
@@ -1238,6 +1240,8 @@ MI-14:
 MI-Sen:
   party: Democratic
   candidates:
+    - name: Bob Carr
+      party: Republican
     - name: Gary Peters
       party: Democratic
 MN-01:
@@ -1560,6 +1564,8 @@ NM-03:
     - name: Valerie Plame
       party: Democratic
     - name: Joseph L. Sanchez
+      party: Democratic
+    - name: Marco Serna
       party: Democratic
 NM-Sen:
   party: Democratic
@@ -2022,6 +2028,8 @@ SC-Sen:
       party: Democratic
     - name: Peggy Kandies
       party: Republican
+    - name: Joe Reynolds
+      party: Republican
     - name: Gloria Bromell Tinubu
       party: Democratic
 SD-AL:
@@ -2463,5 +2471,7 @@ WY-AL:
   candidates: []
 WY-Sen:
   party: Republican
-  candidates: []
+  candidates:
+    - name: Joshua Wheeler
+      party: Republican
 
