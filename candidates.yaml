@@ -1,0 +1,2467 @@
+AK-AL:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Don Young
+      party: Republican
+AK-Sen:
+  party: Republican
+  candidates:
+    - name: David Paul Matheny
+      party: Independent
+AL-01:
+  pvi: R+15
+  party: Republican
+  candidates:
+    - name: Jerry Carl
+      party: Republican
+    - name: Bill Hightower
+      party: Republican
+    - name: Wes Lambert
+      party: Republican
+    - name: Chris Pringle
+      party: Republican
+AL-02:
+  pvi: R+16
+  party: Republican
+  candidates: []
+AL-03:
+  pvi: R+16
+  party: Republican
+  candidates: []
+AL-04:
+  pvi: R+30
+  party: Republican
+  candidates: []
+AL-05:
+  pvi: R+18
+  party: Republican
+  candidates:
+    - name: Chris Lewis
+      party: Republican
+AL-06:
+  pvi: R+26
+  party: Republican
+  candidates: []
+AL-07:
+  pvi: D+20
+  party: Democratic
+  candidates: []
+AL-Sen:
+  party: Democratic
+  candidates:
+    - name: Stanley Adair
+      party: Republican
+    - name: Bradley Byrne
+      party: Republican
+    - name: Doug Jones
+      party: Democratic
+    - name: Arnold Mooney
+      party: Republican
+    - name: John Rogers
+      party: Democratic
+    - name: Tommy Tuberville
+      party: Republican
+AR-01:
+  pvi: R+17
+  party: Republican
+  candidates: []
+AR-02:
+  pvi: R+7
+  party: Republican
+  candidates: []
+AR-03:
+  pvi: R+19
+  party: Republican
+  candidates: []
+AR-04:
+  pvi: R+17
+  party: Republican
+  candidates: []
+AR-Sen:
+  party: Republican
+  candidates:
+    - name: Tom Cotton
+      party: Republican
+    - name: Josh Mahony
+      party: Democratic
+AZ-01:
+  pvi: R+2
+  party: Democratic
+  candidates:
+    - name: Tom O'Halleran
+      party: Democratic
+    - name: Eva Putzova
+      party: Democratic
+    - name: Chris Taylor
+      party: Republican
+AZ-02:
+  pvi: R+1
+  party: Democratic
+  candidates:
+    - name: Brandon Martin
+      party: Republican
+    - name: Jim Schmidt
+      party: Republican
+AZ-03:
+  pvi: D+13
+  party: Democratic
+  candidates: []
+AZ-04:
+  pvi: R+21
+  party: Republican
+  candidates: []
+AZ-05:
+  pvi: R+15
+  party: Republican
+  candidates:
+    - name: Joan Greene
+      party: Democratic
+AZ-06:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Anita Malik
+      party: Democratic
+    - name: Hiral Tipirneni
+      party: Democratic
+    - name: Stephanie Rimmer
+      party: Democratic
+AZ-07:
+  pvi: D+23
+  party: Democratic
+  candidates: []
+AZ-08:
+  pvi: R+13
+  party: Republican
+  candidates:
+    - name: Bob Musselwhite
+      party: Democratic
+AZ-09:
+  pvi: D+4
+  party: Democratic
+  candidates:
+    - name: Dave Giles
+      party: Republican
+AZ-Sen:
+  party: Republican
+  candidates:
+    - name: Mark Kelly
+      party: Democratic
+    - name: Martha McSally
+      party: Republican
+CA-01:
+  pvi: R+11
+  party: Republican
+  candidates:
+    - name: Audrey Denney
+      party: Democratic
+CA-02:
+  pvi: D+22
+  party: Democratic
+  candidates: []
+CA-03:
+  pvi: D+5
+  party: Democratic
+  candidates: []
+CA-04:
+  pvi: R+10
+  party: Republican
+  candidates:
+    - name: Sean Frame
+      party: Democratic
+    - name: Brynne Kennedy
+      party: Democratic
+CA-05:
+  pvi: D+21
+  party: Democratic
+  candidates: []
+CA-06:
+  pvi: D+21
+  party: Democratic
+  candidates: []
+CA-07:
+  pvi: D+3
+  party: Democratic
+  candidates: []
+CA-08:
+  pvi: R+9
+  party: Republican
+  candidates: []
+CA-09:
+  pvi: D+8
+  party: Democratic
+  candidates: []
+CA-10:
+  pvi: EVEN
+  party: Democratic
+  candidates:
+    - name: Charles Dossett
+      party: Republican
+    - name: Bob Elliott
+      party: Republican
+    - name: Ted Howze
+      party: Republican
+    - name: Marla Livengood
+      party: Republican
+CA-11:
+  pvi: D+21
+  party: Democratic
+  candidates: []
+CA-12:
+  pvi: D+37
+  party: Democratic
+  candidates:
+    - name: Shahid Buttar
+      party: Democratic
+CA-13:
+  pvi: D+40
+  party: Democratic
+  candidates: []
+CA-14:
+  pvi: D+27
+  party: Democratic
+  candidates: []
+CA-15:
+  pvi: D+20
+  party: Democratic
+  candidates:
+    - name: Aisha Wahab
+      party: Democratic
+    - name: Bob Wieckowski
+      party: Democratic
+CA-16:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+CA-17:
+  pvi: D+25
+  party: Democratic
+  candidates: []
+CA-18:
+  pvi: D+23
+  party: Democratic
+  candidates:
+    - name: Rishi Kumar
+      party: Democratic
+CA-19:
+  pvi: D+24
+  party: Democratic
+  candidates: []
+CA-20:
+  pvi: D+23
+  party: Democratic
+  candidates: []
+CA-21:
+  pvi: D+5
+  party: Democratic
+  candidates: []
+CA-22:
+  pvi: R+8
+  party: Republican
+  candidates: []
+CA-23:
+  pvi: R+14
+  party: Republican
+  candidates: []
+CA-24:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+CA-25:
+  pvi: EVEN
+  party: Democratic
+  candidates:
+    - name: Mike Garcia
+      party: Republican
+    - name: Katie Hill
+      party: Democratic
+    - name: Suzette Martinez Valladares
+      party: Republican
+    - name: Angela Underwood-Jacobs
+      party: Republican
+CA-26:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+CA-27:
+  pvi: D+16
+  party: Democratic
+  candidates: []
+CA-28:
+  pvi: D+23
+  party: Democratic
+  candidates: []
+CA-29:
+  pvi: D+29
+  party: Democratic
+  candidates: []
+CA-30:
+  pvi: D+18
+  party: Democratic
+  candidates: []
+CA-31:
+  pvi: D+8
+  party: Democratic
+  candidates: []
+CA-32:
+  pvi: D+17
+  party: Democratic
+  candidates: []
+CA-33:
+  pvi: D+16
+  party: Democratic
+  candidates: []
+CA-34:
+  pvi: D+35
+  party: Democratic
+  candidates: []
+CA-35:
+  pvi: D+19
+  party: Democratic
+  candidates: []
+CA-36:
+  pvi: D+2
+  party: Democratic
+  candidates: []
+CA-37:
+  pvi: D+37
+  party: Democratic
+  candidates: []
+CA-38:
+  pvi: D+17
+  party: Democratic
+  candidates: []
+CA-39:
+  pvi: EVEN
+  party: Democratic
+  candidates:
+    - name: Steve Cox
+      party: no party preference
+    - name: Ignacio Cruz
+      party: Republican
+    - name: Young Kim
+      party: Republican
+CA-40:
+  pvi: D+33
+  party: Democratic
+  candidates: []
+CA-41:
+  pvi: D+12
+  party: Democratic
+  candidates:
+    - name: Grace Williams
+      party: Democratic
+CA-42:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Liam O'Mara
+      party: Democratic
+    - name: Julia Peacock
+      party: Democratic
+CA-43:
+  pvi: D+29
+  party: Democratic
+  candidates:
+    - name: Omar Navarro
+      party: Republican
+CA-44:
+  pvi: D+35
+  party: Democratic
+  candidates: []
+CA-45:
+  pvi: R+3
+  party: Democratic
+  candidates:
+    - name: Ray Gennawey
+      party: Republican
+    - name: Peggy Huang
+      party: Republican
+    - name: Greg Raths
+      party: Republican
+    - name: Don Sedgwick
+      party: Republican
+    - name: Lisa Sparks
+      party: Republican
+    - name: Brenton Woolworth
+      party: Republican
+CA-46:
+  pvi: D+15
+  party: Democratic
+  candidates: []
+CA-47:
+  pvi: D+13
+  party: Democratic
+  candidates: []
+CA-48:
+  pvi: R+4
+  party: Democratic
+  candidates:
+    - name: James Bradley
+      party: Republican
+    - name: Brian Burley
+      party: Republican
+    - name: Michelle Park Steel
+      party: Republican
+    - name: Caleb Sturges
+      party: Republican
+CA-49:
+  pvi: R+1
+  party: Democratic
+  candidates:
+    - name: Steve Knoblock
+      party: Republican
+    - name: Brian Maryott
+      party: Republican
+CA-50:
+  pvi: R+11
+  party: Republican
+  candidates:
+    - name: Ammar Campa-Najjar
+      party: Democratic
+    - name: Larry Wilske
+      party: Republican
+CA-51:
+  pvi: D+22
+  party: Democratic
+  candidates:
+    - name: Aeiramique Glass-Blake
+      party: Democratic
+CA-52:
+  pvi: D+6
+  party: Democratic
+  candidates:
+    - name: Scott Peters
+      party: Democratic
+CA-53:
+  pvi: D+14
+  party: Democratic
+  candidates:
+    - name: Jose Caballero
+      party: Democratic
+CO-01:
+  pvi: D+21
+  party: Democratic
+  candidates:
+    - name: Crisanta Duran
+      party: Democratic
+CO-02:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+CO-03:
+  pvi: R+6
+  party: Republican
+  candidates:
+    - name: Diane Mitsch Bush
+      party: Democratic
+CO-04:
+  pvi: R+13
+  party: Republican
+  candidates: []
+CO-05:
+  pvi: R+14
+  party: Republican
+  candidates:
+    - name: Jillian Freeland
+      party: Democratic
+CO-06:
+  pvi: D+2
+  party: Democratic
+  candidates: []
+CO-07:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+CO-Sen:
+  party: Republican
+  candidates:
+    - name: Dan Baer
+      party: Democratic
+    - name: Diana Bray
+      party: Democratic
+    - name: Ellen Burnes
+      party: Democratic
+    - name: Lorena Garcia
+      party: Democratic
+    - name: Cory Gardner
+      party: Republican
+    - name: Mike Johnston
+      party: Democratic
+    - name: Dustin Leitzel
+      party: Democratic
+    - name: Alice Madden
+      party: Democratic
+    - name: Keith Pottratz
+      party: Democratic
+    - name: Andrew Romanoff
+      party: Democratic
+    - name: Stephany Rose Spaulding
+      party: Democratic
+    - name: John F. Walsh
+      party: Democratic
+    - name: Trish Zornio
+      party: Democratic
+CT-01:
+  pvi: D+12
+  party: Democratic
+  candidates: []
+CT-02:
+  pvi: D+3
+  party: Democratic
+  candidates: []
+CT-03:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+CT-04:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+CT-05:
+  pvi: D+2
+  party: Democratic
+  candidates: []
+DE-AL:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+DE-Sen:
+  party: Democratic
+  candidates:
+    - name: Chris Coons
+      party: Democratic
+FL-01:
+  pvi: R+22
+  party: Republican
+  candidates: []
+FL-02:
+  pvi: R+18
+  party: Republican
+  candidates: []
+FL-03:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Amy Pope Wells
+      party: Republican
+FL-04:
+  pvi: R+17
+  party: Republican
+  candidates: []
+FL-05:
+  pvi: D+12
+  party: Democratic
+  candidates:
+    - name: Matthew Lusk
+      party: Republican
+FL-06:
+  pvi: R+7
+  party: Republican
+  candidates: []
+FL-07:
+  pvi: EVEN
+  party: Democratic
+  candidates:
+    - name: Jan Edwards
+      party: Republican
+    - name: Stephanie Murphy
+      party: Democratic
+    - name: Armani Salado
+      party: Republican
+FL-08:
+  pvi: R+11
+  party: Republican
+  candidates: []
+FL-09:
+  pvi: D+5
+  party: Democratic
+  candidates:
+    - name: Sergio Garcia
+      party: Republican
+    - name: Bill Olson
+      party: Republican
+FL-10:
+  pvi: D+11
+  party: Democratic
+  candidates:
+    - name: Kirk Troen
+      party: Republican
+FL-11:
+  pvi: R+15
+  party: Republican
+  candidates: []
+FL-12:
+  pvi: R+8
+  party: Republican
+  candidates: []
+FL-13:
+  pvi: D+2
+  party: Democratic
+  candidates:
+    - name: George Buck
+      party: Republican
+    - name: Amanda Makki
+      party: Republican
+FL-14:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+FL-15:
+  pvi: R+6
+  party: Republican
+  candidates:
+    - name: Andrew Learned
+      party: Democratic
+FL-16:
+  pvi: R+7
+  party: Republican
+  candidates: []
+FL-17:
+  pvi: R+13
+  party: Republican
+  candidates: []
+FL-18:
+  pvi: R+5
+  party: Republican
+  candidates: []
+FL-19:
+  pvi: R+13
+  party: Republican
+  candidates: []
+FL-20:
+  pvi: D+31
+  party: Democratic
+  candidates: []
+FL-21:
+  pvi: D+9
+  party: Democratic
+  candidates:
+    - name: Victor Garcia da Rosa
+      party: Republican
+    - name: Christian Acsota
+      party: Republican
+FL-22:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+FL-23:
+  pvi: D+11
+  party: Democratic
+  candidates:
+    - name: Richard Mendelson
+      party: Republican
+FL-24:
+  pvi: D+34
+  party: Democratic
+  candidates: []
+FL-25:
+  pvi: R+4
+  party: Republican
+  candidates: []
+FL-26:
+  pvi: D+6
+  party: Democratic
+  candidates:
+    - name: Irina Vilariño
+      party: Republican
+FL-27:
+  pvi: D+5
+  party: Democratic
+  candidates: []
+GA-01:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Daniel Merritt
+      party: Republican
+    - name: Lisa Ring
+      party: Democratic
+GA-02:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+GA-03:
+  pvi: R+18
+  party: Republican
+  candidates: []
+GA-04:
+  pvi: D+24
+  party: Democratic
+  candidates: []
+GA-05:
+  pvi: D+34
+  party: Democratic
+  candidates: []
+GA-06:
+  pvi: R+8
+  party: Democratic
+  candidates:
+    - name: Brandon Beach
+      party: Republican
+    - name: Karen Handel
+      party: Republican
+    - name: Nicole Rodden
+      party: Republican
+GA-07:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Carolyn Bourdeaux
+      party: Democratic
+    - name: Marqus Cole
+      party: Democratic
+    - name: John Eaves
+      party: Democratic
+    - name: Harrison Floyd
+      party: Republican
+    - name: Lynne Homrich
+      party: Republican
+    - name: Nabilah Islam
+      party: Democratic
+    - name: Brenda Lopez Romero
+      party: Democratic
+    - name: Rich McCormick
+      party: Republican
+    - name: Joe Profit
+      party: Republican
+GA-08:
+  pvi: R+15
+  party: Republican
+  candidates: []
+GA-09:
+  pvi: R+31
+  party: Republican
+  candidates:
+    - name: Antwon Stephens
+      party: Democratic
+GA-10:
+  pvi: R+15
+  party: Republican
+  candidates: []
+GA-11:
+  pvi: R+17
+  party: Republican
+  candidates:
+    - name: Rachel Kinsey
+      party: Democratic
+GA-12:
+  pvi: R+9
+  party: Republican
+  candidates: []
+GA-13:
+  pvi: D+20
+  party: Democratic
+  candidates:
+    - name: Michael Owens
+      party: Democratic
+GA-14:
+  pvi: R+27
+  party: Republican
+  candidates: []
+GA-Sen:
+  party: Republican
+  candidates:
+    - name: Marckeith DeJesus
+      party: Democratic
+    - name: David Perdue
+      party: Republican
+    - name: Teresa Tomlinson
+      party: Democratic
+HI-01:
+  pvi: D+17
+  party: Democratic
+  candidates: []
+HI-02:
+  pvi: D+19
+  party: Democratic
+  candidates:
+    - name: Kai Kahele
+      party: Democratic
+IA-01:
+  pvi: D+1
+  party: Democratic
+  candidates:
+    - name: Ashley Hinson
+      party: Republican
+IA-02:
+  pvi: D+1
+  party: Democratic
+  candidates:
+    - name: Rita Hart
+      party: Democratic
+    - name: Thomas Kedley
+      party: Republican
+IA-03:
+  pvi: R+1
+  party: Democratic
+  candidates:
+    - name: Cindy Axne
+      party: Democratic
+    - name: Bill Schafer
+      party: Republican
+    - name: David Young
+      party: Republican
+IA-04:
+  pvi: R+11
+  party: Republican
+  candidates:
+    - name: Randy Feenstra
+      party: Republican
+    - name: Steve King
+      party: Republican
+    - name: Bret Richards
+      party: Republican
+    - name: Jeremy Taylor
+      party: Republican
+IA-Sen:
+  party: Republican
+  candidates:
+    - name: Joni Ernst
+      party: Republican
+    - name: Kimberly Graham
+      party: Democratic
+    - name: Eddie J Mauro
+      party: Democrat
+ID-01:
+  pvi: R+21
+  party: Republican
+  candidates: []
+ID-02:
+  pvi: R+17
+  party: Republican
+  candidates: []
+ID-Sen:
+  party: Republican
+  candidates:
+    - name: Nancy Harris
+      party: Democratic
+IL-01:
+  pvi: D+27
+  party: Democratic
+  candidates:
+    - name: Robert Emmons Jr.
+      party: Democratic
+IL-02:
+  pvi: D+29
+  party: Democratic
+  candidates: []
+IL-03:
+  pvi: D+6
+  party: Democratic
+  candidates:
+    - name: Rush Darwish
+      party: Democratic
+    - name: Abe Matthew
+      party: Democratic
+    - name: Marie Newman
+      party: Democratic
+IL-04:
+  pvi: D+33
+  party: Democratic
+  candidates: []
+IL-05:
+  pvi: D+20
+  party: Democratic
+  candidates: []
+IL-06:
+  pvi: R+2
+  party: Democratic
+  candidates:
+    - name: Evelyn Sanguinetti
+      party: Republican
+IL-07:
+  pvi: D+38
+  party: Democratic
+  candidates:
+    - name: Anthony Clark
+      party: Democratic
+    - name: Kina Collins
+      party: Democratic
+IL-08:
+  pvi: D+8
+  party: Democratic
+  candidates: []
+IL-09:
+  pvi: D+18
+  party: Democratic
+  candidates: []
+IL-10:
+  pvi: D+10
+  party: Democratic
+  candidates: []
+IL-11:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+IL-12:
+  pvi: R+5
+  party: Republican
+  candidates: []
+IL-13:
+  pvi: R+3
+  party: Republican
+  candidates:
+    - name: Betsy Dirksen Londrigan
+      party: Democratic
+IL-14:
+  pvi: R+5
+  party: Democratic
+  candidates:
+    - name: Anthony Catella
+      party: Republican
+    - name: Ted Gradel
+      party: Republican
+    - name: Danny Malouf
+      party: Republican
+    - name: Jim Oberweis
+      party: Republican
+IL-15:
+  pvi: R+21
+  party: Republican
+  candidates: []
+IL-16:
+  pvi: R+8
+  party: Republican
+  candidates: []
+IL-17:
+  pvi: D+3
+  party: Democratic
+  candidates: []
+IL-18:
+  pvi: R+15
+  party: Republican
+  candidates: []
+IL-Sen:
+  party: Democratic
+  candidates:
+    - name: Dick Durbin
+      party: Democratic
+    - name: Peggy Hubbard
+      party: Republican
+    - name: Omeed Memar
+      party: Republican
+    - name: Anne Stava-Murray
+      party: Democratic
+IN-01:
+  pvi: D+8
+  party: Democratic
+  candidates: []
+IN-02:
+  pvi: R+11
+  party: Republican
+  candidates: []
+IN-03:
+  pvi: R+18
+  party: Republican
+  candidates: []
+IN-04:
+  pvi: R+17
+  party: Republican
+  candidates: []
+IN-05:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Susan Brooks
+      party: Republican
+IN-06:
+  pvi: R+18
+  party: Republican
+  candidates: []
+IN-07:
+  pvi: D+11
+  party: Democratic
+  candidates: []
+IN-08:
+  pvi: R+15
+  party: Republican
+  candidates:
+    - name: Larry Bucshon
+      party: Republican
+IN-09:
+  pvi: R+13
+  party: Republican
+  candidates: []
+KS-01:
+  pvi: R+24
+  party: Republican
+  candidates: []
+KS-02:
+  pvi: R+10
+  party: Republican
+  candidates: []
+KS-03:
+  pvi: R+4
+  party: Democratic
+  candidates: []
+KS-04:
+  pvi: R+15
+  party: Republican
+  candidates: []
+KS-Sen:
+  party: Republican
+  candidates:
+    - name: Jake LaTurner
+      party: Republican
+KY-01:
+  pvi: R+23
+  party: Republican
+  candidates: []
+KY-02:
+  pvi: R+19
+  party: Republican
+  candidates: []
+KY-03:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+KY-04:
+  pvi: R+18
+  party: Republican
+  candidates: []
+KY-05:
+  pvi: R+31
+  party: Republican
+  candidates: []
+KY-06:
+  pvi: R+9
+  party: Republican
+  candidates: []
+KY-Sen:
+  party: Republican
+  candidates:
+    - name: Steven Cox
+      party: Democratic
+    - name: Mitch McConnell
+      party: Republican
+LA-01:
+  pvi: R+24
+  party: Republican
+  candidates: []
+LA-02:
+  pvi: D+25
+  party: Democratic
+  candidates: []
+LA-03:
+  pvi: R+20
+  party: Republican
+  candidates: []
+LA-04:
+  pvi: R+13
+  party: Republican
+  candidates: []
+LA-05:
+  pvi: R+15
+  party: Republican
+  candidates: []
+LA-06:
+  pvi: R+19
+  party: Republican
+  candidates: []
+LA-Sen:
+  party: Republican
+  candidates:
+    - name: Bill Cassidy
+      party: Republican
+MA-01:
+  pvi: D+12
+  party: Democratic
+  candidates: []
+MA-02:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+MA-03:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+MA-04:
+  pvi: D+9
+  party: Democratic
+  candidates:
+    - name: Ihssane Leckey
+      party: Democratic
+MA-05:
+  pvi: D+18
+  party: Democratic
+  candidates: []
+MA-06:
+  pvi: D+6
+  party: Democratic
+  candidates:
+    - name: Christopher Fisher
+      party: Independent
+MA-07:
+  pvi: D+34
+  party: Democratic
+  candidates: []
+MA-08:
+  pvi: D+10
+  party: Democratic
+  candidates:
+    - name: Brianna Wu
+      party: Democratic
+MA-09:
+  pvi: D+4
+  party: Democratic
+  candidates: []
+MA-Sen:
+  party: Democratic
+  candidates:
+    - name: Shiva Ayyadurai
+      party: Republican
+    - name: Shannon Liss-Riordan
+      party: Democratic
+    - name: Ed Markey
+      party: Democratic
+MD-01:
+  pvi: R+14
+  party: Republican
+  candidates: []
+MD-02:
+  pvi: D+11
+  party: Democratic
+  candidates: []
+MD-03:
+  pvi: D+13
+  party: Democratic
+  candidates: []
+MD-04:
+  pvi: D+28
+  party: Democratic
+  candidates: []
+MD-05:
+  pvi: D+16
+  party: Democratic
+  candidates:
+    - name: Mckayla Wilkes
+      party: Democratic
+MD-06:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+MD-07:
+  pvi: D+26
+  party: Democratic
+  candidates: []
+MD-08:
+  pvi: D+14
+  party: Democratic
+  candidates: []
+ME-01:
+  pvi: D+8
+  party: Democratic
+  candidates: []
+ME-02:
+  pvi: R+2
+  party: Democratic
+  candidates:
+    - name: Jared Golden
+      party: Democratic
+ME-Sen:
+  party: Republican
+  candidates:
+    - name: Michael Bunker
+      party: Democratic
+    - name: Bre Kidman
+      party: Democratic
+    - name: Derek Levasseur
+      party: Republican
+    - name: Max Linn
+      party: Republican
+MI-01:
+  pvi: R+9
+  party: Republican
+  candidates: []
+MI-02:
+  pvi: R+9
+  party: Republican
+  candidates: []
+MI-03:
+  pvi: R+6
+  party: Republican
+  candidates:
+    - name: Doug Booth
+      party: Democratic
+    - name: James Lower
+      party: Republican
+    - name: Tom Norton
+      party: Republican
+MI-04:
+  pvi: R+10
+  party: Republican
+  candidates: []
+MI-05:
+  pvi: D+5
+  party: Democratic
+  candidates: []
+MI-06:
+  pvi: R+4
+  party: Republican
+  candidates:
+    - name: Jon Hoadley
+      party: Democratic
+MI-07:
+  pvi: R+7
+  party: Republican
+  candidates: []
+MI-08:
+  pvi: R+4
+  party: Democratic
+  candidates: []
+MI-09:
+  pvi: D+4
+  party: Democratic
+  candidates: []
+MI-10:
+  pvi: R+13
+  party: Republican
+  candidates: []
+MI-11:
+  pvi: R+4
+  party: Democratic
+  candidates: []
+MI-12:
+  pvi: D+14
+  party: Democratic
+  candidates: []
+MI-13:
+  pvi: D+32
+  party: Democratic
+  candidates: []
+MI-14:
+  pvi: D+30
+  party: Democratic
+  candidates: []
+MI-Sen:
+  party: Democratic
+  candidates:
+    - name: Gary Peters
+      party: Democratic
+MN-01:
+  pvi: R+5
+  party: Republican
+  candidates: []
+MN-02:
+  pvi: R+2
+  party: Democratic
+  candidates: []
+MN-03:
+  pvi: D+1
+  party: Democratic
+  candidates: []
+MN-04:
+  pvi: D+14
+  party: Democratic
+  candidates: []
+MN-05:
+  pvi: D+26
+  party: Democratic
+  candidates: []
+MN-06:
+  pvi: R+12
+  party: Republican
+  candidates: []
+MN-07:
+  pvi: R+12
+  party: Democratic
+  candidates:
+    - name: Dave Hughes
+      party: Republican
+MN-08:
+  pvi: R+4
+  party: Republican
+  candidates: []
+MN-Sen:
+  party: Democratic
+  candidates:
+    - name: Tina Smith
+      party: Democratic
+MO-01:
+  pvi: D+29
+  party: Democratic
+  candidates:
+    - name: Cori Bush
+      party: Democratic
+MO-02:
+  pvi: R+8
+  party: Republican
+  candidates: []
+MO-03:
+  pvi: R+18
+  party: Republican
+  candidates: []
+MO-04:
+  pvi: R+17
+  party: Republican
+  candidates: []
+MO-05:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+MO-06:
+  pvi: R+16
+  party: Republican
+  candidates: []
+MO-07:
+  pvi: R+23
+  party: Republican
+  candidates: []
+MO-08:
+  pvi: R+24
+  party: Republican
+  candidates: []
+MS-01:
+  pvi: R+16
+  party: Republican
+  candidates: []
+MS-02:
+  pvi: D+14
+  party: Democratic
+  candidates: []
+MS-03:
+  pvi: R+13
+  party: Republican
+  candidates: []
+MS-04:
+  pvi: R+21
+  party: Republican
+  candidates: []
+MS-Sen:
+  party: Republican
+  candidates: []
+MT-AL:
+  pvi: R+11
+  party: Republican
+  candidates:
+    - name: Kathleen Williams
+      party: Democratic
+    - name: Tom Winter
+      party: Democratic
+MT-Sen:
+  party: Republican
+  candidates:
+    - name: Wilmot Collins
+      party: Democratic
+    - name: Steve Daines
+      party: Republican
+NC-01:
+  pvi: D+17
+  party: Democratic
+  candidates: []
+NC-02:
+  pvi: R+7
+  party: Republican
+  candidates:
+    - name: Scott Cooper
+      party: Democratic
+NC-03:
+  pvi: R+12
+  party: TBD
+  candidates: []
+NC-04:
+  pvi: D+17
+  party: Democratic
+  candidates: []
+NC-05:
+  pvi: R+10
+  party: Republican
+  candidates:
+    - name: Virginia Foxx
+      party: Republican
+NC-06:
+  pvi: R+9
+  party: Republican
+  candidates: []
+NC-07:
+  pvi: R+9
+  party: Republican
+  candidates: []
+NC-08:
+  pvi: R+8
+  party: Republican
+  candidates: []
+NC-09:
+  pvi: R+8
+  party: TBD
+  candidates: []
+NC-10:
+  pvi: R+12
+  party: Republican
+  candidates:
+    - name: David Wilson Brown
+      party: Democratic
+NC-11:
+  pvi: R+14
+  party: Republican
+  candidates:
+    - name: Steve Woodsmall
+      party: Democratic
+NC-12:
+  pvi: D+18
+  party: Democratic
+  candidates: []
+NC-13:
+  pvi: R+6
+  party: Republican
+  candidates: []
+NC-Sen:
+  party: Republican
+  candidates:
+    - name: Trevor Fuller
+      party: Democratic
+    - name: Eric L. Mansfield
+      party: Democratic
+    - name: Erica D. Smith
+      party: Democratic
+    - name: Sandy Smith
+      party: Republican
+    - name: Thom Tillis
+      party: Republican
+    - name: Garland Tucker
+      party: Republican
+ND-AL:
+  pvi: R+16
+  party: Republican
+  candidates: []
+NE-01:
+  pvi: R+11
+  party: Republican
+  candidates: []
+NE-02:
+  pvi: R+4
+  party: Republican
+  candidates:
+    - name: Ann Ashford
+      party: Democratic
+    - name: Kara Eastman
+      party: Democratic
+    - name: Morgann Freeman
+      party: Democratic
+    - name: Dustin Sedoris
+      party: Democratic
+NE-03:
+  pvi: R+27
+  party: Republican
+  candidates: []
+NE-Sen:
+  party: Republican
+  candidates: []
+NH-01:
+  pvi: R+2
+  party: Democratic
+  candidates: []
+NH-02:
+  pvi: D+2
+  party: Democratic
+  candidates:
+    - name: Steve Negron
+      party: Republican
+NH-Sen:
+  party: Democratic
+  candidates:
+    - name: Jeanne Shaheen
+      party: Democratic
+NJ-01:
+  pvi: D+13
+  party: Democratic
+  candidates:
+    - name: Josh Duvall
+      party: Republican
+NJ-02:
+  pvi: R+1
+  party: Democratic
+  candidates: []
+NJ-03:
+  pvi: R+2
+  party: Democratic
+  candidates: []
+NJ-04:
+  pvi: R+8
+  party: Republican
+  candidates: []
+NJ-05:
+  pvi: R+3
+  party: Democratic
+  candidates:
+    - name: James Baldini
+      party: Republican
+    - name: John McCann
+      party: Republican
+    - name: Frank Pallotta
+      party: Republican
+NJ-06:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+NJ-07:
+  pvi: R+3
+  party: Democratic
+  candidates:
+    - name: Thomas Kean Jr.
+      party: Republican
+    - name: Tom Phillips
+      party: Republican
+NJ-08:
+  pvi: D+27
+  party: Democratic
+  candidates: []
+NJ-09:
+  pvi: D+16
+  party: Democratic
+  candidates: []
+NJ-10:
+  pvi: D+36
+  party: Democratic
+  candidates: []
+NJ-11:
+  pvi: R+3
+  party: Democratic
+  candidates: []
+NJ-12:
+  pvi: D+16
+  party: Democratic
+  candidates: []
+NJ-Sen:
+  party: Democratic
+  candidates:
+    - name: Tricia Flanagan
+      party: Republican
+    - name: Hirsh Singh
+      party: Republican
+NM-01:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+NM-02:
+  pvi: R+6
+  party: Democratic
+  candidates:
+    - name: Yvette Herrell
+      party: Republican
+    - name: Chris Mathys
+      party: Republican
+NM-03:
+  pvi: D+8
+  party: Democratic
+  candidates:
+    - name: Robert Apodaca
+      party: Democratic
+    - name: Dineh Benally
+      party: Democratic
+    - name: Brett Kokinadis
+      party: Republican
+    - name: Teresa Leger de Fernandez
+      party: Democratic
+    - name: Michael Lucero
+      party: Libertarian
+    - name: Valerie Plame
+      party: Democratic
+    - name: Joseph L. Sanchez
+      party: Democratic
+NM-Sen:
+  party: Democratic
+  candidates:
+    - name: Gavin Clarkson
+      party: Republican
+    - name: Giovanni Alexander Haqani
+      party: Democratic
+    - name: Ben Ray Luján
+      party: Democratic
+    - name: Maggie Toulouse Oliver
+      party: Democratic
+NV-01:
+  pvi: D+15
+  party: Democratic
+  candidates: []
+NV-02:
+  pvi: R+7
+  party: Republican
+  candidates:
+    - name: Mark Amodei
+      party: Republican
+NV-03:
+  pvi: R+2
+  party: Democratic
+  candidates: []
+NV-04:
+  pvi: D+3
+  party: Democratic
+  candidates:
+    - name: Jim Marchant
+      party: Republican
+NY-01:
+  pvi: R+5
+  party: Republican
+  candidates:
+    - name: Perry Gershon
+      party: Democratic
+NY-02:
+  pvi: R+3
+  party: Republican
+  candidates:
+    - name: Jackie Gordon
+      party: Democratic
+NY-03:
+  pvi: D+1
+  party: Democratic
+  candidates:
+    - name: Michael Weinstock
+      party: Democratic
+NY-04:
+  pvi: D+4
+  party: Democratic
+  candidates: []
+NY-05:
+  pvi: D+37
+  party: Democratic
+  candidates:
+    - name: Shaniyat Chowdhury
+      party: Democratic
+NY-06:
+  pvi: D+16
+  party: Democratic
+  candidates: []
+NY-07:
+  pvi: D+38
+  party: Democratic
+  candidates: []
+NY-08:
+  pvi: D+36
+  party: Democratic
+  candidates: []
+NY-09:
+  pvi: D+34
+  party: Democratic
+  candidates:
+    - name: Isiah James
+      party: Democratic
+NY-10:
+  pvi: D+26
+  party: Democratic
+  candidates:
+    - name: Lindsey Boylan
+      party: Democratic
+NY-11:
+  pvi: R+3
+  party: Democratic
+  candidates:
+    - name: Nicole Malliotakis
+      party: Republican
+    - name: Joey Saladino
+      party: Republican
+NY-12:
+  pvi: D+31
+  party: Democratic
+  candidates:
+    - name: Lauren Ashcraft
+      party: Democratic
+NY-13:
+  pvi: D+43
+  party: Democratic
+  candidates:
+    - name: Richard Habersham
+      party: Democratic
+NY-14:
+  pvi: D+29
+  party: Democratic
+  candidates:
+    - name: Ruth Papazian
+      party: Republican
+NY-15:
+  pvi: D+44
+  party: Democratic
+  candidates:
+    - name: Michael Blake
+      party: Democratic
+    - name: Ruben Diaz Sr.
+      party: Democratic
+    - name: Jonathan Ortiz
+      party: Democratic
+    - name: Tomas Ramos
+      party: Democratic
+    - name: Ritchie Torres
+      party: Democratic
+NY-16:
+  pvi: D+24
+  party: Democratic
+  candidates:
+    - name: Kenny Belvin
+      party: Democratic
+NY-17:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+NY-18:
+  pvi: R+1
+  party: Democratic
+  candidates:
+    - name: Chele Chiavacci Farley
+      party: Republican
+    - name: Scott Smith
+      party: Independent
+NY-19:
+  pvi: R+2
+  party: Democratic
+  candidates: []
+NY-20:
+  pvi: D+7
+  party: Democratic
+  candidates:
+    - name: Liz Joy
+      party: Republican
+NY-21:
+  pvi: R+4
+  party: Republican
+  candidates:
+    - name: Tedra Cobb
+      party: Democratic
+    - name: Elise Stefanik
+      party: Republican
+NY-22:
+  pvi: R+6
+  party: Democratic
+  candidates:
+    - name: George Phillips
+      party: Republican
+    - name: Franklin Sager
+      party: Republican
+NY-23:
+  pvi: R+6
+  party: Republican
+  candidates:
+    - name: Tracy Mitrano
+      party: Democratic
+    - name: Tom Reed
+      party: Republican
+NY-24:
+  pvi: D+3
+  party: Republican
+  candidates:
+    - name: Dana Balter
+      party: Democratic
+    - name: Francis Conole
+      party: Democratic
+    - name: Roger Misso
+      party: Democratic
+NY-25:
+  pvi: D+8
+  party: Democratic
+  candidates: []
+NY-26:
+  pvi: D+11
+  party: Democratic
+  candidates: []
+NY-27:
+  pvi: R+11
+  party: Republican
+  candidates:
+    - name: Chris Jacobs
+      party: Republican
+OH-01:
+  pvi: R+5
+  party: Republican
+  candidates: []
+OH-02:
+  pvi: R+9
+  party: Republican
+  candidates: []
+OH-03:
+  pvi: D+19
+  party: Democratic
+  candidates: []
+OH-04:
+  pvi: R+14
+  party: Republican
+  candidates: []
+OH-05:
+  pvi: R+11
+  party: Republican
+  candidates: []
+OH-06:
+  pvi: R+16
+  party: Republican
+  candidates:
+    - name: Shawna Roberts
+      party: Democratic
+OH-07:
+  pvi: R+12
+  party: Republican
+  candidates:
+    - name: Bob Gibbs
+      party: Republican
+OH-08:
+  pvi: R+17
+  party: Republican
+  candidates: []
+OH-09:
+  pvi: D+14
+  party: Democratic
+  candidates: []
+OH-10:
+  pvi: R+4
+  party: Republican
+  candidates: []
+OH-11:
+  pvi: D+32
+  party: Democratic
+  candidates: []
+OH-12:
+  pvi: R+7
+  party: Republican
+  candidates: []
+OH-13:
+  pvi: D+7
+  party: Democratic
+  candidates:
+    - name: Lou Lyras
+      party: Republican
+    - name: Tim Ryan
+      party: Democratic
+OH-14:
+  pvi: R+5
+  party: Republican
+  candidates: []
+OH-15:
+  pvi: R+7
+  party: Republican
+  candidates: []
+OH-16:
+  pvi: R+8
+  party: Republican
+  candidates: []
+OK-01:
+  pvi: R+17
+  party: Republican
+  candidates: []
+OK-02:
+  pvi: R+24
+  party: Republican
+  candidates: []
+OK-03:
+  pvi: R+27
+  party: Republican
+  candidates: []
+OK-04:
+  pvi: R+20
+  party: Republican
+  candidates: []
+OK-05:
+  pvi: R+10
+  party: Democratic
+  candidates:
+    - name: Stephanie Bice
+      party: Republican
+    - name: Terry Neese
+      party: Republican
+OK-Sen:
+  party: Republican
+  candidates: []
+OR-01:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+OR-02:
+  pvi: R+11
+  party: Republican
+  candidates: []
+OR-03:
+  pvi: D+24
+  party: Democratic
+  candidates: []
+OR-04:
+  pvi: EVEN
+  party: Democratic
+  candidates: []
+OR-05:
+  pvi: EVEN
+  party: Democratic
+  candidates:
+    - name: Mark Gamba
+      party: Democratic
+OR-Sen:
+  party: Democratic
+  candidates:
+    - name: Jeff Merkley
+      party: Democratic
+PA-01:
+  pvi: R+1
+  party: Republican
+  candidates: []
+PA-02:
+  pvi: D+25
+  party: Democratic
+  candidates: []
+PA-03:
+  pvi: D+41
+  party: Democratic
+  candidates: []
+PA-04:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+PA-05:
+  pvi: D+13
+  party: Democratic
+  candidates: []
+PA-06:
+  pvi: D+2
+  party: Democratic
+  candidates: []
+PA-07:
+  pvi: D+1
+  party: Democratic
+  candidates:
+    - name: Dean Browning
+      party: Republican
+PA-08:
+  pvi: R+1
+  party: Democratic
+  candidates: []
+PA-09:
+  pvi: R+14
+  party: Republican
+  candidates: []
+PA-10:
+  pvi: R+6
+  party: Republican
+  candidates:
+    - name: Tom Brier
+      party: Democratic
+PA-11:
+  pvi: R+14
+  party: Republican
+  candidates: []
+PA-12:
+  pvi: R+17
+  party: Republican
+  candidates: []
+PA-13:
+  pvi: R+22
+  party: Republican
+  candidates: []
+PA-14:
+  pvi: R+14
+  party: Republican
+  candidates: []
+PA-15:
+  pvi: R+20
+  party: Republican
+  candidates: []
+PA-16:
+  pvi: R+8
+  party: Republican
+  candidates: []
+PA-17:
+  pvi: R+3
+  party: Democratic
+  candidates: []
+PA-18:
+  pvi: D+13
+  party: Democratic
+  candidates:
+    - name: Gerald Dickinson
+      party: Democratic
+RI-01:
+  pvi: D+16
+  party: Democratic
+  candidates: []
+RI-02:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+RI-Sen:
+  party: Democratic
+  candidates:
+    - name: Jack Reed
+      party: Democratic
+SC-01:
+  pvi: R+10
+  party: Democratic
+  candidates:
+    - name: Michael Covert
+      party: Republican
+    - name: Joe Cunningham
+      party: Democratic
+SC-02:
+  pvi: R+12
+  party: Republican
+  candidates:
+    - name: Adair Boroughs
+      party: Democratic
+    - name: Lawrence Nathaniel
+      party: Democratic
+SC-03:
+  pvi: R+19
+  party: Republican
+  candidates: []
+SC-04:
+  pvi: R+15
+  party: Republican
+  candidates: []
+SC-05:
+  pvi: R+9
+  party: Republican
+  candidates: []
+SC-06:
+  pvi: D+19
+  party: Democratic
+  candidates: []
+SC-07:
+  pvi: R+9
+  party: Republican
+  candidates: []
+SC-Sen:
+  party: Republican
+  candidates:
+    - name: Lindsey Graham
+      party: Republican
+    - name: Jaime Harrison
+      party: Democratic
+    - name: Peggy Kandies
+      party: Republican
+    - name: Gloria Bromell Tinubu
+      party: Democratic
+SD-AL:
+  pvi: R+14
+  party: Republican
+  candidates: []
+SD-Sen:
+  party: Republican
+  candidates: []
+TN-01:
+  pvi: R+28
+  party: Republican
+  candidates:
+    - name: Chris Rowe
+      party: Democratic
+TN-02:
+  pvi: R+20
+  party: Republican
+  candidates: []
+TN-03:
+  pvi: R+18
+  party: Republican
+  candidates: []
+TN-04:
+  pvi: R+20
+  party: Republican
+  candidates: []
+TN-05:
+  pvi: D+7
+  party: Democratic
+  candidates:
+    - name: Jim Cooper
+      party: Democratic
+TN-06:
+  pvi: R+24
+  party: Republican
+  candidates: []
+TN-07:
+  pvi: R+20
+  party: Republican
+  candidates: []
+TN-08:
+  pvi: R+19
+  party: Republican
+  candidates: []
+TN-09:
+  pvi: D+28
+  party: Democratic
+  candidates:
+    - name: Steve Cohen
+      party: Democratic
+TN-Sen:
+  party: Republican
+  candidates:
+    - name: James Mackler
+      party: Democratic
+    - name: Stokes Nielson
+      party: Republican
+TX-01:
+  pvi: R+25
+  party: Republican
+  candidates: []
+TX-02:
+  pvi: R+11
+  party: Republican
+  candidates:
+    - name: Elisa Cardnell
+      party: Democratic
+TX-03:
+  pvi: R+13
+  party: Republican
+  candidates:
+    - name: Lorie Burch
+      party: Democratic
+TX-04:
+  pvi: R+28
+  party: Republican
+  candidates: []
+TX-05:
+  pvi: R+16
+  party: Republican
+  candidates: []
+TX-06:
+  pvi: R+9
+  party: Republican
+  candidates: []
+TX-07:
+  pvi: R+7
+  party: Democratic
+  candidates:
+    - name: Wesley Hunt
+      party: Republican
+    - name: Cindy Siegel
+      party: Republican
+TX-08:
+  pvi: R+28
+  party: Republican
+  candidates: []
+TX-09:
+  pvi: D+29
+  party: Democratic
+  candidates: []
+TX-10:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: Pritesh Gandhi
+      party: Democratic
+    - name: Shannon Hutcheson
+      party: Democratic
+    - name: Michael McCaul
+      party: Republican
+    - name: Mike Siegel
+      party: Democratic
+TX-11:
+  pvi: R+32
+  party: Republican
+  candidates: []
+TX-12:
+  pvi: R+18
+  party: Republican
+  candidates: []
+TX-13:
+  pvi: R+33
+  party: Republican
+  candidates:
+    - name: Greg Sagan
+      party: Democratic
+TX-14:
+  pvi: R+12
+  party: Republican
+  candidates: []
+TX-15:
+  pvi: D+7
+  party: Democratic
+  candidates: []
+TX-16:
+  pvi: D+17
+  party: Democratic
+  candidates: []
+TX-17:
+  pvi: R+12
+  party: Republican
+  candidates:
+    - name: Rick Kennedy
+      party: Democratic
+TX-18:
+  pvi: D+27
+  party: Democratic
+  candidates: []
+TX-19:
+  pvi: R+27
+  party: Republican
+  candidates: []
+TX-20:
+  pvi: D+10
+  party: Democratic
+  candidates:
+    - name: Joaquin Castro
+      party: Democratic
+TX-21:
+  pvi: R+10
+  party: Republican
+  candidates:
+    - name: Jennie Lou Leeder
+      party: Democratic
+TX-22:
+  pvi: R+10
+  party: Republican
+  candidates:
+    - name: Nyanza Davis Moore
+      party: Democratic
+    - name: Sri Preston Kulkarni
+      party: Democratic
+TX-23:
+  pvi: R+1
+  party: Republican
+  candidates:
+    - name: Gina Ortiz Jones
+      party: Democratic
+    - name: Liz Wahl
+      party: Democratic
+TX-24:
+  pvi: R+9
+  party: Republican
+  candidates:
+    - name: John Biggan
+      party: Democratic
+    - name: Will Fisher
+      party: Democratic
+    - name: Steve Kuzmich
+      party: Independent
+    - name: Kenny Marchant
+      party: Republican
+    - name: Jan McDowell
+      party: Democratic
+    - name: Kim Olson
+      party: Democratic
+    - name: Candace Valenzuela
+      party: Democratic
+TX-25:
+  pvi: R+11
+  party: Republican
+  candidates: []
+TX-26:
+  pvi: R+18
+  party: Republican
+  candidates: []
+TX-27:
+  pvi: R+13
+  party: Republican
+  candidates: []
+TX-28:
+  pvi: D+9
+  party: Democratic
+  candidates: []
+TX-29:
+  pvi: D+19
+  party: Democratic
+  candidates: []
+TX-30:
+  pvi: D+18
+  party: Democratic
+  candidates: []
+TX-31:
+  pvi: R+10
+  party: Republican
+  candidates:
+    - name: Omar Kadir
+      party: Democratic
+TX-32:
+  pvi: R+5
+  party: Democratic
+  candidates:
+    - name: Tania Burgess
+      party: Republican
+TX-33:
+  pvi: D+23
+  party: Democratic
+  candidates: []
+TX-34:
+  pvi: D+10
+  party: Democratic
+  candidates: []
+TX-35:
+  pvi: D+15
+  party: Democratic
+  candidates: []
+TX-36:
+  pvi: R+26
+  party: Republican
+  candidates: []
+TX-Sen:
+  party: Republican
+  candidates:
+    - name: Michael Cooper
+      party: Democratic
+    - name: John Cornyn
+      party: Republican
+    - name: MJ Hegar
+      party: Democratic
+    - name: Sema Hernandez
+      party: Democratic
+    - name: Adrian Ocegueda
+      party: Democratic
+UT-01:
+  pvi: R+26
+  party: Republican
+  candidates: []
+UT-02:
+  pvi: R+16
+  party: Republican
+  candidates:
+    - name: Chris Stewart
+      party: Republican
+UT-03:
+  pvi: R+25
+  party: Republican
+  candidates: []
+UT-04:
+  pvi: R+13
+  party: Democratic
+  candidates: []
+VA-01:
+  pvi: R+8
+  party: Republican
+  candidates:
+    - name: Vangie Williams
+      party: Democratic
+VA-02:
+  pvi: R+3
+  party: Democratic
+  candidates: []
+VA-03:
+  pvi: D+16
+  party: Democratic
+  candidates: []
+VA-04:
+  pvi: D+10
+  party: Democratic
+  candidates: []
+VA-05:
+  pvi: R+6
+  party: Republican
+  candidates:
+    - name: Roger Dean Huffstetler
+      party: Democratic
+VA-06:
+  pvi: R+13
+  party: Republican
+  candidates: []
+VA-07:
+  pvi: R+6
+  party: Democratic
+  candidates:
+    - name: Tina Ramirez
+      party: Republican
+VA-08:
+  pvi: D+21
+  party: Democratic
+  candidates: []
+VA-09:
+  pvi: R+19
+  party: Republican
+  candidates: []
+VA-10:
+  pvi: D+1
+  party: Democratic
+  candidates: []
+VA-11:
+  pvi: D+15
+  party: Democratic
+  candidates: []
+VA-Sen:
+  party: Democratic
+  candidates: []
+VT-AL:
+  pvi: D+15
+  party: Democratic
+  candidates: []
+WA-01:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+WA-02:
+  pvi: D+10
+  party: Democratic
+  candidates: []
+WA-03:
+  pvi: R+4
+  party: Republican
+  candidates:
+    - name: Peter Khalil
+      party: Democratic
+WA-04:
+  pvi: R+13
+  party: Republican
+  candidates: []
+WA-05:
+  pvi: R+8
+  party: Republican
+  candidates:
+    - name: Cathy McMorris Rodgers
+      party: Republican
+WA-06:
+  pvi: D+6
+  party: Democratic
+  candidates: []
+WA-07:
+  pvi: D+33
+  party: Democratic
+  candidates: []
+WA-08:
+  pvi: EVEN
+  party: Democratic
+  candidates: []
+WA-09:
+  pvi: D+21
+  party: Democratic
+  candidates: []
+WA-10:
+  pvi: D+5
+  party: Democratic
+  candidates:
+    - name: Joshua Collins
+      party: Democratic
+WI-01:
+  pvi: R+5
+  party: Republican
+  candidates: []
+WI-02:
+  pvi: D+18
+  party: Democratic
+  candidates: []
+WI-03:
+  pvi: EVEN
+  party: Democratic
+  candidates: []
+WI-04:
+  pvi: D+25
+  party: Democratic
+  candidates: []
+WI-05:
+  pvi: R+13
+  party: Republican
+  candidates: []
+WI-06:
+  pvi: R+8
+  party: Republican
+  candidates: []
+WI-07:
+  pvi: R+8
+  party: Republican
+  candidates: []
+WI-08:
+  pvi: R+7
+  party: Republican
+  candidates: []
+WV-01:
+  pvi: R+19
+  party: Republican
+  candidates: []
+WV-02:
+  pvi: R+17
+  party: Republican
+  candidates: []
+WV-03:
+  pvi: R+23
+  party: Republican
+  candidates: []
+WV-Sen:
+  party: Republican
+  candidates:
+    - name: Shelley Moore Capito
+      party: Republican
+WY-AL:
+  pvi: R+25
+  party: Republican
+  candidates: []
+WY-Sen:
+  party: Republican
+  candidates: []
+
