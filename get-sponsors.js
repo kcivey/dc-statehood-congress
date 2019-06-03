@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 require('dotenv').config();
+const fs = require('fs');
 const yaml = require('js-yaml');
 const _ = require('underscore');
 const argv = require('yargs')
@@ -102,7 +103,7 @@ getMembers()
                     data[s.code] = s;
                     delete s.code;
                 });
-                console.log(yaml.safeDump(data));
+                return writeData(data);
             });
         }
     )
@@ -117,4 +118,18 @@ function getMembers() {
             return members;
         }
     );
+}
+
+function writeData(data) {
+    const dataFile = __dirname + '/sponsors.yaml';
+    return new Promise(function (resolve, reject) {
+        fs.writeFile(dataFile, yaml.safeDump(data) + '\n', function (err) {
+            if (err) {
+                reject(err);
+            }
+            else {
+                resolve(data);
+            }
+        });
+    });
 }

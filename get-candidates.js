@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 require('dotenv').config();
+const fs = require('fs');
 const assert = require('assert');
 const cheerio = require('cheerio');
 const yaml = require('js-yaml');
@@ -25,9 +26,10 @@ Promise.all(urls.map(processPage))
                 data[r.code] = r;
                 delete r.code;
             });
-        console.log(yaml.safeDump(data));
-        db.close();
-    });
+        return writeData(data);
+    })
+    .then(() => db.close())
+    .catch(err => console.error(err));
 
 function processPage(url) {
     return request(url)
@@ -176,4 +178,18 @@ function processTable($, $table) {
         }
     );
     return tableData;
+}
+
+function writeData(data) {
+    const dataFile = __dirname + '/candidates.yaml';
+    return new Promise(function (resolve, reject) {
+        fs.writeFile(dataFile, yaml.safeDump(data) + '\n', function (err) {
+            if (err) {
+                reject(err);
+            }
+            else {
+                resolve(data);
+            }
+        });
+    });
 }
