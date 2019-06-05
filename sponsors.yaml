@@ -1006,6 +1006,15 @@ MD-04:
   uri: 'https://api.propublica.org/congress/v1/members/B001304.json'
   date: '2019-01-03'
   inOffice: true
+MD-05:
+  id: H000874
+  name: Steny H. Hoyer
+  title: Rep.
+  state: MD
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/H000874.json'
+  date: '2019-06-04'
+  inOffice: true
 MD-06:
   id: T000483
   name: David Trone

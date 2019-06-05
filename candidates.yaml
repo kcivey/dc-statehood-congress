@@ -166,6 +166,8 @@ CA-04:
   pvi: R+10
   party: Republican
   candidates:
+    - name: Julianne Benzel
+      party: Republican
     - name: Sean Frame
       party: Democratic
     - name: Brynne Kennedy
@@ -698,6 +700,8 @@ GA-06:
   candidates:
     - name: Brandon Beach
       party: Republican
+    - name: Marjorie Taylor Greene
+      party: Republican
     - name: Karen Handel
       party: Republican
     - name: Nicole Rodden
@@ -712,8 +716,6 @@ GA-07:
       party: Democratic
     - name: John Eaves
       party: Democratic
-    - name: Harrison Floyd
-      party: Republican
     - name: Lynne Homrich
       party: Republican
     - name: Nabilah Islam
@@ -1663,6 +1665,8 @@ NY-12:
   party: Democratic
   candidates:
     - name: Lauren Ashcraft
+      party: Democratic
+    - name: Erica Vladimer
       party: Democratic
 NY-13:
   pvi: D+43
