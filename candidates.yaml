@@ -228,8 +228,6 @@ CA-15:
   candidates:
     - name: Aisha Wahab
       party: Democratic
-    - name: Bob Wieckowski
-      party: Democratic
 CA-16:
   pvi: D+9
   party: Democratic
@@ -259,7 +257,13 @@ CA-21:
 CA-22:
   pvi: R+8
   party: Republican
-  candidates: []
+  candidates:
+    - name: Phil Arballo
+      party: Democratic
+    - name: Bobby Bliatout
+      party: Democratic
+    - name: Dary Rezvani
+      party: Democratic
 CA-23:
   pvi: R+14
   party: Republican
@@ -410,6 +414,8 @@ CA-49:
   pvi: R+1
   party: Democratic
   candidates:
+    - name: Mara Fortin
+      party: Republican
     - name: Steve Knoblock
       party: Republican
     - name: Brian Maryott
@@ -712,19 +718,27 @@ GA-07:
   candidates:
     - name: Carolyn Bourdeaux
       party: Democratic
+    - name: Ben Bullock
+      party: Republican
     - name: Marqus Cole
       party: Democratic
     - name: John Eaves
       party: Democratic
+    - name: Mark Gonsalves
+      party: Republican
     - name: Lynne Homrich
       party: Republican
     - name: Nabilah Islam
       party: Democratic
+    - name: Lerah Lee
+      party: Republican
     - name: Brenda Lopez Romero
       party: Democratic
     - name: Rich McCormick
       party: Republican
     - name: Joe Profit
+      party: Republican
+    - name: Renee Unterman
       party: Republican
 GA-08:
   pvi: R+15
@@ -763,6 +777,8 @@ GA-14:
 GA-Sen:
   party: Republican
   candidates:
+    - name: Akhenaten Amun
+      party: Democratic
     - name: Marckeith DeJesus
       party: Democratic
     - name: David Perdue
@@ -789,6 +805,8 @@ IA-02:
   pvi: D+1
   party: Democratic
   candidates:
+    - name: Newman Abuissa
+      party: Democratic
     - name: Rita Hart
       party: Democratic
     - name: Thomas Kedley
@@ -821,6 +839,8 @@ IA-Sen:
     - name: Joni Ernst
       party: Republican
     - name: Kimberly Graham
+      party: Democratic
+    - name: Theresa Greenfield
       party: Democratic
     - name: Eddie Mauro
       party: Democratic
@@ -993,7 +1013,9 @@ KS-01:
 KS-02:
   pvi: R+10
   party: Republican
-  candidates: []
+  candidates:
+    - name: Steve Watkins
+      party: Republican
 KS-03:
   pvi: R+4
   party: Democratic
@@ -1001,7 +1023,9 @@ KS-03:
 KS-04:
   pvi: R+15
   party: Republican
-  candidates: []
+  candidates:
+    - name: Ron Estes
+      party: Republican
 KS-Sen:
   party: Republican
   candidates:
@@ -1244,6 +1268,8 @@ MI-Sen:
   candidates:
     - name: Bob Carr
       party: Republican
+    - name: John James
+      party: Republican
     - name: Gary Peters
       party: Democratic
 MN-01:
@@ -1275,6 +1301,8 @@ MN-07:
   party: Democratic
   candidates:
     - name: Dave Hughes
+      party: Republican
+    - name: Joel Novak
       party: Republican
 MN-08:
   pvi: R+4
@@ -1428,6 +1456,8 @@ NC-Sen:
       party: Republican
     - name: Garland Tucker
       party: Republican
+    - name: Steven Williams
+      party: Democratic
 ND-AL:
   pvi: R+16
   party: Republican
@@ -1493,6 +1523,8 @@ NJ-05:
   party: Democratic
   candidates:
     - name: James Baldini
+      party: Republican
+    - name: Mike Ghassali
       party: Republican
     - name: John McCann
       party: Republican
@@ -1866,6 +1898,8 @@ OK-05:
       party: Republican
     - name: Terry Neese
       party: Republican
+    - name: Merideth VanSant
+      party: Republican
 OK-Sen:
   party: Republican
   candidates: []
@@ -1995,6 +2029,8 @@ SC-01:
       party: Republican
     - name: Joe Cunningham
       party: Democratic
+    - name: Kathy Landing
+      party: Republican
 SC-02:
   pvi: R+12
   party: Republican
@@ -2026,6 +2062,8 @@ SC-07:
 SC-Sen:
   party: Republican
   candidates:
+    - name: Gloria Bromell Tinubu
+      party: Democratic
     - name: Lindsey Graham
       party: Republican
     - name: Jaime Harrison
@@ -2034,8 +2072,6 @@ SC-Sen:
       party: Republican
     - name: Joe Reynolds
       party: Republican
-    - name: Gloria Bromell Tinubu
-      party: Democratic
 SD-AL:
   pvi: R+14
   party: Republican
@@ -2471,6 +2507,8 @@ WV-Sen:
   candidates:
     - name: Shelley Moore Capito
       party: Republican
+    - name: Paula Jean Swearengin
+      party: Democratic
 WY-AL:
   pvi: R+25
   party: Republican

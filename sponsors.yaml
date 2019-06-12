@@ -484,6 +484,15 @@ CT-04:
   uri: 'https://api.propublica.org/congress/v1/members/H001047.json'
   date: '2019-01-03'
   inOffice: true
+CT-05:
+  id: H001081
+  name: Jahana Hayes
+  title: Rep.
+  state: CT
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/H001081.json'
+  date: '2019-06-05'
+  inOffice: true
 CT-Sen:
   id: M001169
   name: Christopher S. Murphy
