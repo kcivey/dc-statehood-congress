@@ -873,6 +873,8 @@ IL-03:
   candidates:
     - name: Rush Darwish
       party: Democratic
+    - name: Mike Fricilone
+      party: Republican
     - name: Abe Matthew
       party: Democratic
     - name: Marie Newman
@@ -1731,6 +1733,8 @@ NY-16:
   party: Democratic
   candidates:
     - name: Kenny Belvin
+      party: Democratic
+    - name: Andom Ghebreghiorgis
       party: Democratic
 NY-17:
   pvi: D+7
