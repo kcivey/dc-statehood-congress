@@ -6,7 +6,9 @@ AK-AL:
       party: Republican
 AK-Sen:
   party: Republican
-  candidates: []
+  candidates:
+    - name: David Paul Matheny
+      party: Independent
 AL-01:
   pvi: R+15
   party: Republican
@@ -161,7 +163,9 @@ CA-02:
 CA-03:
   pvi: D+5
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Tamika Hamilton
+      party: Republican
 CA-04:
   pvi: R+10
   party: Republican
@@ -175,7 +179,9 @@ CA-04:
 CA-05:
   pvi: D+21
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Jason Kishineff
+      party: Green
 CA-06:
   pvi: D+21
   party: Democratic
@@ -987,9 +993,7 @@ IN-04:
 IN-05:
   pvi: R+9
   party: Republican
-  candidates:
-    - name: Susan Brooks
-      party: Republican
+  candidates: []
 IN-06:
   pvi: R+18
   party: Republican
@@ -1201,6 +1205,8 @@ ME-Sen:
       party: Republican
     - name: Max Linn
       party: Republican
+    - name: Betsy Sweet
+      party: Democratic
 MI-01:
   pvi: R+9
   party: Republican
@@ -2291,7 +2297,9 @@ TX-27:
 TX-28:
   pvi: D+9
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Jessica Cisneros
+      party: Democratic
 TX-29:
   pvi: D+19
   party: Democratic
@@ -2520,6 +2528,8 @@ WY-AL:
 WY-Sen:
   party: Republican
   candidates:
+    - name: Yana Ludwig
+      party: Democratic
     - name: Joshua Wheeler
       party: Republican
 

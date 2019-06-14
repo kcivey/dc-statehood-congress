@@ -70,6 +70,15 @@ CA-06:
   uri: 'https://api.propublica.org/congress/v1/members/M001163.json'
   date: '2019-01-03'
   inOffice: true
+CA-07:
+  id: B001287
+  name: Ami Bera
+  title: Rep.
+  state: CA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/B001287.json'
+  date: '2019-06-12'
+  inOffice: true
 CA-09:
   id: M001166
   name: Jerry McNerney
@@ -1806,6 +1815,15 @@ TX-09:
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/G000553.json'
   date: '2019-01-03'
+  inOffice: true
+TX-15:
+  id: G000581
+  name: Vicente Gonzalez
+  title: Rep.
+  state: TX
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/G000581.json'
+  date: '2019-06-12'
   inOffice: true
 TX-16:
   id: E000299
