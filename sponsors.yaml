@@ -277,6 +277,15 @@ CA-35:
   uri: 'https://api.propublica.org/congress/v1/members/T000474.json'
   date: '2019-01-03'
   inOffice: true
+CA-36:
+  id: R000599
+  name: Raul Ruiz
+  title: Rep.
+  state: CA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/R000599.json'
+  date: '2019-06-13'
+  inOffice: true
 CA-37:
   id: B001270
   name: Karen Bass
@@ -1851,6 +1860,15 @@ TX-20:
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/C001091.json'
   date: '2019-01-03'
+  inOffice: true
+TX-28:
+  id: C001063
+  name: Henry Cuellar
+  title: Rep.
+  state: TX
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/C001063.json'
+  date: '2019-06-13'
   inOffice: true
 TX-29:
   id: G000587

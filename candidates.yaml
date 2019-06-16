@@ -301,7 +301,11 @@ CA-27:
 CA-28:
   pvi: D+23
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Akinyemi Agbede
+      party: Democratic
+    - name: Jennifer Barbosa
+      party: no party preference
 CA-29:
   pvi: D+29
   party: Democratic
@@ -504,8 +508,6 @@ CO-Sen:
     - name: Dustin Leitzel
       party: Democratic
     - name: Alice Madden
-      party: Democratic
-    - name: Keith Pottratz
       party: Democratic
     - name: Andrew Romanoff
       party: Democratic
@@ -1354,7 +1356,9 @@ MO-07:
 MO-08:
   pvi: R+24
   party: Republican
-  candidates: []
+  candidates:
+    - name: Kathy Ellis
+      party: Democratic
 MS-01:
   pvi: R+16
   party: Republican
