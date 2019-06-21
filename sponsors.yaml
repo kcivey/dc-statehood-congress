@@ -1268,13 +1268,13 @@ NH-02:
   date: '2019-01-03'
   inOffice: true
 NH-Sen:
-  id: H001076
-  name: Margaret Hassan
+  id: S001181
+  name: Jeanne Shaheen
   title: Sen.
   state: NH
   party: D
-  uri: 'https://api.propublica.org/congress/v1/members/H001076.json'
-  date: '2019-02-28'
+  uri: 'https://api.propublica.org/congress/v1/members/S001181.json'
+  date: '2019-06-18'
   inOffice: true
 NJ-01:
   id: N000188

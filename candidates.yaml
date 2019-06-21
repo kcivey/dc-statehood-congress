@@ -189,7 +189,11 @@ CA-06:
 CA-07:
   pvi: D+3
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Ami Bera
+      party: Democratic
+    - name: Jeff Burdick
+      party: Democratic
 CA-08:
   pvi: R+9
   party: Republican
@@ -596,6 +600,8 @@ FL-09:
       party: Republican
     - name: Bill Olson
       party: Republican
+    - name: Hendrith Smith Jr.
+      party: Democratic
 FL-10:
   pvi: D+11
   party: Democratic
@@ -807,6 +813,8 @@ IA-01:
   pvi: D+1
   party: Democratic
   candidates:
+    - name: Thomas Hansen
+      party: Republican
     - name: Ashley Hinson
       party: Republican
 IA-02:
@@ -995,7 +1003,9 @@ IN-04:
 IN-05:
   pvi: R+9
   party: Republican
-  candidates: []
+  candidates:
+    - name: Dee Thornton
+      party: Democratic
 IN-06:
   pvi: R+18
   party: Republican
@@ -1223,6 +1233,8 @@ MI-03:
   candidates:
     - name: Doug Booth
       party: Democratic
+    - name: Nick Colvin
+      party: Democratic
     - name: James Lower
       party: Republican
     - name: Tom Norton
@@ -1297,11 +1309,15 @@ MN-03:
 MN-04:
   pvi: D+14
   party: Democratic
-  candidates: []
+  candidates:
+    - name: David Sandbeck
+      party: Democratic
 MN-05:
   pvi: D+26
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Brent Whaley
+      party: Republican
 MN-06:
   pvi: R+12
   party: Republican
@@ -1382,6 +1398,10 @@ MT-AL:
   pvi: R+11
   party: Republican
   candidates:
+    - name: Matt Rosendale
+      party: Republican
+    - name: Corey Stapleton
+      party: Republican
     - name: Kathleen Williams
       party: Democratic
     - name: Tom Winter
@@ -1736,6 +1756,8 @@ NY-15:
       party: Democratic
     - name: Tomas Ramos
       party: Democratic
+    - name: Eric Stevenson
+      party: Democratic
     - name: Ritchie Torres
       party: Democratic
 NY-16:
@@ -1743,6 +1765,8 @@ NY-16:
   party: Democratic
   candidates:
     - name: Kenny Belvin
+      party: Democratic
+    - name: Jamaal Bowman
       party: Democratic
     - name: Andom Ghebreghiorgis
       party: Democratic
@@ -1920,7 +1944,9 @@ OK-Sen:
 OR-01:
   pvi: D+9
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Ricky Barajas
+      party: Democratic
 OR-02:
   pvi: R+11
   party: Republican
@@ -1928,17 +1954,25 @@ OR-02:
 OR-03:
   pvi: D+24
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Albert Lee
+      party: Democratic
 OR-04:
   pvi: EVEN
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Doyle Canning
+      party: Democratic
+    - name: Jo Rae Perkins
+      party: Republican
 OR-05:
   pvi: EVEN
   party: Democratic
   candidates:
     - name: Mark Gamba
       party: Democratic
+    - name: Angela Roman
+      party: Republican
 OR-Sen:
   party: Democratic
   candidates:
@@ -2528,7 +2562,9 @@ WV-Sen:
 WY-AL:
   pvi: R+25
   party: Republican
-  candidates: []
+  candidates:
+    - name: Carol Hafner
+      party: Democratic
 WY-Sen:
   party: Republican
   candidates:
