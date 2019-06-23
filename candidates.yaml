@@ -58,6 +58,8 @@ AL-Sen:
       party: Democratic
     - name: Arnold Mooney
       party: Republican
+    - name: Roy Moore
+      party: Republican
     - name: John Rogers
       party: Democratic
     - name: Tommy Tuberville
@@ -825,8 +827,6 @@ IA-02:
       party: Democratic
     - name: Rita Hart
       party: Democratic
-    - name: Thomas Kedley
-      party: Republican
 IA-03:
   pvi: R+1
   party: Democratic
@@ -2056,6 +2056,8 @@ PA-18:
   candidates:
     - name: Gerald Dickinson
       party: Democratic
+    - name: Don Nevills
+      party: Republican
 RI-01:
   pvi: D+16
   party: Democratic
@@ -2123,10 +2125,14 @@ SC-Sen:
 SD-AL:
   pvi: R+14
   party: Republican
-  candidates: []
+  candidates:
+    - name: Dusty Johnson
+      party: Republican
 SD-Sen:
   party: Republican
-  candidates: []
+  candidates:
+    - name: Mike Rounds
+      party: Republican
 TN-01:
   pvi: R+28
   party: Republican
@@ -2323,7 +2329,9 @@ TX-24:
 TX-25:
   pvi: R+11
   party: Republican
-  candidates: []
+  candidates:
+    - name: Julie Oliver
+      party: Democratic
 TX-26:
   pvi: R+18
   party: Republican
@@ -2338,6 +2346,8 @@ TX-28:
   candidates:
     - name: Jessica Cisneros
       party: Democratic
+    - name: Sandra Whitten
+      party: Republican
 TX-29:
   pvi: D+19
   party: Democratic
