@@ -6,9 +6,7 @@ AK-AL:
       party: Republican
 AK-Sen:
   party: Republican
-  candidates:
-    - name: David Paul Matheny
-      party: Independent
+  candidates: []
 AL-01:
   pvi: R+15
   party: Republican
@@ -56,6 +54,8 @@ AL-Sen:
       party: Republican
     - name: Doug Jones
       party: Democratic
+    - name: John Merrill
+      party: Republican
     - name: Arnold Mooney
       party: Republican
     - name: Roy Moore
@@ -732,6 +732,8 @@ GA-07:
   pvi: R+9
   party: Republican
   candidates:
+    - name: Lisa Noël Babbage
+      party: Republican
     - name: Carolyn Bourdeaux
       party: Democratic
     - name: Ben Bullock
@@ -1162,6 +1164,8 @@ MA-Sen:
       party: Democratic
     - name: Ed Markey
       party: Democratic
+    - name: Steve Pemberton
+      party: Democratic
 MD-01:
   pvi: R+14
   party: Republican
@@ -1210,6 +1214,8 @@ ME-Sen:
   party: Republican
   candidates:
     - name: Michael Bunker
+      party: Democratic
+    - name: Sara Gideon
       party: Democratic
     - name: Bre Kidman
       party: Democratic
@@ -1393,7 +1399,9 @@ MS-04:
   candidates: []
 MS-Sen:
   party: Republican
-  candidates: []
+  candidates:
+    - name: Jensen Bohren
+      party: Democratic
 MT-AL:
   pvi: R+11
   party: Republican
@@ -1476,6 +1484,8 @@ NC-13:
 NC-Sen:
   party: Republican
   candidates:
+    - name: Cal Cunningham
+      party: Democratic
     - name: Trevor Fuller
       party: Democratic
     - name: Eric L. Mansfield
@@ -1530,6 +1540,8 @@ NH-02:
 NH-Sen:
   party: Democratic
   candidates:
+    - name: Donald Bolduc
+      party: Republican
     - name: Jeanne Shaheen
       party: Democratic
 NJ-01:
