@@ -5,9 +5,18 @@ const fs = require('fs');
 const assert = require('assert');
 const cheerio = require('cheerio');
 const yaml = require('js-yaml');
+const argv = require('yargs')
+    .options({
+        mongo: {
+            type: 'boolean',
+            describe: 'use MongoDB',
+        },
+    })
+    .strict(true)
+    .argv;
 const request = require('./lib/request');
-const db = require('./lib/db')(process.env.MONGODB_URL);
 const makeRaceCode = require('./lib/utils').makeRaceCode;
+const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL);
 const urls = [
     'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2020',
     'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
@@ -28,7 +37,7 @@ Promise.all(urls.map(processPage))
             });
         return writeData(data);
     })
-    .then(() => db.close())
+    .then(() => db && db.close())
     .catch(err => console.error(err));
 
 function processPage(url) {
@@ -43,8 +52,10 @@ function processPage(url) {
                         races.map(
                             function (race) {
                                 const names = race.candidates.map(c => c.name);
-                                return db.find('sponsors', {code: race.code, name: {$in: names}})
-                                    .then(cursor => cursor.toArray());
+                                return db ?
+                                    db.find('sponsors', {code: race.code, name: {$in: names}})
+                                        .then(cursor => cursor.toArray()) :
+                                    null;
                             }
                         )
                     )
@@ -64,9 +75,11 @@ function processPage(url) {
                         };
                     }
                 );
-                return db.createIndex('races', {code: 1}, {unique: true})
-                    .then(() => db.bulkWrite('races', operations))
-                    .then(() => races);
+                const promise = db ?
+                    db.createIndex('races', {code: 1}, {unique: true})
+                        .then(() => db.bulkWrite('races', operations)) :
+                    Promise.resolve();
+                return promise.then(() => races);
             }
         );
 }
