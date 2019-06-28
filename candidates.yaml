@@ -478,6 +478,8 @@ CO-03:
   candidates:
     - name: Diane Mitsch Bush
       party: Democratic
+    - name: Donald Valdez
+      party: Democratic
 CO-04:
   pvi: R+13
   party: Republican
@@ -491,7 +493,9 @@ CO-05:
 CO-06:
   pvi: D+2
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Casper Stockman
+      party: Republican
 CO-07:
   pvi: D+6
   party: Democratic
@@ -1051,6 +1055,8 @@ KS-Sen:
   candidates:
     - name: Jake LaTurner
       party: Republican
+    - name: Dave Lindstrom
+      party: Republican
 KY-01:
   pvi: R+23
   party: Republican
@@ -1237,6 +1243,8 @@ MI-03:
   pvi: R+6
   party: Republican
   candidates:
+    - name: Lynn Afendoulis
+      party: Republican
     - name: Doug Booth
       party: Democratic
     - name: Nick Colvin
@@ -1406,6 +1414,8 @@ MT-AL:
   pvi: R+11
   party: Republican
   candidates:
+    - name: Joe Dooling
+      party: Republican
     - name: Matt Rosendale
       party: Republican
     - name: Corey Stapleton
@@ -2092,6 +2102,8 @@ SC-01:
     - name: Joe Cunningham
       party: Democratic
     - name: Kathy Landing
+      party: Republican
+    - name: Nancy Mace
       party: Republican
 SC-02:
   pvi: R+12

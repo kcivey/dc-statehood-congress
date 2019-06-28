@@ -88,6 +88,15 @@ CA-09:
   uri: 'https://api.propublica.org/congress/v1/members/M001166.json'
   date: '2019-01-03'
   inOffice: true
+CA-10:
+  id: H001090
+  name: Josh Harder
+  title: Rep.
+  state: CA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/H001090.json'
+  date: '2019-06-25'
+  inOffice: true
 CA-11:
   id: D000623
   name: Mark DeSaulnier
@@ -1284,6 +1293,15 @@ NJ-01:
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/N000188.json'
   date: '2019-01-03'
+  inOffice: true
+NJ-02:
+  id: V000133
+  name: Jefferson Van Drew
+  title: Rep.
+  state: NJ
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/V000133.json'
+  date: '2019-06-24'
   inOffice: true
 NJ-03:
   id: K000394
