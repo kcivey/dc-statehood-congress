@@ -1834,6 +1834,15 @@ TN-09:
   uri: 'https://api.propublica.org/congress/v1/members/C001068.json'
   date: '2019-01-03'
   inOffice: true
+TX-07:
+  id: F000468
+  name: Lizzie Fletcher
+  title: Rep.
+  state: TX
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/F000468.json'
+  date: '2019-06-27'
+  inOffice: true
 TX-09:
   id: G000553
   name: Al Green

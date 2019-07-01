@@ -963,6 +963,8 @@ IL-14:
       party: Republican
     - name: Jim Oberweis
       party: Republican
+    - name: Lauren Underwood
+      party: Democratic
 IL-15:
   pvi: R+21
   party: Republican
@@ -1145,6 +1147,8 @@ MA-06:
   pvi: D+6
   party: Democratic
   candidates:
+    - name: Jamie Zahlaway Belsito
+      party: Democratic
     - name: Christopher Fisher
       party: Independent
 MA-07:
@@ -1234,7 +1238,11 @@ ME-Sen:
 MI-01:
   pvi: R+9
   party: Republican
-  candidates: []
+  candidates:
+    - name: Jack Bergman
+      party: Republican
+    - name: Dana Ferguson
+      party: Democratic
 MI-02:
   pvi: R+9
   party: Republican
@@ -2044,6 +2052,8 @@ PA-10:
   candidates:
     - name: Tom Brier
       party: Democratic
+    - name: Eugene DePasquale
+      party: Democratic
 PA-11:
   pvi: R+14
   party: Republican
@@ -2438,7 +2448,9 @@ UT-03:
 UT-04:
   pvi: R+13
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Kathleen Anderson
+      party: Republican
 VA-01:
   pvi: R+8
   party: Republican
