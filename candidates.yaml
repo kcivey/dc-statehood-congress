@@ -6,7 +6,9 @@ AK-AL:
       party: Republican
 AK-Sen:
   party: Republican
-  candidates: []
+  candidates:
+    - name: Al Gross
+      party: Independent
 AL-01:
   pvi: R+15
   party: Republican
@@ -661,7 +663,9 @@ FL-19:
 FL-20:
   pvi: D+31
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Alcee Hastings
+      party: Democratic
 FL-21:
   pvi: D+9
   party: Democratic
