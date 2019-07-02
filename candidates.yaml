@@ -312,6 +312,8 @@ CA-28:
       party: Democratic
     - name: Jennifer Barbosa
       party: no party preference
+    - name: Maebe A. Girl
+      party: Democratic
 CA-29:
   pvi: D+29
   party: Democratic
@@ -923,6 +925,8 @@ IL-07:
       party: Democratic
     - name: Kina Collins
       party: Democratic
+    - name: Kristine Schanbacher
+      party: Democratic
 IL-08:
   pvi: D+8
   party: Democratic
@@ -1055,6 +1059,8 @@ KS-04:
 KS-Sen:
   party: Republican
   candidates:
+    - name: Barry Grissom
+      party: Democratic
     - name: Jake LaTurner
       party: Republican
     - name: Dave Lindstrom
@@ -1873,7 +1879,9 @@ NY-27:
 OH-01:
   pvi: R+5
   party: Republican
-  candidates: []
+  candidates:
+    - name: Nikki Foster
+      party: Democratic
 OH-02:
   pvi: R+9
   party: Republican
@@ -1881,7 +1889,9 @@ OH-02:
 OH-03:
   pvi: D+19
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Morgan Harper
+      party: Democratic
 OH-04:
   pvi: R+14
   party: Republican
@@ -1926,6 +1936,8 @@ OH-13:
   pvi: D+7
   party: Democratic
   candidates:
+    - name: Duane Hennen
+      party: Republican
     - name: Lou Lyras
       party: Republican
     - name: Tim Ryan
@@ -2165,6 +2177,8 @@ SD-AL:
 SD-Sen:
   party: Republican
   candidates:
+    - name: Scyller Borglum
+      party: Republican
     - name: Mike Rounds
       party: Republican
 TN-01:
