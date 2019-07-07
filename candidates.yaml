@@ -198,6 +198,8 @@ CA-07:
       party: Democratic
     - name: Jeff Burdick
       party: Democratic
+    - name: Buzz Patterson
+      party: Republican
 CA-08:
   pvi: R+9
   party: Republican
@@ -550,7 +552,9 @@ CT-04:
 CT-05:
   pvi: D+2
   party: Democratic
-  candidates: []
+  candidates:
+    - name: David X. Sullivan
+      party: Republican
 DE-AL:
   pvi: D+6
   party: Democratic
@@ -592,8 +596,6 @@ FL-07:
   pvi: EVEN
   party: Democratic
   candidates:
-    - name: Jan Edwards
-      party: Republican
     - name: Stephanie Murphy
       party: Democratic
     - name: Armani Salado
@@ -1259,15 +1261,19 @@ MI-02:
   candidates: []
 MI-03:
   pvi: R+6
-  party: Republican
+  party: Independent
   candidates:
     - name: Lynn Afendoulis
       party: Republican
+    - name: Justin Amash
+      party: Independent
     - name: Doug Booth
       party: Democratic
     - name: Nick Colvin
       party: Democratic
     - name: James Lower
+      party: Republican
+    - name: Peter Meijer
       party: Republican
     - name: Tom Norton
       party: Republican
@@ -1349,6 +1355,8 @@ MN-05:
   party: Democratic
   candidates:
     - name: Brent Whaley
+      party: Republican
+    - name: Danielle Stella
       party: Republican
 MN-06:
   pvi: R+12
@@ -1516,8 +1524,6 @@ NC-Sen:
       party: Democratic
     - name: Trevor Fuller
       party: Democratic
-    - name: Eric L. Mansfield
-      party: Democratic
     - name: Erica D. Smith
       party: Democratic
     - name: Sandy Smith
@@ -1667,6 +1673,8 @@ NM-03:
       party: Democratic
     - name: Michael Lucero
       party: Libertarian
+    - name: Laura Montoya
+      party: Democratic
     - name: Valerie Plame
       party: Democratic
     - name: Joseph L. Sanchez
@@ -1844,6 +1852,8 @@ NY-22:
   pvi: R+6
   party: Democratic
   candidates:
+    - name: Steve Cornwell
+      party: Republican
     - name: George Phillips
       party: Republican
     - name: Franklin Sager
@@ -2459,6 +2469,8 @@ UT-02:
   candidates:
     - name: Chris Stewart
       party: Republican
+    - name: Mary Burkett
+      party: Republican
 UT-03:
   pvi: R+25
   party: Republican
@@ -2514,7 +2526,9 @@ VA-09:
 VA-10:
   pvi: D+1
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Jeff Dove
+      party: Republican
 VA-11:
   pvi: D+15
   party: Democratic
