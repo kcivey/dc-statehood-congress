@@ -8,6 +8,8 @@ AK-Sen:
   party: Republican
   candidates:
     - name: Al Gross
+      party: Democratic
+    - name: David Paul Matheny
       party: Independent
 AL-01:
   pvi: R+15
@@ -242,6 +244,8 @@ CA-15:
   pvi: D+20
   party: Democratic
   candidates:
+    - name: Eric Swalwell
+      party: Democratic
     - name: Aisha Wahab
       party: Democratic
 CA-16:
@@ -446,6 +450,8 @@ CA-50:
   pvi: R+11
   party: Republican
   candidates:
+    - name: Sam Abed
+      party: Republican
     - name: Ammar Campa-Najjar
       party: Democratic
     - name: Larry Wilske
@@ -530,6 +536,8 @@ CO-Sen:
     - name: Stephany Rose Spaulding
       party: Democratic
     - name: John F. Walsh
+      party: Democratic
+    - name: Angela Williams
       party: Democratic
     - name: Trish Zornio
       party: Democratic
@@ -841,6 +849,8 @@ IA-02:
       party: Democratic
     - name: Rita Hart
       party: Democratic
+    - name: Bobby Schilling
+      party: Republican
 IA-03:
   pvi: R+1
   party: Democratic
@@ -1050,6 +1060,8 @@ KS-02:
   pvi: R+10
   party: Republican
   candidates:
+    - name: Abbie Hodgson
+      party: Democratic
     - name: Steve Watkins
       party: Republican
 KS-03:
@@ -1067,6 +1079,8 @@ KS-Sen:
   candidates:
     - name: Barry Grissom
       party: Democratic
+    - name: Kris Kobach
+      party: Republican
     - name: Jake LaTurner
       party: Republican
     - name: Dave Lindstrom
@@ -1102,6 +1116,8 @@ KY-Sen:
       party: Democratic
     - name: Mitch McConnell
       party: Republican
+    - name: Amy McGrath
+      party: Democratic
     - name: C. Wesley Morgan
       party: Republican
 LA-01:
@@ -1163,6 +1179,8 @@ MA-06:
       party: Democratic
     - name: Christopher Fisher
       party: Independent
+    - name: Lisa Peterson
+      party: Democratic
 MA-07:
   pvi: D+34
   party: Democratic
@@ -1187,6 +1205,8 @@ MA-Sen:
     - name: Ed Markey
       party: Democratic
     - name: Steve Pemberton
+      party: Democratic
+    - name: Allen Waters
       party: Democratic
 MD-01:
   pvi: R+14
@@ -1277,6 +1297,8 @@ MI-03:
       party: Republican
     - name: Tom Norton
       party: Republican
+    - name: Hillary Scholten
+      party: Democratic
 MI-04:
   pvi: R+10
   party: Republican
@@ -1560,7 +1582,13 @@ NE-03:
   candidates: []
 NE-Sen:
   party: Republican
-  candidates: []
+  candidates:
+    - name: Angie Philips
+      party: Democratic
+    - name: Chris Janicek
+      party: Democratic
+    - name: Dan Wik
+      party: Democratic
 NH-01:
   pvi: R+2
   party: Democratic
@@ -2135,6 +2163,8 @@ SC-01:
   candidates:
     - name: Michael Covert
       party: Republican
+    - name: Chris Cox
+      party: Republican
     - name: Joe Cunningham
       party: Democratic
     - name: Kathy Landing
@@ -2449,6 +2479,8 @@ TX-36:
 TX-Sen:
   party: Republican
   candidates:
+    - name: Chris Bell
+      party: Democratic
     - name: Michael Cooper
       party: Democratic
     - name: John Cornyn
@@ -2535,7 +2567,9 @@ VA-11:
   candidates: []
 VA-Sen:
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Scott Taylor
+      party: Republican
 VT-AL:
   pvi: D+15
   party: Democratic
@@ -2553,6 +2587,8 @@ WA-03:
   party: Republican
   candidates:
     - name: Peter Khalil
+      party: Democratic
+    - name: Carolyn Long
       party: Democratic
 WA-04:
   pvi: R+13
