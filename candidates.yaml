@@ -205,7 +205,9 @@ CA-07:
 CA-08:
   pvi: R+9
   party: Republican
-  candidates: []
+  candidates:
+    - name: Chris Bubser
+      party: Democratic
 CA-09:
   pvi: D+8
   party: Democratic
@@ -251,7 +253,11 @@ CA-15:
 CA-16:
   pvi: D+9
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Esmeralda Soria
+      party: Democratic
+    - name: Kim Williams
+      party: Democratic
 CA-17:
   pvi: D+25
   party: Democratic
@@ -387,8 +393,6 @@ CA-42:
   party: Republican
   candidates:
     - name: Liam O'Mara
-      party: Democratic
-    - name: Julia Peacock
       party: Democratic
 CA-43:
   pvi: D+29
@@ -903,6 +907,8 @@ IL-01:
   candidates:
     - name: Robert Emmons Jr.
       party: Democratic
+    - name: Ameena Matthews
+      party: Democratic
 IL-02:
   pvi: D+29
   party: Democratic
@@ -983,6 +989,8 @@ IL-14:
       party: Republican
     - name: Jim Oberweis
       party: Republican
+    - name: Sue Rezin
+      party: Republican
     - name: Lauren Underwood
       party: Democratic
 IL-15:
@@ -1033,6 +1041,8 @@ IN-05:
   party: Republican
   candidates:
     - name: Dee Thornton
+      party: Democratic
+    - name: Christina Hale
       party: Democratic
 IN-06:
   pvi: R+18
@@ -1291,6 +1301,8 @@ MI-03:
       party: Democratic
     - name: Nick Colvin
       party: Democratic
+    - name: Joel Langlois
+      party: Republican
     - name: James Lower
       party: Republican
     - name: Peter Meijer
@@ -1733,7 +1745,9 @@ NV-02:
 NV-03:
   pvi: R+2
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Dan Schwartz
+      party: Republican
 NV-04:
   pvi: D+3
   party: Democratic
@@ -1745,6 +1759,8 @@ NY-01:
   party: Republican
   candidates:
     - name: Perry Gershon
+      party: Democratic
+    - name: Nancy Goroff
       party: Democratic
 NY-02:
   pvi: R+3
@@ -2256,7 +2272,9 @@ TN-06:
 TN-07:
   pvi: R+20
   party: Republican
-  candidates: []
+  candidates:
+    - name: Mark Green
+      party: Republican
 TN-08:
   pvi: R+19
   party: Republican
@@ -2270,6 +2288,8 @@ TN-09:
 TN-Sen:
   party: Republican
   candidates:
+    - name: Bill Hagerty
+      party: Republican
     - name: James Mackler
       party: Democratic
     - name: Stokes Nielson
@@ -2453,6 +2473,8 @@ TX-31:
   party: Republican
   candidates:
     - name: Omar Kadir
+      party: Democratic
+    - name: Christine Mann
       party: Democratic
 TX-32:
   pvi: R+5
@@ -2684,6 +2706,8 @@ WY-Sen:
   candidates:
     - name: Yana Ludwig
       party: Democratic
+    - name: Cynthia Lummis
+      party: Republican
     - name: Joshua Wheeler
       party: Republican
 
