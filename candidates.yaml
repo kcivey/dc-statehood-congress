@@ -9,8 +9,6 @@ AK-Sen:
   candidates:
     - name: Al Gross
       party: Democratic
-    - name: David Paul Matheny
-      party: Independent
 AL-01:
   pvi: R+15
   party: Republican
@@ -152,6 +150,8 @@ AZ-09:
 AZ-Sen:
   party: Republican
   candidates:
+    - name: Ann Griffin
+      party: Republican
     - name: Mark Kelly
       party: Democratic
     - name: Martha McSally
@@ -825,6 +825,8 @@ GA-Sen:
       party: Democratic
     - name: David Perdue
       party: Republican
+    - name: Ted Terry
+      party: Democratic
     - name: Teresa Tomlinson
       party: Democratic
 HI-01:
@@ -1016,6 +1018,8 @@ IL-Sen:
       party: Democratic
     - name: Peggy Hubbard
       party: Republican
+    - name: Robert Marshall
+      party: Republican
     - name: Omeed Memar
       party: Republican
     - name: Anne Stava-Murray
@@ -1087,6 +1091,8 @@ KS-04:
 KS-Sen:
   party: Republican
   candidates:
+    - name: Nancy Boyda
+      party: Democratic
     - name: Barry Grissom
       party: Democratic
     - name: Kris Kobach
@@ -1491,6 +1497,8 @@ MT-Sen:
       party: Democratic
     - name: Steve Daines
       party: Republican
+    - name: John Mues
+      party: Democratic
 NC-01:
   pvi: D+17
   party: Democratic
@@ -1595,9 +1603,9 @@ NE-03:
 NE-Sen:
   party: Republican
   candidates:
-    - name: Angie Philips
-      party: Democratic
     - name: Chris Janicek
+      party: Democratic
+    - name: Angie Philips
       party: Democratic
     - name: Dan Wik
       party: Democratic
@@ -2590,7 +2598,11 @@ VA-11:
 VA-Sen:
   party: Democratic
   candidates:
+    - name: Alissa Baldwin
+      party: Republican
     - name: Scott Taylor
+      party: Republican
+    - name: Victor Williams
       party: Republican
 VT-AL:
   pvi: D+15
@@ -2675,7 +2687,9 @@ WI-07:
 WI-08:
   pvi: R+7
   party: Republican
-  candidates: []
+  candidates:
+    - name: Amanda Stuck
+      party: Democratic
 WV-01:
   pvi: R+19
   party: Republican
