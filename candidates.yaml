@@ -2,6 +2,8 @@ AK-AL:
   pvi: R+9
   party: Republican
   candidates:
+    - name: Alyse Galvin
+      party: Independent
     - name: Don Young
       party: Republican
 AK-Sen:
@@ -97,6 +99,8 @@ AZ-01:
       party: Democratic
     - name: Eva Putzova
       party: Democratic
+    - name: Tiffany Shedd
+      party: Republican
     - name: Chris Taylor
       party: Republican
 AZ-02:
@@ -187,7 +191,7 @@ CA-05:
   party: Democratic
   candidates:
     - name: Jason Kishineff
-      party: Green
+      party: Democratic
 CA-06:
   pvi: D+21
   party: Democratic
@@ -570,7 +574,9 @@ CT-05:
 DE-AL:
   pvi: D+6
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Lee Murphy
+      party: Republican
 DE-Sen:
   party: Democratic
   candidates:
@@ -644,6 +650,8 @@ FL-13:
   pvi: D+2
   party: Democratic
   candidates:
+    - name: Matt Becker
+      party: Republican
     - name: George Buck
       party: Republican
     - name: Amanda Makki
@@ -939,6 +947,8 @@ IL-06:
   pvi: R+2
   party: Democratic
   candidates:
+    - name: Jeanne Ives
+      party: Republican
     - name: Evelyn Sanguinetti
       party: Republican
 IL-07:
@@ -1842,6 +1852,8 @@ NY-14:
   pvi: D+29
   party: Democratic
   candidates:
+    - name: Scherie Murray
+      party: Republican
     - name: Ruth Papazian
       party: Republican
 NY-15:
