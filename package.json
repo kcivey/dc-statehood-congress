@@ -21,7 +21,7 @@
     "cache-manager-fs": "^1.0.8",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
-    "googleapis": "^41.0.0",
+    "googleapis": "^41.0.1",
     "js-yaml": "^3.13.1",
     "mongodb": "^3.2.7",
     "propublica-congress": "github:kcivey/propublica-congress",
@@ -29,10 +29,10 @@
     "request-plus": "^2.0.0",
     "underscore": "^1.9.1",
     "us-regions": "0.0.2",
-    "yargs": "^13.2.4"
+    "yargs": "^13.3.0"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
+    "eslint": "^6.1.0",
     "eslint-config-google": "^0.13.0",
     "grunt": "^1.0.4",
     "grunt-bump": "^0.8.0",
