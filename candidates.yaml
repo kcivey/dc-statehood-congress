@@ -654,6 +654,8 @@ FL-13:
       party: Republican
     - name: George Buck
       party: Republican
+    - name: Sheila Griffin
+      party: Republican
     - name: Amanda Makki
       party: Republican
 FL-14:
@@ -1054,6 +1056,8 @@ IN-05:
   pvi: R+9
   party: Republican
   candidates:
+    - name: Micah Beckwith
+      party: Republican
     - name: Dee Thornton
       party: Democratic
     - name: Christina Hale
@@ -1178,7 +1182,11 @@ LA-Sen:
 MA-01:
   pvi: D+12
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Alex B. Morse
+      party: Democrat
+    - name: John Cain
+      party: Republican
 MA-02:
   pvi: D+9
   party: Democratic
@@ -1319,7 +1327,7 @@ MI-03:
       party: Democratic
     - name: Joel Langlois
       party: Republican
-    - name: James Lower
+    - name: Jim Lower
       party: Republican
     - name: Peter Meijer
       party: Republican
@@ -2422,6 +2430,8 @@ TX-21:
   pvi: R+10
   party: Republican
   candidates:
+    - name: Wendy Davis
+      party: Democratic
     - name: Jennie Lou Leeder
       party: Democratic
 TX-22:
@@ -2533,6 +2543,8 @@ TX-Sen:
       party: Democratic
     - name: Adrian Ocegueda
       party: Democratic
+    - name: Royce West
+      party: Democratic
 UT-01:
   pvi: R+26
   party: Republican
@@ -2602,6 +2614,8 @@ VA-10:
   party: Democratic
   candidates:
     - name: Jeff Dove
+      party: Republican
+    - name: Rob Jones
       party: Republican
 VA-11:
   pvi: D+15
