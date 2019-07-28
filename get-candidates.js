@@ -177,6 +177,7 @@ function processTable($, $table) {
                                     if (text === 'TBD') {
                                         return null;
                                     }
+                                    console.warn(rowData);
                                     throw new Error(`Unexpected format "${text}"`);
                                 }
                                 return {
