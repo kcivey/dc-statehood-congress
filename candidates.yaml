@@ -4,6 +4,8 @@ AK-AL:
   candidates:
     - name: Alyse Galvin
       party: Independent
+    - name: John Nelson
+      party: Republican
     - name: Don Young
       party: Republican
 AK-Sen:
@@ -49,8 +51,6 @@ AL-05:
   pvi: R+18
   party: Republican
   candidates:
-    - name: Mo Brooks
-      party: Republican
     - name: Chris Lewis
       party: Republican
 AL-06:
@@ -60,9 +60,7 @@ AL-06:
 AL-07:
   pvi: D+20
   party: Democratic
-  candidates:
-    - name: Terri Sewell
-      party: Democratic
+  candidates: []
 AL-Sen:
   party: Democratic
   candidates:
@@ -85,15 +83,11 @@ AL-Sen:
 AR-01:
   pvi: R+17
   party: Republican
-  candidates:
-    - name: Rick Crawford
-      party: Republican
+  candidates: []
 AR-02:
   pvi: R+7
   party: Republican
-  candidates:
-    - name: French Hill
-      party: Republican
+  candidates: []
 AR-03:
   pvi: R+19
   party: Republican
@@ -101,9 +95,7 @@ AR-03:
 AR-04:
   pvi: R+17
   party: Republican
-  candidates:
-    - name: Bruce Westerman
-      party: Republican
+  candidates: []
 AR-Sen:
   party: Republican
   candidates:
@@ -127,8 +119,6 @@ AZ-02:
   pvi: R+1
   party: Democratic
   candidates:
-    - name: Ann Kirkpatrick
-      party: Democratic
     - name: Brandon Martin
       party: Republican
     - name: James Morgan
@@ -140,29 +130,21 @@ AZ-02:
 AZ-03:
   pvi: D+13
   party: Democratic
-  candidates:
-    - name: Raul Grijalva
-      party: Democratic
+  candidates: []
 AZ-04:
   pvi: R+21
   party: Republican
-  candidates:
-    - name: Paul Gosar
-      party: Republican
+  candidates: []
 AZ-05:
   pvi: R+15
   party: Republican
   candidates:
-    - name: Andy Biggs
-      party: Republican
     - name: Joan Greene
       party: Democratic
 AZ-06:
   pvi: R+9
   party: Republican
   candidates:
-    - name: David Schweikert
-      party: Republican
     - name: Anita Malik
       party: Democratic
     - name: Hiral Tipirneni
@@ -172,15 +154,11 @@ AZ-06:
 AZ-07:
   pvi: D+23
   party: Democratic
-  candidates:
-    - name: Ruben Gallego
-      party: Democratic
+  candidates: []
 AZ-08:
   pvi: R+13
   party: Republican
   candidates:
-    - name: Debbie Lesko
-      party: Republican
     - name: Bob Musselwhite
       party: Democratic
     - name: Mike Muscato
@@ -189,8 +167,6 @@ AZ-09:
   pvi: D+4
   party: Democratic
   candidates:
-    - name: Greg Stanton
-      party: Democratic
     - name: Irina Baroness von Behr
       party: Independent
     - name: Dave Giles
@@ -375,7 +351,9 @@ CA-25:
 CA-26:
   pvi: D+7
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Ronda Baldwin-Kennedy
+      party: Republican
 CA-27:
   pvi: D+16
   party: Democratic
@@ -392,6 +370,8 @@ CA-28:
       party: Republican
     - name: Maebe A. Girl
       party: Democratic
+    - name: Jon Hollis
+      party: Republican
 CA-29:
   pvi: D+29
   party: Democratic
@@ -672,7 +652,11 @@ FL-01:
   pvi: R+22
   party: Republican
   candidates:
+    - name: Phil Ehr
+      party: Democratic
     - name: Matt Gaetz
+      party: Republican
+    - name: Chase Romagnano
       party: Republican
 FL-02:
   pvi: R+18
@@ -680,16 +664,28 @@ FL-02:
   candidates:
     - name: Neal Dunn
       party: Republican
+    - name: Connor Oswald
+      party: Democratic
+    - name: Franklin Schuler Jr.
+      party: Democratic
 FL-03:
   pvi: R+9
   party: Republican
   candidates:
+    - name: Joseph Millado
+      party: Republican
     - name: Amy Pope Wells
       party: Republican
+    - name: Tom Wells
+      party: Democratic
 FL-04:
   pvi: R+17
   party: Republican
   candidates:
+    - name: Monica DePaul
+      party: Democratic
+    - name: Gary Koniz
+      party: Democratic
     - name: John Rutherford
       party: Republican
 FL-05:
@@ -703,7 +699,9 @@ FL-05:
 FL-06:
   pvi: R+7
   party: Republican
-  candidates: []
+  candidates:
+    - name: Samuel Adams
+      party: Libertarian
 FL-07:
   pvi: EVEN
   party: Democratic
@@ -719,14 +717,22 @@ FL-07:
 FL-08:
   pvi: R+11
   party: Republican
-  candidates: []
+  candidates:
+    - name: Jim Kennedy
+      party: Democratic
+    - name: Bill Posey
+      party: Republican
 FL-09:
   pvi: D+5
   party: Democratic
   candidates:
-    - name: Sergio Garcia
-      party: Republican
+    - name: Gregory Andersen
+      party: Independent
+    - name: Anthony Davila
+      party: Independent
     - name: Bill Olson
+      party: Republican
+    - name: Sergio Ortiz
       party: Republican
     - name: Hendrith Smith Jr.
       party: Democratic
@@ -734,16 +740,36 @@ FL-10:
   pvi: D+11
   party: Democratic
   candidates:
+    - name: Roland McCoy
+      party: Democratic
     - name: Kirk Troen
       party: Republican
 FL-11:
   pvi: R+15
   party: Republican
-  candidates: []
+  candidates:
+    - name: Dana Cottrell
+      party: Democratic
+    - name: Timothy Devine
+      party: Republican
+    - name: James Henry
+      party: Democratic
+    - name: Jeff Rabinowitz
+      party: Democratic
+    - name: Daniel Webster
+      party: Republican
 FL-12:
   pvi: R+8
   party: Republican
-  candidates: []
+  candidates:
+    - name: Gus Bilirakis
+      party: Republican
+    - name: Michael Knezevich
+      party: Independent
+    - name: Zachary Smith
+      party: Republican
+    - name: Kimberly Walker
+      party: Democratic
 FL-13:
   pvi: D+2
   party: Democratic
@@ -752,6 +778,8 @@ FL-13:
       party: Republican
     - name: George Buck
       party: Republican
+    - name: Charlie Crist
+      party: Democratic
     - name: Sheila Griffin
       party: Republican
     - name: Amanda Makki
@@ -759,19 +787,31 @@ FL-13:
 FL-14:
   pvi: D+7
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Edgar Chase
+      party: Republican
+    - name: Alix Toulme Jr.
+      party: Democratic
+    - name: Robert Wunderlich Sr.
+      party: Independent
 FL-15:
   pvi: R+6
   party: Republican
   candidates:
-    - name: Ross Spano
-      party: Republican
     - name: Adam Hattersley
       party: Democratic
+    - name: Loretta Miller
+      party: Democratic
+    - name: Jesse Philippe
+      party: Democratic
+    - name: Ross Spano
+      party: Republican
 FL-16:
   pvi: R+7
   party: Republican
   candidates:
+    - name: Vern Buchanan
+      party: Republican
     - name: Margaret Good
       party: Democratic
 FL-17:
@@ -789,19 +829,27 @@ FL-18:
 FL-19:
   pvi: R+13
   party: Republican
-  candidates: []
+  candidates:
+    - name: Francis Rooney
+      party: Republican
 FL-20:
   pvi: D+31
   party: Democratic
   candidates:
     - name: Alcee Hastings
       party: Democratic
+    - name: Lateresa Jones
+      party: Republican
 FL-21:
   pvi: D+9
   party: Democratic
   candidates:
     - name: Christian Acosta
       party: Republican
+    - name: Michael Bluemling Jr.
+      party: Republican
+    - name: Lois Frankel
+      party: Democratic
     - name: Victor Garcia da Rosa
       party: Republican
     - name: Laura Loomer
@@ -809,19 +857,29 @@ FL-21:
 FL-22:
   pvi: D+6
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Omar Reyes
+      party: Independent
 FL-23:
   pvi: D+11
   party: Democratic
   candidates:
-    - name: Debbie Wasserman Schultz
-      party: Democratic
+    - name: Ilya Katz
+      party: Republican
     - name: Richard Mendelson
       party: Republican
+    - name: Jennifer Perelman
+      party: Democratic
+    - name: Debbie Wasserman Schultz
+      party: Democratic
 FL-24:
   pvi: D+34
   party: Democratic
   candidates:
+    - name: Howard Knepper
+      party: Republican
+    - name: Courtney Omega-Turner
+      party: Libertarian
     - name: Frederica Wilson
       party: Democratic
 FL-25:
@@ -1276,8 +1334,8 @@ KS-01:
   pvi: R+24
   party: Republican
   candidates:
-    - name: Roger Marshall
-      party: Republican
+    - name: Kali Barnett
+      party: Democratic
 KS-02:
   pvi: R+10
   party: Republican
@@ -1290,8 +1348,6 @@ KS-03:
   pvi: R+4
   party: Democratic
   candidates:
-    - name: Sharice Davids
-      party: Democratic
     - name: Sara Hart Weir
       party: Republican
 KS-04:
@@ -1501,8 +1557,6 @@ ME-Sen:
   candidates:
     - name: Michael Bunker
       party: Democratic
-    - name: Susan Collins
-      party: Republican
     - name: David Gibson
       party: Green
     - name: Sara Gideon
@@ -1921,6 +1975,8 @@ NJ-02:
     - name: Brian Fitzherbert
       party: Republican
     - name: Bob Patterson
+      party: Republican
+    - name: David Richter
       party: Republican
 NJ-03:
   pvi: R+2
