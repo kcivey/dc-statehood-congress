@@ -149,7 +149,7 @@ function processTable($, $table) {
                         candidates: rowData.Candidates.split('\n')
                             .map(
                                 function (text) {
-                                    const m = text.match(/^(.+?) \(([^)]+)\)/);
+                                    const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
                                     if (!m) {
                                         if (text === '') {
                                             return null;
@@ -172,7 +172,7 @@ function processTable($, $table) {
                         party: rowData.Party,
                         candidates: rowData.Candidates.split('\n').map(
                             function (text) {
-                                const m = text.match(/^(.+?) \(([^)]+)\)/);
+                                const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
                                 if (!m) {
                                     if (text === 'TBD') {
                                         return null;
