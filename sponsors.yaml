@@ -313,6 +313,15 @@ CA-38:
   uri: 'https://api.propublica.org/congress/v1/members/S001156.json'
   date: '2019-01-03'
   inOffice: true
+CA-39:
+  id: C001123
+  name: Gilbert Cisneros
+  title: Rep.
+  state: CA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/C001123.json'
+  date: '2019-08-16'
+  inOffice: true
 CA-40:
   id: R000486
   name: Lucille Roybal-Allard
@@ -1311,6 +1320,15 @@ NJ-03:
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/K000394.json'
   date: '2019-01-17'
+  inOffice: true
+NJ-05:
+  id: G000583
+  name: Josh Gottheimer
+  title: Rep.
+  state: NJ
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/G000583.json'
+  date: '2019-08-16'
   inOffice: true
 NJ-06:
   id: P000034
