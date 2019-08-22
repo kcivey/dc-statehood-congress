@@ -20,19 +20,19 @@
     "cache-manager": "^2.10.0",
     "cache-manager-fs": "^1.0.8",
     "cheerio": "^1.0.0-rc.3",
-    "dotenv": "^8.0.0",
-    "googleapis": "^41.0.1",
+    "dotenv": "^8.1.0",
+    "googleapis": "^42.0.0",
     "js-yaml": "^3.13.1",
-    "mongodb": "^3.2.7",
+    "mongodb": "^3.3.0",
     "propublica-congress": "github:kcivey/propublica-congress",
     "request": "^2.88.0",
     "request-plus": "^2.0.0",
     "underscore": "^1.9.1",
     "us-regions": "0.0.2",
-    "yargs": "^13.3.0"
+    "yargs": "^14.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^6.2.1",
     "eslint-config-google": "^0.13.0"
   }
 }
