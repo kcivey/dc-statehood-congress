@@ -84,8 +84,6 @@ AL-Sen:
       party: Republican
     - name: Roy Moore
       party: Republican
-    - name: John Rogers
-      party: Democratic
     - name: John Serbin
       party: Republican
     - name: Tommy Tuberville
@@ -639,6 +637,8 @@ CO-Sen:
       party: Democratic
     - name: Cory Gardner
       party: Republican
+    - name: John Hickenlooper
+      party: Democratic
     - name: Mike Johnston
       party: Democratic
     - name: Dustin Leitzel
@@ -1105,6 +1105,8 @@ IA-01:
   pvi: D+1
   party: Democratic
   candidates:
+    - name: Abby Finkenauer
+      party: Democratic
     - name: Thomas Hansen
       party: Republican
     - name: Ashley Hinson
@@ -1215,6 +1217,8 @@ IL-06:
   pvi: R+2
   party: Democratic
   candidates:
+    - name: Sean Casten
+      party: Democratic
     - name: Jeanne Ives
       party: Republican
     - name: Evelyn Sanguinetti
@@ -1254,7 +1258,9 @@ IL-11:
 IL-12:
   pvi: R+5
   party: Republican
-  candidates: []
+  candidates:
+    - name: Joel D. Funk
+      party: Democratic
 IL-13:
   pvi: R+3
   party: Republican
@@ -1269,6 +1275,8 @@ IL-14:
       party: Republican
     - name: Ted Gradel
       party: Republican
+    - name: Catalina Lauf
+      party: Republican
     - name: Danny Malouf
       party: Republican
     - name: James Marter
@@ -1282,11 +1290,15 @@ IL-14:
 IL-15:
   pvi: R+21
   party: Republican
-  candidates: []
+  candidates:
+    - name: 'John W. Hursey, Jr.'
+      party: Democratic
 IL-16:
   pvi: R+8
   party: Republican
-  candidates: []
+  candidates:
+    - name: Adam Kinzinger
+      party: Republican
 IL-17:
   pvi: D+3
   party: Democratic
@@ -1298,7 +1310,9 @@ IL-17:
 IL-18:
   pvi: R+15
   party: Republican
-  candidates: []
+  candidates:
+    - name: Darin LaHood
+      party: Republican
 IL-Sen:
   party: Democratic
   candidates:
@@ -1339,6 +1353,8 @@ IN-05:
   party: Republican
   candidates:
     - name: Micah Beckwith
+      party: Republican
+    - name: Steve Braun
       party: Republican
     - name: Jennifer Christie
       party: Democratic
@@ -1505,8 +1521,6 @@ MA-04:
   pvi: D+9
   party: Democratic
   candidates:
-    - name: Joe Kennedy III
-      party: Democratic
     - name: Ihssane Leckey
       party: Democratic
 MA-05:
@@ -1521,6 +1535,8 @@ MA-06:
       party: Democratic
     - name: Christopher Fisher
       party: Independent
+    - name: Seth Moulton
+      party: Democratic
     - name: Nathaniel Mulcahy
       party: Democratic
     - name: Lisa Peterson
@@ -1688,7 +1704,11 @@ MI-03:
 MI-04:
   pvi: R+10
   party: Republican
-  candidates: []
+  candidates:
+    - name: Anthony Feig
+      party: Democratic
+    - name: John Moolenaar
+      party: Republican
 MI-05:
   pvi: D+5
   party: Democratic
@@ -1794,6 +1814,8 @@ MN-07:
       party: Republican
     - name: Joel Novak
       party: Republican
+    - name: Collin Peterson
+      party: Democratic
 MN-08:
   pvi: R+4
   party: Republican
@@ -1804,6 +1826,8 @@ MN-Sen:
   party: Democratic
   candidates:
     - name: 'Rob Barrett, Jr.'
+      party: Republican
+    - name: Jason Lewis
       party: Republican
     - name: Tina Smith
       party: Democratic
@@ -1824,7 +1848,9 @@ MO-03:
 MO-04:
   pvi: R+17
   party: Republican
-  candidates: []
+  candidates:
+    - name: Erich Arvidson
+      party: Democratic
 MO-05:
   pvi: D+7
   party: Democratic
@@ -2216,6 +2242,8 @@ NV-03:
   pvi: R+2
   party: Democratic
   candidates:
+    - name: Daniel Rodimer
+      party: Republican
     - name: Dan Schwartz
       party: Republican
 NV-04:
