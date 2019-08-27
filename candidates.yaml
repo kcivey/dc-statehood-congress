@@ -1152,6 +1152,8 @@ IA-Sen:
   candidates:
     - name: Joni Ernst
       party: Republican
+    - name: Michael Franken
+      party: Democratic
     - name: Kimberly Graham
       party: Democratic
     - name: Theresa Greenfield
@@ -1582,8 +1584,14 @@ MD-02:
       party: Republican
     - name: Michael Feldman
       party: Democratic
+    - name: Genevieve Morris
+      party: Republican
+    - name: Jeff Northcott
+      party: Independent
     - name: Jake Pretot
       party: Democratic
+    - name: Johnny Ray Salling
+      party: Republican
 MD-03:
   pvi: D+13
   party: Democratic
@@ -1772,20 +1780,32 @@ MN-01:
       party: Republican
     - name: Dan Feehan
       party: Democratic
+    - name: Hans Gabriel Tinsley
+      party: Independent
 MN-02:
   pvi: R+2
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Angie Craig
+      party: Democratic
 MN-03:
   pvi: D+1
   party: Democratic
   candidates:
+    - name: Dean Phillips
+      party: Democratic
     - name: Kendall Qualls
       party: Republican
 MN-04:
   pvi: D+14
   party: Democratic
   candidates:
+    - name: Travis James Ekborn
+      party: Republican
+    - name: Betty McCollum
+      party: Democratic
+    - name: Greg Ryan
+      party: Republican
     - name: David Sandbeck
       party: Democratic
 MN-05:
@@ -1796,6 +1816,10 @@ MN-05:
       party: Republican
     - name: Chris Kelley
       party: Independent
+    - name: Katari Evan Miller
+      party: Democratic
+    - name: Ilhan Omar
+      party: Democratic
     - name: Danielle Stella
       party: Republican
     - name: Brent Whaley
@@ -2084,6 +2108,8 @@ NJ-01:
   candidates:
     - name: Josh Duvall
       party: Republican
+    - name: Donald Norcross
+      party: Democratic
 NJ-02:
   pvi: R+1
   party: Democratic
@@ -2094,15 +2120,25 @@ NJ-02:
       party: Republican
     - name: David Richter
       party: Republican
+    - name: Jeff Van Drew
+      party: Democratic
 NJ-03:
   pvi: R+2
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Andy Kim
+      party: Democratic
 NJ-04:
   pvi: R+8
   party: Republican
   candidates:
     - name: David Applefield
+      party: Democratic
+    - name: Christine Conforti
+      party: Democratic
+    - name: Tiffany Kaszuba
+      party: Democratic
+    - name: Stephanie Schmid
       party: Democratic
     - name: Chris Smith
       party: Republican
@@ -2127,6 +2163,8 @@ NJ-06:
   party: Democratic
   candidates:
     - name: Russell Cirincione
+      party: Democratic
+    - name: John Hsu
       party: Democratic
     - name: Javahn Walker
       party: Democratic
@@ -2156,8 +2194,14 @@ NJ-10:
   pvi: D+36
   party: Democratic
   candidates:
+    - name: John Flora
+      party: Democratic
     - name: Stephen Green
       party: Democratic
+    - name: Eugene Mazo
+      party: Democratic
+    - name: Ana Rivera
+      party: Republican
 NJ-11:
   pvi: R+3
   party: Democratic
@@ -2165,7 +2209,9 @@ NJ-11:
 NJ-12:
   pvi: D+16
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Mark Razzoli
+      party: Republican
 NJ-Sen:
   party: Democratic
   candidates:
@@ -2197,10 +2243,12 @@ NM-03:
   pvi: D+8
   party: Democratic
   candidates:
-    - name: Robert Apodaca
-      party: Democratic
     - name: Dineh Benally
       party: Democratic
+    - name: John Blair
+      party: Democratic
+    - name: Audra Lee Brown
+      party: Republican
     - name: Gavin Kaiser
       party: Democratic
     - name: Teresa Leger de Fernandez
@@ -2214,6 +2262,8 @@ NM-03:
     - name: Joseph L. Sanchez
       party: Democratic
     - name: Marco Serna
+      party: Democratic
+    - name: Kyle Tisdel
       party: Democratic
 NM-Sen:
   party: Democratic
@@ -2289,7 +2339,9 @@ NY-03:
 NY-04:
   pvi: D+4
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Dave LeBlanc
+      party: Democratic
 NY-05:
   pvi: D+37
   party: Democratic
@@ -2421,7 +2473,13 @@ NY-18:
 NY-19:
   pvi: R+2
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Anthony German
+      party: Republican
+    - name: Ola Hawatmeh
+      party: Republican
+    - name: Mike Roth
+      party: Republican
 NY-20:
   pvi: D+7
   party: Democratic
@@ -2440,6 +2498,8 @@ NY-22:
   pvi: R+6
   party: Democratic
   candidates:
+    - name: Anthony Brindisi
+      party: Democratic
     - name: Steve Cornwell
       party: Republican
     - name: George Phillips
@@ -2466,6 +2526,8 @@ NY-24:
       party: Democratic
     - name: Francis Conole
       party: Democratic
+    - name: John Katko
+      party: Republican
     - name: Roger Misso
       party: Democratic
 NY-25:
@@ -2484,6 +2546,8 @@ NY-27:
       party: Republican
     - name: Nate McMurray
       party: Democratic
+    - name: Rob Ortt
+      party: Republican
     - name: Beth Parlato
       party: Republican
     - name: Duane Whitmer
@@ -2635,6 +2699,8 @@ OR-04:
   candidates:
     - name: Doyle Canning
       party: Democratic
+    - name: Peter DeFazio
+      party: Democratic
     - name: Jo Rae Perkins
       party: Republican
     - name: Alek Skarlatos
@@ -2683,13 +2749,17 @@ PA-05:
 PA-06:
   pvi: D+2
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Tom Siedenbuehl
+      party: Republican
 PA-07:
   pvi: D+1
   party: Democratic
   candidates:
     - name: Dean Browning
       party: Republican
+    - name: Darryl Hendricks
+      party: Democratic
 PA-08:
   pvi: R+1
   party: Democratic
@@ -2699,13 +2769,17 @@ PA-08:
 PA-09:
   pvi: R+14
   party: Republican
-  candidates: []
+  candidates:
+    - name: Ben Hornberger
+      party: Republican
 PA-10:
   pvi: R+6
   party: Republican
   candidates:
     - name: Tom Brier
       party: Democratic
+    - name: Bobby Jeffries
+      party: Republican
     - name: Eugene DePasquale
       party: Democratic
 PA-11:
@@ -2737,15 +2811,19 @@ PA-16:
 PA-17:
   pvi: R+3
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Scott Timko
+      party: Republican
 PA-18:
   pvi: D+13
   party: Democratic
   candidates:
     - name: Gerald Dickinson
       party: Democratic
-    - name: Don Nevills
+    - name: Kimberly Mack
       party: Republican
+    - name: Don Nevills
+      party: Independent
 RI-01:
   pvi: D+16
   party: Democratic
@@ -2828,6 +2906,8 @@ SD-AL:
   candidates:
     - name: Dusty Johnson
       party: Republican
+    - name: Brian Wirth
+      party: Democratic
 SD-Sen:
   party: Republican
   candidates:
@@ -2846,15 +2926,21 @@ TN-01:
 TN-02:
   pvi: R+20
   party: Republican
-  candidates: []
+  candidates:
+    - name: Renee Hoyos
+      party: Democratic
 TN-03:
   pvi: R+18
   party: Republican
-  candidates: []
+  candidates:
+    - name: Chuck Fleischmann
+      party: Republican
 TN-04:
   pvi: R+20
   party: Republican
-  candidates: []
+  candidates:
+    - name: Scott DesJarlais
+      party: Republican
 TN-05:
   pvi: D+7
   party: Democratic
@@ -3050,6 +3136,8 @@ TX-22:
       party: Democratic
     - name: Derrick Reed
       party: Democratic
+    - name: Kathaleen Wall
+      party: Republican
     - name: Joe Walz
       party: Republican
 TX-23:
@@ -3205,6 +3293,8 @@ UT-01:
   candidates:
     - name: Tina Cannon
       party: Republican
+    - name: Katie Witt
+      party: Republican
 UT-02:
   pvi: R+16
   party: Republican
@@ -3213,6 +3303,8 @@ UT-02:
       party: Republican
     - name: Tyler Jensen
       party: Republican
+    - name: Larry Livingston
+      party: Democratic
     - name: Chris Stewart
       party: Republican
 UT-03:
@@ -3389,10 +3481,14 @@ WI-05:
 WI-06:
   pvi: R+8
   party: Republican
-  candidates: []
+  candidates:
+    - name: Matt Boor
+      party: Democratic
+    - name: Melissa McClintick
+      party: Republican
 WI-07:
   pvi: R+8
-  party: Republican
+  party: TBD
   candidates: []
 WI-08:
   pvi: R+7
