@@ -91,7 +91,9 @@ AL-Sen:
 AR-01:
   pvi: R+17
   party: Republican
-  candidates: []
+  candidates:
+    - name: Rick Crawford
+      party: Republican
 AR-02:
   pvi: R+7
   party: Republican
@@ -119,6 +121,8 @@ AZ-01:
   pvi: R+2
   party: Democratic
   candidates:
+    - name: Barbara McGuire
+      party: Democratic
     - name: Tom O'Halleran
       party: Democratic
     - name: Eva Putzova
@@ -173,6 +177,8 @@ AZ-07:
   pvi: D+23
   party: Democratic
   candidates:
+    - name: Josh Barnett
+      party: Republican
     - name: Ruben Gallego
       party: Democratic
     - name: Chris Hindle
@@ -184,6 +190,8 @@ AZ-08:
     - name: Bob Musselwhite
       party: Democratic
     - name: Mike Muscato
+      party: Democratic
+    - name: Bob Olsen
       party: Democratic
 AZ-09:
   pvi: D+4
@@ -239,7 +247,7 @@ CA-05:
   party: Democratic
   candidates:
     - name: Jason Kishineff
-      party: Democratic
+      party: Green
 CA-06:
   pvi: D+21
   party: Democratic
@@ -260,6 +268,10 @@ CA-08:
   candidates:
     - name: Chris Bubser
       party: Democratic
+    - name: Destiny Lovato
+      party: Republican
+    - name: Peter Mathisen
+      party: No Party Preference
 CA-09:
   pvi: D+8
   party: Democratic
@@ -664,7 +676,11 @@ CT-01:
 CT-02:
   pvi: D+3
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Justin Anderson
+      party: Republican
+    - name: Tommy Gilmer
+      party: Republican
 CT-03:
   pvi: D+9
   party: Democratic
@@ -677,6 +693,8 @@ CT-05:
   pvi: D+2
   party: Democratic
   candidates:
+    - name: Ruben Rodriguez
+      party: Republican
     - name: David X. Sullivan
       party: Republican
 DE-AL:
@@ -729,6 +747,8 @@ FL-04:
   party: Republican
   candidates:
     - name: Monica DePaul
+      party: Democratic
+    - name: Christopher Eagle
       party: Democratic
     - name: Gary Koniz
       party: Democratic
@@ -840,6 +860,8 @@ FL-14:
   pvi: D+7
   party: Democratic
   candidates:
+    - name: Jeremy Brown
+      party: Republican
     - name: Edgar Chase
       party: Republican
     - name: Alix Toulme Jr.
@@ -900,6 +922,8 @@ FL-21:
       party: Republican
     - name: Michael Bluemling Jr.
       party: Republican
+    - name: Liz Felton
+      party: Republican
     - name: Lois Frankel
       party: Democratic
     - name: Victor Garcia da Rosa
@@ -930,6 +954,8 @@ FL-24:
   candidates:
     - name: Howard Knepper
       party: Republican
+    - name: Christine Olivo
+      party: Democratic
     - name: Courtney Omega-Turner
       party: Libertarian
     - name: Frederica Wilson
@@ -1078,23 +1104,13 @@ GA-14:
   candidates: []
 GA-Sen:
   party: Republican
-  candidates:
-    - name: Akhenaten Amun
-      party: Democratic
-    - name: Marckeith DeJesus
-      party: Democratic
-    - name: David Perdue
-      party: Republican
-    - name: Ted Terry
-      party: Democratic
-    - name: Teresa Tomlinson
-      party: Democratic
-    - name: Elaine Wigham
-      party: Democratic
+  candidates: []
 HI-01:
   pvi: D+17
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Ed Case
+      party: Democratic
 HI-02:
   pvi: D+19
   party: Democratic
@@ -1187,6 +1203,8 @@ IL-01:
   candidates:
     - name: Robert Emmons Jr.
       party: Democratic
+    - name: Sarah Gad
+      party: Democratic
     - name: Ameena Matthews
       party: Democratic
 IL-02:
@@ -1248,13 +1266,13 @@ IL-09:
 IL-10:
   pvi: D+10
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Valerie Mukherjee
+      party: Republican
 IL-11:
   pvi: D+9
   party: Democratic
   candidates:
-    - name: Valerie Mukherjee
-      party: Republican
     - name: Rachel Ventura
       party: Democratic
 IL-12:
@@ -1340,6 +1358,8 @@ IN-02:
   candidates:
     - name: Pat Hackett
       party: Democratic
+    - name: Ellen Marks
+      party: Democratic
 IN-03:
   pvi: R+18
   party: Republican
@@ -1362,6 +1382,10 @@ IN-05:
       party: Democratic
     - name: Christina Hale
       party: Democratic
+    - name: Andrew Jacobs
+      party: Democratic
+    - name: Kelly Mitchell
+      party: Republican
     - name: Danny Niederberger
       party: Republican
     - name: Dee Thornton
@@ -1446,7 +1470,9 @@ KY-03:
 KY-04:
   pvi: R+18
   party: Republican
-  candidates: []
+  candidates:
+    - name: Alexandra Owensby
+      party: Democratic
 KY-05:
   pvi: R+31
   party: Republican
@@ -1491,7 +1517,9 @@ LA-04:
 LA-05:
   pvi: R+15
   party: Republican
-  candidates: []
+  candidates:
+    - name: Candy Cristophe
+      party: Democratic
 LA-06:
   pvi: R+19
   party: Republican
@@ -1627,7 +1655,9 @@ MD-05:
 MD-06:
   pvi: D+6
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Neil Parrott
+      party: Republican
 MD-07:
   pvi: D+26
   party: Democratic
@@ -1640,12 +1670,16 @@ MD-08:
   pvi: D+14
   party: Democratic
   candidates:
+    - name: Jamie Raskin
+      party: Democratic
     - name: Michael Yadeta
       party: Republican
 ME-01:
   pvi: D+8
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Jay Allen
+      party: Republican
 ME-02:
   pvi: R+2
   party: Democratic
@@ -1745,6 +1779,8 @@ MI-10:
   candidates:
     - name: Kimberly Bizon
       party: Democratic
+    - name: Kelly Noland
+      party: Democratic
 MI-11:
   pvi: R+4
   party: Democratic
@@ -1840,6 +1876,8 @@ MN-07:
       party: Republican
     - name: Collin Peterson
       party: Democratic
+    - name: Jayesun Sherman
+      party: Republican
 MN-08:
   pvi: R+4
   party: Republican
@@ -2235,6 +2273,8 @@ NM-02:
   pvi: R+6
   party: Democratic
   candidates:
+    - name: Claire Chase
+      party: Republican
     - name: Yvette Herrell
       party: Republican
     - name: Chris Mathys
@@ -2320,6 +2360,8 @@ NY-01:
   candidates:
     - name: Perry Gershon
       party: Democratic
+    - name: David Gokshtein
+      party: Independent
     - name: Nancy Goroff
       party: Democratic
 NY-02:
@@ -2328,12 +2370,18 @@ NY-02:
   candidates:
     - name: Jackie Gordon
       party: Democratic
+    - name: Mike Sax
+      party: Democratic
 NY-03:
   pvi: D+1
   party: Democratic
   candidates:
     - name: Melanie D’Arrigo
       party: Democratic
+    - name: Daniel Craig Ross
+      party: Independent
+    - name: Joshua Sauberman
+      party: Independent
     - name: Michael Weinstock
       party: Democratic
 NY-04:
@@ -2352,12 +2400,18 @@ NY-06:
   pvi: D+16
   party: Democratic
   candidates:
+    - name: Sandra Choi
+      party: Democratic
+    - name: Matthew DiBono
+      party: Democratic
     - name: Melquiades Gagarin
       party: Democratic
 NY-07:
   pvi: D+38
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Avery Pereira
+      party: Republican
 NY-08:
   pvi: D+36
   party: Democratic
@@ -2366,7 +2420,11 @@ NY-09:
   pvi: D+34
   party: Democratic
   candidates:
+    - name: Joel Azumah
+      party: Independent
     - name: Adem Bunkeddeko
+      party: Democratic
+    - name: Alexander Hubbard
       party: Democratic
     - name: Isiah James
       party: Democratic
@@ -2374,12 +2432,16 @@ NY-10:
   pvi: D+26
   party: Democratic
   candidates:
+    - name: Lindsey Boylan
+      party: Democratic
     - name: Amanda Frankel
       party: Democratic
     - name: Jonathan Herzog
       party: Democratic
     - name: Holly Lynch
       party: Democratic
+    - name: Jeanne Nigro
+      party: Republican
 NY-11:
   pvi: R+3
   party: Democratic
@@ -2412,8 +2474,12 @@ NY-14:
   candidates:
     - name: John Cummings
       party: Republican
+    - name: James Dillon
+      party: Democratic
     - name: Miguel Hernandez
       party: Republican
+    - name: Badrun Khan
+      party: Democratic
     - name: Scherie Murray
       party: Republican
     - name: Ruth Papazian
@@ -2428,11 +2494,17 @@ NY-15:
   pvi: D+44
   party: Democratic
   candidates:
+    - name: Frangell Basora
+      party: Democratic
     - name: Michael Blake
       party: Democratic
     - name: Marlene Cintron
       party: Democratic
+    - name: Patrick Delices
+      party: Republican
     - name: Rubén Díaz Sr.
+      party: Democratic
+    - name: David Franks
       party: Democratic
     - name: Melissa Mark-Viverito
       party: Democratic
@@ -2460,6 +2532,10 @@ NY-17:
   pvi: D+7
   party: Democratic
   candidates:
+    - name: Jarred Buchanan
+      party: Republican
+    - name: Luz Casanova
+      party: Democratic
     - name: Mondaire Jones
       party: Democratic
 NY-18:
@@ -2533,7 +2609,9 @@ NY-24:
 NY-25:
   pvi: D+8
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Robin Wilt
+      party: Democratic
 NY-26:
   pvi: D+11
   party: Democratic
@@ -2806,6 +2884,8 @@ PA-16:
   pvi: R+8
   party: Republican
   candidates:
+    - name: Mike Kelly
+      party: Republican
     - name: 'Daniel Smith, Jr.'
       party: Democratic
 PA-17:
