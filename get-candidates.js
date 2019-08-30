@@ -151,7 +151,7 @@ function processTable($, $table) {
                                 function (text) {
                                     const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
                                     if (!m) {
-                                        if (text === '') {
+                                        if (text === '' || text === 'TBD') {
                                             return null;
                                         }
                                         throw new Error(`Unexpected format "${text}"`);
@@ -174,7 +174,7 @@ function processTable($, $table) {
                             function (text) {
                                 const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
                                 if (!m) {
-                                    if (text === 'TBD') {
+                                    if (text === '' || text === 'TBD') {
                                         return null;
                                     }
                                     console.warn(rowData);
