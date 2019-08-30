@@ -205,7 +205,7 @@ AZ-09:
       party: Republican
     - name: Tim Taylor
       party: Republican
-AZ-Sen:
+AZ-Sen-S:
   party: Republican
   candidates:
     - name: Mohammad Arif
@@ -1103,6 +1103,21 @@ GA-14:
   party: Republican
   candidates: []
 GA-Sen:
+  party: Republican
+  candidates:
+    - name: Akhenaten Amun
+      party: Democratic
+    - name: Marckeith DeJesus
+      party: Democratic
+    - name: David Perdue
+      party: Republican
+    - name: Ted Terry
+      party: Democratic
+    - name: Teresa Tomlinson
+      party: Democratic
+    - name: Elaine Wigham
+      party: Democratic
+GA-Sen-S:
   party: Republican
   candidates: []
 HI-01:
