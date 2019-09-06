@@ -135,63 +135,52 @@ function processTable($, $table) {
                 columnIndex++;
             }
             if (!inHeader) {
+                let code;
                 if (rowData.Location) {
                     expectedDistrict++;
-                    const code = makeRaceCode(rowData.Location);
+                    code = makeRaceCode(rowData.Location);
                     if (code.substr(-2) !== 'AL') {
                         assert.strictEqual(expectedDistrict, +code.substr(-2),
                             `Expected ${expectedDistrict} for ${code}`);
                     }
-                    tableData.push({
-                        code,
-                        pvi: rowData['2017 PVI'],
-                        party: rowData.Party,
-                        candidates: rowData.Candidates.split('\n')
-                            .map(
-                                function (text) {
-                                    const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
-                                    if (!m) {
-                                        if (text === '' || text === 'TBD') {
-                                            return null;
-                                        }
-                                        throw new Error(`Unexpected format "${text}"`);
-                                    }
-                                    return {
-                                        name: m[1],
-                                        party: m[2],
-                                    };
-                                }
-                            )
-                            .filter(v => !!v),
-                    });
                 }
                 else if (rowData['State (linked to summaries below)']) {
-                    const code = makeRaceCode(rowData['State (linked to summaries below)']);
-                    tableData.push({
-                        code,
-                        party: rowData.Party,
-                        candidates: rowData.Candidates.split('\n').map(
-                            function (text) {
-                                const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
-                                if (!m) {
-                                    if (text === '' || text === 'TBD') {
-                                        return null;
-                                    }
-                                    console.warn(rowData);
-                                    throw new Error(`Unexpected format "${text}"`);
-                                }
-                                return {
-                                    name: m[1],
-                                    party: m[2],
-                                };
-                            })
-                            .filter(v => !!v),
-                    });
+                    code = makeRaceCode(rowData['State (linked to summaries below)']);
                 }
+                tableData.push(makeRecord(code, rowData));
             }
         }
     );
     return tableData;
+}
+
+function makeRecord(code, rowData) {
+    const record = {
+        code,
+        pvi: rowData['2017 PVI'],
+        party: rowData.Party,
+        candidates: rowData.Candidates.split('\n')
+            .map(
+                function (text) {
+                    const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
+                    if (!m) {
+                        if (/^(?:TBD|None yet)?$/) {
+                            return null;
+                        }
+                        throw new Error(`Unexpected format "${text}"`);
+                    }
+                    return {
+                        name: m[1],
+                        party: m[2],
+                    };
+                }
+            )
+            .filter(v => !!v),
+    };
+    if (record.pvi === undefined) {
+        delete record.pvi;
+    }
+    return record;
 }
 
 function writeData(data) {
