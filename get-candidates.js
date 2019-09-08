@@ -164,7 +164,7 @@ function makeRecord(code, rowData) {
                 function (text) {
                     const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
                     if (!m) {
-                        if (/^(?:TBD|None yet)?$/) {
+                        if (/^(?:TBD|TBA|None yet)?$/.test(text)) {
                             return null;
                         }
                         throw new Error(`Unexpected format "${text}"`);
