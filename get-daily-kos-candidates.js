@@ -36,7 +36,7 @@ const candidateProperties = [
     'Lgbtq',
 ];
 
-processData().then(results => console.log('Done'));
+processData().then((/* results */) => console.log('Done'));
 
 function processData() {
     const sheets = google.sheets({version: 'v4', auth: apiKey});
