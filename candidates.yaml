@@ -1013,7 +1013,9 @@ GA-01:
 GA-02:
   pvi: D+6
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Sanford Bishop
+      party: Democratic
 GA-03:
   pvi: R+18
   party: Republican
@@ -1340,6 +1342,8 @@ IL-15:
   candidates:
     - name: 'John W. Hursey, Jr.'
       party: Democratic
+    - name: Alex Walker
+      party: Republican
 IL-16:
   pvi: R+8
   party: Republican
@@ -1575,9 +1579,7 @@ MA-01:
 MA-02:
   pvi: D+9
   party: Democratic
-  candidates:
-    - name: Summer Miller
-      party: Democratic
+  candidates: []
 MA-03:
   pvi: D+9
   party: Democratic
@@ -1591,7 +1593,9 @@ MA-04:
 MA-05:
   pvi: D+18
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Raffaele DePalma
+      party: Democratic
 MA-06:
   pvi: D+6
   party: Democratic
@@ -3354,6 +3358,8 @@ TX-31:
     - name: Murray Holcomb
       party: Democratic
     - name: Donna Imam
+      party: Democratic
+    - name: Dan Janjigian
       party: Democratic
     - name: Omar Kadir
       party: Democratic
