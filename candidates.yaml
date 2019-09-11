@@ -1123,6 +1123,8 @@ GA-Sen:
       party: Democratic
     - name: Marckeith DeJesus
       party: Democratic
+    - name: Jon Ossoff
+      party: Democratic
     - name: David Perdue
       party: Republican
     - name: Ted Terry
@@ -1132,7 +1134,7 @@ GA-Sen:
     - name: Elaine Wigham
       party: Democratic
 GA-Sen-S:
-  party: Republican
+  party: TBD
   candidates: []
 HI-01:
   pvi: D+17
@@ -1738,8 +1740,6 @@ ME-Sen:
       party: Democratic
     - name: Bre Kidman
       party: Democratic
-    - name: Derek Levasseur
-      party: Republican
     - name: Max Linn
       party: Republican
     - name: Betsy Sweet
@@ -2048,7 +2048,7 @@ NC-02:
       party: Democratic
 NC-03:
   pvi: R+12
-  party: TBD
+  party: Republican
   candidates: []
 NC-04:
   pvi: D+17
@@ -2088,7 +2088,7 @@ NC-08:
       party: Democratic
 NC-09:
   pvi: R+8
-  party: TBD
+  party: Republican
   candidates: []
 NC-10:
   pvi: R+12

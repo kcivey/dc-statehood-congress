@@ -2104,6 +2104,15 @@ WA-07:
   uri: 'https://api.propublica.org/congress/v1/members/J000298.json'
   date: '2019-01-03'
   inOffice: true
+WA-08:
+  id: S001216
+  name: Kim Schrier
+  title: Rep.
+  state: WA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/S001216.json'
+  date: '2019-09-10'
+  inOffice: true
 WA-09:
   id: S000510
   name: Adam Smith
