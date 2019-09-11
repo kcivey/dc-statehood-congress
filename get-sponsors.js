@@ -13,11 +13,10 @@ const argv = require('yargs')
     })
     .strict(true)
     .argv;
+const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL); // eslint-disable-line global-require
 const currentCongress = 116;
 const ppc = require('propublica-congress').create(process.env.PROPUBLICA_API_KEY, currentCongress);
 const makeRaceCode = require('./lib/utils').makeRaceCode;
-
-const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL);
 
 getMembers()
     .then(function (members) {

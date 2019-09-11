@@ -16,7 +16,7 @@ const argv = require('yargs')
     .argv;
 const request = require('./lib/request');
 const makeRaceCode = require('./lib/utils').makeRaceCode;
-const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL);
+const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL); // eslint-disable-line global-require
 const urls = [
     'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2020',
     'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
@@ -52,10 +52,10 @@ function processPage(url) {
                         races.map(
                             function (race) {
                                 const names = race.candidates.map(c => c.name);
-                                return db ?
-                                    db.find('sponsors', {code: race.code, name: {$in: names}})
-                                        .then(cursor => cursor.toArray()) :
-                                    null;
+                                return db
+                                    ? db.find('sponsors', {code: race.code, name: {$in: names}})
+                                        .then(cursor => cursor.toArray())
+                                    : null;
                             }
                         )
                     )
@@ -75,10 +75,10 @@ function processPage(url) {
                         };
                     }
                 );
-                const promise = db ?
-                    db.createIndex('races', {code: 1}, {unique: true})
-                        .then(() => db.bulkWrite('races', operations)) :
-                    Promise.resolve();
+                const promise = db
+                    ? db.createIndex('races', {code: 1}, {unique: true})
+                        .then(() => db.bulkWrite('races', operations))
+                    : Promise.resolve();
                 return promise.then(() => races);
             }
         );
@@ -86,8 +86,17 @@ function processPage(url) {
 
 function processTable($, $table) {
     let headerRows = 1;
-    const text1 = $table.find('tr').eq(0).find('th').eq(0).text().replace(/\s+/g, ' ').trim();
-    const text2 = $table.find('tr').eq(1).find('th').eq(0).text().trim();
+    const text1 = $table.find('tr').eq(0)
+        .find('th')
+        .eq(0)
+        .text()
+        .replace(/\s+/g, ' ')
+        .trim();
+    const text2 = $table.find('tr').eq(1)
+        .find('th')
+        .eq(0)
+        .text()
+        .trim();
     if (text1 === 'District' && text2 === 'Location') {
         headerRows = 2;
     }
@@ -112,7 +121,8 @@ function processTable($, $table) {
                     const $cell = $(cell);
                     let colspan = +$cell.attr('colspan') || 1;
                     const rowspan = +$cell.attr('rowspan') || 1;
-                    const text = $(cell).text().trim();
+                    const text = $(cell).text()
+                        .trim();
                     while (rowspans[columnIndex]) {
                         rowspans[columnIndex]--;
                         columnIndex++;
@@ -121,7 +131,7 @@ function processTable($, $table) {
                         rowspans[columnIndex] = rowspan - 1;
                         if (inHeader) {
                             heads[columnIndex] = text.replace(/\s+/g, ' ')
-                                .replace(/\s*\[[^\]]+\]/g, '');
+                                .replace(/\s*\[[^\]]+]/g, '');
                         }
                         else {
                             rowData[heads[columnIndex]] = text;
@@ -140,8 +150,11 @@ function processTable($, $table) {
                     expectedDistrict++;
                     code = makeRaceCode(rowData.Location);
                     if (code.substr(-2) !== 'AL') {
-                        assert.strictEqual(expectedDistrict, +code.substr(-2),
-                            `Expected ${expectedDistrict} for ${code}`);
+                        assert.strictEqual(
+                            expectedDistrict,
+                            +code.substr(-2),
+                            `Expected ${expectedDistrict} for ${code}`
+                        );
                     }
                 }
                 else if (rowData['State (linked to summaries below)']) {

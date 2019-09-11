@@ -45,7 +45,7 @@ function processData() {
             .map(
                 function (sheetName) {
                     const raceProperties = racePropertiesBySheet[sheetName];
-                    sheets.spreadsheets.values
+                    return sheets.spreadsheets.values
                         .get({
                             spreadsheetId: '1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w',
                             range: sheetName,
