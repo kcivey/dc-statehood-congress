@@ -514,8 +514,6 @@ CA-45:
   pvi: R+3
   party: Democratic
   candidates:
-    - name: Ray Gennawey
-      party: Republican
     - name: Peggy Huang
       party: Republican
     - name: Greg Raths
@@ -653,8 +651,6 @@ CO-07:
 CO-Sen:
   party: Republican
   candidates:
-    - name: Dan Baer
-      party: Democratic
     - name: Diana Bray
       party: Democratic
     - name: Ellen Burnes
@@ -672,8 +668,6 @@ CO-Sen:
     - name: Andrew Romanoff
       party: Democratic
     - name: Stephany Rose Spaulding
-      party: Democratic
-    - name: John F. Walsh
       party: Democratic
     - name: Michelle Ferrigno Warren
       party: Democratic
@@ -1119,6 +1113,8 @@ GA-14:
 GA-Sen:
   party: Republican
   candidates:
+    - name: Sarah Riggs Amico
+      party: Democratic
     - name: Akhenaten Amun
       party: Democratic
     - name: Marckeith DeJesus
@@ -1453,6 +1449,10 @@ KS-01:
   candidates:
     - name: Kali Barnett
       party: Democratic
+    - name: William Clifford
+      party: Republican
+    - name: Tracey Mann
+      party: Republican
 KS-02:
   pvi: R+10
   party: Republican
@@ -1911,6 +1911,8 @@ MN-07:
   pvi: R+12
   party: Democratic
   candidates:
+    - name: Noel Collis
+      party: Republican
     - name: Michelle Fischbach
       party: Republican
     - name: Dave Hughes
@@ -2314,6 +2316,8 @@ NM-01:
   pvi: D+7
   party: Democratic
   candidates:
+    - name: Deb Haaland
+      party: Democratic
     - name: Cameron Chick
       party: Democratic
     - name: Brett Kokinadis
@@ -2883,6 +2887,8 @@ PA-06:
   candidates:
     - name: Tom Siedenbuehl
       party: Republican
+    - name: Chrissy Houlahan
+      party: Democratic
 PA-07:
   pvi: D+1
   party: Democratic
@@ -2947,6 +2953,8 @@ PA-17:
   candidates:
     - name: Scott Timko
       party: Republican
+    - name: Conor Lamb
+      party: Democratic
 PA-18:
   pvi: D+13
   party: Democratic
@@ -3160,7 +3168,9 @@ TX-07:
 TX-08:
   pvi: R+28
   party: Republican
-  candidates: []
+  candidates:
+    - name: Kevin Brady
+      party: Republican
 TX-09:
   pvi: D+29
   party: Democratic
@@ -3526,6 +3536,8 @@ VA-Sen:
   party: Democratic
   candidates:
     - name: Alissa Baldwin
+      party: Republican
+    - name: Daniel Gade
       party: Republican
     - name: Scott Taylor
       party: Republican
