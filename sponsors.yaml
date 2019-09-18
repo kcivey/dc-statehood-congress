@@ -1,4 +1,4 @@
-AL-07:
+- code: AL-07
   id: S001185
   name: Terri Sewell
   title: Rep.
@@ -7,7 +7,7 @@ AL-07:
   uri: 'https://api.propublica.org/congress/v1/members/S001185.json'
   date: '2019-01-03'
   inOffice: true
-AZ-02:
+- code: AZ-02
   id: K000368
   name: Ann Kirkpatrick
   title: Rep.
@@ -16,7 +16,7 @@ AZ-02:
   uri: 'https://api.propublica.org/congress/v1/members/K000368.json'
   date: '2019-02-04'
   inOffice: true
-AZ-03:
+- code: AZ-03
   id: G000551
   name: Raúl M. Grijalva
   title: Rep.
@@ -25,7 +25,7 @@ AZ-03:
   uri: 'https://api.propublica.org/congress/v1/members/G000551.json'
   date: '2019-01-03'
   inOffice: true
-AZ-07:
+- code: AZ-07
   id: G000574
   name: Ruben Gallego
   title: Rep.
@@ -34,7 +34,7 @@ AZ-07:
   uri: 'https://api.propublica.org/congress/v1/members/G000574.json'
   date: '2019-01-03'
   inOffice: true
-CA-02:
+- code: CA-02
   id: H001068
   name: Jared Huffman
   title: Rep.
@@ -43,7 +43,7 @@ CA-02:
   uri: 'https://api.propublica.org/congress/v1/members/H001068.json'
   date: '2019-01-03'
   inOffice: true
-CA-03:
+- code: CA-03
   id: G000559
   name: John Garamendi
   title: Rep.
@@ -52,7 +52,7 @@ CA-03:
   uri: 'https://api.propublica.org/congress/v1/members/G000559.json'
   date: '2019-01-25'
   inOffice: true
-CA-05:
+- code: CA-05
   id: T000460
   name: Mike Thompson
   title: Rep.
@@ -61,7 +61,7 @@ CA-05:
   uri: 'https://api.propublica.org/congress/v1/members/T000460.json'
   date: '2019-01-03'
   inOffice: true
-CA-06:
+- code: CA-06
   id: M001163
   name: Doris Matsui
   title: Rep.
@@ -70,7 +70,7 @@ CA-06:
   uri: 'https://api.propublica.org/congress/v1/members/M001163.json'
   date: '2019-01-03'
   inOffice: true
-CA-07:
+- code: CA-07
   id: B001287
   name: Ami Bera
   title: Rep.
@@ -79,7 +79,7 @@ CA-07:
   uri: 'https://api.propublica.org/congress/v1/members/B001287.json'
   date: '2019-06-12'
   inOffice: true
-CA-09:
+- code: CA-09
   id: M001166
   name: Jerry McNerney
   title: Rep.
@@ -88,7 +88,7 @@ CA-09:
   uri: 'https://api.propublica.org/congress/v1/members/M001166.json'
   date: '2019-01-03'
   inOffice: true
-CA-10:
+- code: CA-10
   id: H001090
   name: Josh Harder
   title: Rep.
@@ -97,7 +97,7 @@ CA-10:
   uri: 'https://api.propublica.org/congress/v1/members/H001090.json'
   date: '2019-06-25'
   inOffice: true
-CA-11:
+- code: CA-11
   id: D000623
   name: Mark DeSaulnier
   title: Rep.
@@ -106,7 +106,7 @@ CA-11:
   uri: 'https://api.propublica.org/congress/v1/members/D000623.json'
   date: '2019-01-03'
   inOffice: true
-CA-13:
+- code: CA-13
   id: L000551
   name: Barbara Lee
   title: Rep.
@@ -115,7 +115,7 @@ CA-13:
   uri: 'https://api.propublica.org/congress/v1/members/L000551.json'
   date: '2019-01-03'
   inOffice: true
-CA-14:
+- code: CA-14
   id: S001175
   name: Jackie Speier
   title: Rep.
@@ -124,7 +124,7 @@ CA-14:
   uri: 'https://api.propublica.org/congress/v1/members/S001175.json'
   date: '2019-01-03'
   inOffice: true
-CA-15:
+- code: CA-15
   id: S001193
   name: Eric Swalwell
   title: Rep.
@@ -133,7 +133,7 @@ CA-15:
   uri: 'https://api.propublica.org/congress/v1/members/S001193.json'
   date: '2019-01-03'
   inOffice: true
-CA-17:
+- code: CA-17
   id: K000389
   name: Ro Khanna
   title: Rep.
@@ -142,7 +142,7 @@ CA-17:
   uri: 'https://api.propublica.org/congress/v1/members/K000389.json'
   date: '2019-01-03'
   inOffice: true
-CA-18:
+- code: CA-18
   id: E000215
   name: Anna G. Eshoo
   title: Rep.
@@ -151,7 +151,7 @@ CA-18:
   uri: 'https://api.propublica.org/congress/v1/members/E000215.json'
   date: '2019-01-03'
   inOffice: true
-CA-19:
+- code: CA-19
   id: L000397
   name: Zoe Lofgren
   title: Rep.
@@ -160,7 +160,7 @@ CA-19:
   uri: 'https://api.propublica.org/congress/v1/members/L000397.json'
   date: '2019-01-03'
   inOffice: true
-CA-20:
+- code: CA-20
   id: P000613
   name: Jimmy Panetta
   title: Rep.
@@ -169,7 +169,7 @@ CA-20:
   uri: 'https://api.propublica.org/congress/v1/members/P000613.json'
   date: '2019-01-03'
   inOffice: true
-CA-21:
+- code: CA-21
   id: C001124
   name: TJ Cox
   title: Rep.
@@ -178,7 +178,7 @@ CA-21:
   uri: 'https://api.propublica.org/congress/v1/members/C001124.json'
   date: '2019-01-08'
   inOffice: true
-CA-24:
+- code: CA-24
   id: C001112
   name: Salud Carbajal
   title: Rep.
@@ -187,7 +187,7 @@ CA-24:
   uri: 'https://api.propublica.org/congress/v1/members/C001112.json'
   date: '2019-01-03'
   inOffice: true
-CA-25:
+- code: CA-25
   id: H001087
   name: Katie Hill
   title: Rep.
@@ -196,7 +196,7 @@ CA-25:
   uri: 'https://api.propublica.org/congress/v1/members/H001087.json'
   date: '2019-01-08'
   inOffice: true
-CA-26:
+- code: CA-26
   id: B001285
   name: Julia Brownley
   title: Rep.
@@ -205,7 +205,7 @@ CA-26:
   uri: 'https://api.propublica.org/congress/v1/members/B001285.json'
   date: '2019-01-03'
   inOffice: true
-CA-27:
+- code: CA-27
   id: C001080
   name: Judy Chu
   title: Rep.
@@ -214,7 +214,7 @@ CA-27:
   uri: 'https://api.propublica.org/congress/v1/members/C001080.json'
   date: '2019-01-03'
   inOffice: true
-CA-28:
+- code: CA-28
   id: S001150
   name: Adam B. Schiff
   title: Rep.
@@ -223,7 +223,7 @@ CA-28:
   uri: 'https://api.propublica.org/congress/v1/members/S001150.json'
   date: '2019-01-03'
   inOffice: true
-CA-29:
+- code: CA-29
   id: C001097
   name: Tony Cárdenas
   title: Rep.
@@ -232,7 +232,7 @@ CA-29:
   uri: 'https://api.propublica.org/congress/v1/members/C001097.json'
   date: '2019-01-03'
   inOffice: true
-CA-30:
+- code: CA-30
   id: S000344
   name: Brad Sherman
   title: Rep.
@@ -241,7 +241,7 @@ CA-30:
   uri: 'https://api.propublica.org/congress/v1/members/S000344.json'
   date: '2019-01-03'
   inOffice: true
-CA-31:
+- code: CA-31
   id: A000371
   name: Pete Aguilar
   title: Rep.
@@ -250,7 +250,7 @@ CA-31:
   uri: 'https://api.propublica.org/congress/v1/members/A000371.json'
   date: '2019-01-08'
   inOffice: true
-CA-32:
+- code: CA-32
   id: N000179
   name: Grace F. Napolitano
   title: Rep.
@@ -259,7 +259,7 @@ CA-32:
   uri: 'https://api.propublica.org/congress/v1/members/N000179.json'
   date: '2019-01-03'
   inOffice: true
-CA-33:
+- code: CA-33
   id: L000582
   name: Ted Lieu
   title: Rep.
@@ -268,7 +268,7 @@ CA-33:
   uri: 'https://api.propublica.org/congress/v1/members/L000582.json'
   date: '2019-01-03'
   inOffice: true
-CA-34:
+- code: CA-34
   id: G000585
   name: Jimmy Gomez
   title: Rep.
@@ -277,7 +277,7 @@ CA-34:
   uri: 'https://api.propublica.org/congress/v1/members/G000585.json'
   date: '2019-01-03'
   inOffice: true
-CA-35:
+- code: CA-35
   id: T000474
   name: Norma Torres
   title: Rep.
@@ -286,7 +286,7 @@ CA-35:
   uri: 'https://api.propublica.org/congress/v1/members/T000474.json'
   date: '2019-01-03'
   inOffice: true
-CA-36:
+- code: CA-36
   id: R000599
   name: Raul Ruiz
   title: Rep.
@@ -295,7 +295,7 @@ CA-36:
   uri: 'https://api.propublica.org/congress/v1/members/R000599.json'
   date: '2019-06-13'
   inOffice: true
-CA-37:
+- code: CA-37
   id: B001270
   name: Karen Bass
   title: Rep.
@@ -304,7 +304,7 @@ CA-37:
   uri: 'https://api.propublica.org/congress/v1/members/B001270.json'
   date: '2019-01-03'
   inOffice: true
-CA-38:
+- code: CA-38
   id: S001156
   name: Linda T. Sánchez
   title: Rep.
@@ -313,7 +313,7 @@ CA-38:
   uri: 'https://api.propublica.org/congress/v1/members/S001156.json'
   date: '2019-01-03'
   inOffice: true
-CA-39:
+- code: CA-39
   id: C001123
   name: Gilbert Cisneros
   title: Rep.
@@ -322,7 +322,7 @@ CA-39:
   uri: 'https://api.propublica.org/congress/v1/members/C001123.json'
   date: '2019-08-16'
   inOffice: true
-CA-40:
+- code: CA-40
   id: R000486
   name: Lucille Roybal-Allard
   title: Rep.
@@ -331,7 +331,7 @@ CA-40:
   uri: 'https://api.propublica.org/congress/v1/members/R000486.json'
   date: '2019-01-03'
   inOffice: true
-CA-41:
+- code: CA-41
   id: T000472
   name: Mark Takano
   title: Rep.
@@ -340,7 +340,7 @@ CA-41:
   uri: 'https://api.propublica.org/congress/v1/members/T000472.json'
   date: '2019-01-03'
   inOffice: true
-CA-43:
+- code: CA-43
   id: W000187
   name: Maxine Waters
   title: Rep.
@@ -349,7 +349,7 @@ CA-43:
   uri: 'https://api.propublica.org/congress/v1/members/W000187.json'
   date: '2019-01-03'
   inOffice: true
-CA-44:
+- code: CA-44
   id: B001300
   name: Nanette Barragán
   title: Rep.
@@ -358,7 +358,7 @@ CA-44:
   uri: 'https://api.propublica.org/congress/v1/members/B001300.json'
   date: '2019-01-03'
   inOffice: true
-CA-45:
+- code: CA-45
   id: P000618
   name: Katie Porter
   title: Rep.
@@ -367,7 +367,7 @@ CA-45:
   uri: 'https://api.propublica.org/congress/v1/members/P000618.json'
   date: '2019-01-09'
   inOffice: true
-CA-46:
+- code: CA-46
   id: C001110
   name: J. Luis Correa
   title: Rep.
@@ -376,7 +376,7 @@ CA-46:
   uri: 'https://api.propublica.org/congress/v1/members/C001110.json'
   date: '2019-01-03'
   inOffice: true
-CA-47:
+- code: CA-47
   id: L000579
   name: Alan Lowenthal
   title: Rep.
@@ -385,7 +385,7 @@ CA-47:
   uri: 'https://api.propublica.org/congress/v1/members/L000579.json'
   date: '2019-01-03'
   inOffice: true
-CA-48:
+- code: CA-48
   id: R000616
   name: Harley Rouda
   title: Rep.
@@ -394,7 +394,7 @@ CA-48:
   uri: 'https://api.propublica.org/congress/v1/members/R000616.json'
   date: '2019-01-22'
   inOffice: true
-CA-49:
+- code: CA-49
   id: L000593
   name: Mike Levin
   title: Rep.
@@ -403,7 +403,7 @@ CA-49:
   uri: 'https://api.propublica.org/congress/v1/members/L000593.json'
   date: '2019-03-05'
   inOffice: true
-CA-51:
+- code: CA-51
   id: V000130
   name: Juan Vargas
   title: Rep.
@@ -412,7 +412,7 @@ CA-51:
   uri: 'https://api.propublica.org/congress/v1/members/V000130.json'
   date: '2019-01-03'
   inOffice: true
-CA-52:
+- code: CA-52
   id: P000608
   name: Scott Peters
   title: Rep.
@@ -421,7 +421,7 @@ CA-52:
   uri: 'https://api.propublica.org/congress/v1/members/P000608.json'
   date: '2019-01-03'
   inOffice: true
-CA-53:
+- code: CA-53
   id: D000598
   name: Susan A. Davis
   title: Rep.
@@ -430,7 +430,7 @@ CA-53:
   uri: 'https://api.propublica.org/congress/v1/members/D000598.json'
   date: '2019-01-03'
   inOffice: true
-CA-Sen:
+- code: CA-Sen
   id: H001075
   name: Kamala Harris
   title: Sen.
@@ -439,7 +439,7 @@ CA-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/H001075.json'
   date: '2019-02-28'
   inOffice: true
-CO-01:
+- code: CO-01
   id: D000197
   name: Diana DeGette
   title: Rep.
@@ -448,7 +448,7 @@ CO-01:
   uri: 'https://api.propublica.org/congress/v1/members/D000197.json'
   date: '2019-01-03'
   inOffice: true
-CO-02:
+- code: CO-02
   id: N000191
   name: Joe Neguse
   title: Rep.
@@ -457,7 +457,7 @@ CO-02:
   uri: 'https://api.propublica.org/congress/v1/members/N000191.json'
   date: '2019-01-09'
   inOffice: true
-CO-06:
+- code: CO-06
   id: C001121
   name: Jason Crow
   title: Rep.
@@ -466,7 +466,7 @@ CO-06:
   uri: 'https://api.propublica.org/congress/v1/members/C001121.json'
   date: '2019-01-16'
   inOffice: true
-CO-07:
+- code: CO-07
   id: P000593
   name: Ed Perlmutter
   title: Rep.
@@ -475,7 +475,7 @@ CO-07:
   uri: 'https://api.propublica.org/congress/v1/members/P000593.json'
   date: '2019-01-03'
   inOffice: true
-CO-Sen:
+- code: CO-Sen
   id: B001267
   name: Michael Bennet
   title: Sen.
@@ -484,7 +484,7 @@ CO-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/B001267.json'
   date: '2019-02-28'
   inOffice: true
-CT-01:
+- code: CT-01
   id: L000557
   name: John B. Larson
   title: Rep.
@@ -493,7 +493,7 @@ CT-01:
   uri: 'https://api.propublica.org/congress/v1/members/L000557.json'
   date: '2019-01-03'
   inOffice: true
-CT-02:
+- code: CT-02
   id: C001069
   name: Joe Courtney
   title: Rep.
@@ -502,7 +502,7 @@ CT-02:
   uri: 'https://api.propublica.org/congress/v1/members/C001069.json'
   date: '2019-01-03'
   inOffice: true
-CT-03:
+- code: CT-03
   id: D000216
   name: Rosa DeLauro
   title: Rep.
@@ -511,7 +511,7 @@ CT-03:
   uri: 'https://api.propublica.org/congress/v1/members/D000216.json'
   date: '2019-01-03'
   inOffice: true
-CT-04:
+- code: CT-04
   id: H001047
   name: Jim Himes
   title: Rep.
@@ -520,7 +520,7 @@ CT-04:
   uri: 'https://api.propublica.org/congress/v1/members/H001047.json'
   date: '2019-01-03'
   inOffice: true
-CT-05:
+- code: CT-05
   id: H001081
   name: Jahana Hayes
   title: Rep.
@@ -529,7 +529,7 @@ CT-05:
   uri: 'https://api.propublica.org/congress/v1/members/H001081.json'
   date: '2019-06-05'
   inOffice: true
-CT-Sen:
+- code: CT-Sen
   id: M001169
   name: Christopher S. Murphy
   title: Sen.
@@ -538,7 +538,16 @@ CT-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/M001169.json'
   date: '2019-02-28'
   inOffice: true
-DC-AL:
+- code: CT-Sen
+  id: B001277
+  name: Richard Blumenthal
+  title: Sen.
+  state: CT
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/B001277.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: DC-AL
   id: N000147
   name: Eleanor Holmes Norton
   title: Del.
@@ -547,7 +556,7 @@ DC-AL:
   uri: 'https://api.propublica.org/congress/v1/members/N000147.json'
   date: '2019-01-03'
   inOffice: true
-DE-AL:
+- code: DE-AL
   id: B001303
   name: Lisa Blunt Rochester
   title: Rep.
@@ -556,7 +565,7 @@ DE-AL:
   uri: 'https://api.propublica.org/congress/v1/members/B001303.json'
   date: '2019-01-03'
   inOffice: true
-DE-Sen:
+- code: DE-Sen
   id: C001088
   name: Christopher A. Coons
   title: Sen.
@@ -565,7 +574,16 @@ DE-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/C001088.json'
   date: '2019-02-28'
   inOffice: true
-FL-05:
+- code: DE-Sen
+  id: C000174
+  name: Thomas R. Carper
+  title: Sen.
+  state: DE
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/C000174.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: FL-05
   id: L000586
   name: Al Lawson
   title: Rep.
@@ -574,7 +592,7 @@ FL-05:
   uri: 'https://api.propublica.org/congress/v1/members/L000586.json'
   date: '2019-01-03'
   inOffice: true
-FL-07:
+- code: FL-07
   id: M001202
   name: Stephanie Murphy
   title: Rep.
@@ -583,7 +601,7 @@ FL-07:
   uri: 'https://api.propublica.org/congress/v1/members/M001202.json'
   date: '2019-01-03'
   inOffice: true
-FL-09:
+- code: FL-09
   id: S001200
   name: Darren Soto
   title: Rep.
@@ -592,7 +610,7 @@ FL-09:
   uri: 'https://api.propublica.org/congress/v1/members/S001200.json'
   date: '2019-01-03'
   inOffice: true
-FL-10:
+- code: FL-10
   id: D000627
   name: Val Demings
   title: Rep.
@@ -601,7 +619,7 @@ FL-10:
   uri: 'https://api.propublica.org/congress/v1/members/D000627.json'
   date: '2019-01-03'
   inOffice: true
-FL-13:
+- code: FL-13
   id: C001111
   name: Charlie Crist
   title: Rep.
@@ -610,7 +628,7 @@ FL-13:
   uri: 'https://api.propublica.org/congress/v1/members/C001111.json'
   date: '2019-01-03'
   inOffice: true
-FL-14:
+- code: FL-14
   id: C001066
   name: Kathy Castor
   title: Rep.
@@ -619,7 +637,7 @@ FL-14:
   uri: 'https://api.propublica.org/congress/v1/members/C001066.json'
   date: '2019-01-03'
   inOffice: true
-FL-20:
+- code: FL-20
   id: H000324
   name: Alcee L. Hastings
   title: Rep.
@@ -628,7 +646,7 @@ FL-20:
   uri: 'https://api.propublica.org/congress/v1/members/H000324.json'
   date: '2019-01-03'
   inOffice: true
-FL-21:
+- code: FL-21
   id: F000462
   name: Lois Frankel
   title: Rep.
@@ -637,7 +655,7 @@ FL-21:
   uri: 'https://api.propublica.org/congress/v1/members/F000462.json'
   date: '2019-01-03'
   inOffice: true
-FL-22:
+- code: FL-22
   id: D000610
   name: Ted Deutch
   title: Rep.
@@ -646,7 +664,7 @@ FL-22:
   uri: 'https://api.propublica.org/congress/v1/members/D000610.json'
   date: '2019-01-03'
   inOffice: true
-FL-23:
+- code: FL-23
   id: W000797
   name: Debbie Wasserman Schultz
   title: Rep.
@@ -655,7 +673,7 @@ FL-23:
   uri: 'https://api.propublica.org/congress/v1/members/W000797.json'
   date: '2019-01-03'
   inOffice: true
-FL-24:
+- code: FL-24
   id: W000808
   name: Frederica Wilson
   title: Rep.
@@ -664,7 +682,7 @@ FL-24:
   uri: 'https://api.propublica.org/congress/v1/members/W000808.json'
   date: '2019-01-03'
   inOffice: true
-FL-26:
+- code: FL-26
   id: M001207
   name: Debbie Mucarsel-Powell
   title: Rep.
@@ -673,7 +691,7 @@ FL-26:
   uri: 'https://api.propublica.org/congress/v1/members/M001207.json'
   date: '2019-01-17'
   inOffice: true
-FL-27:
+- code: FL-27
   id: S001206
   name: Donna Shalala
   title: Rep.
@@ -682,7 +700,7 @@ FL-27:
   uri: 'https://api.propublica.org/congress/v1/members/S001206.json'
   date: '2019-02-28'
   inOffice: true
-GA-02:
+- code: GA-02
   id: B000490
   name: Sanford D. Bishop Jr.
   title: Rep.
@@ -691,7 +709,7 @@ GA-02:
   uri: 'https://api.propublica.org/congress/v1/members/B000490.json'
   date: '2019-01-03'
   inOffice: true
-GA-04:
+- code: GA-04
   id: J000288
   name: Hank Johnson
   title: Rep.
@@ -700,7 +718,7 @@ GA-04:
   uri: 'https://api.propublica.org/congress/v1/members/J000288.json'
   date: '2019-01-03'
   inOffice: true
-GA-05:
+- code: GA-05
   id: L000287
   name: John Lewis
   title: Rep.
@@ -709,7 +727,7 @@ GA-05:
   uri: 'https://api.propublica.org/congress/v1/members/L000287.json'
   date: '2019-01-03'
   inOffice: true
-GA-06:
+- code: GA-06
   id: M001208
   name: Lucy McBath
   title: Rep.
@@ -718,7 +736,7 @@ GA-06:
   uri: 'https://api.propublica.org/congress/v1/members/M001208.json'
   date: '2019-06-11'
   inOffice: true
-GA-13:
+- code: GA-13
   id: S001157
   name: David Scott
   title: Rep.
@@ -727,7 +745,7 @@ GA-13:
   uri: 'https://api.propublica.org/congress/v1/members/S001157.json'
   date: '2019-01-03'
   inOffice: true
-GU-AL:
+- code: GU-AL
   id: S001204
   name: Michael San Nicolas
   title: Del.
@@ -736,7 +754,7 @@ GU-AL:
   uri: 'https://api.propublica.org/congress/v1/members/S001204.json'
   date: '2019-02-13'
   inOffice: true
-HI-01:
+- code: HI-01
   id: C001055
   name: Ed Case
   title: Rep.
@@ -745,7 +763,7 @@ HI-01:
   uri: 'https://api.propublica.org/congress/v1/members/C001055.json'
   date: '2019-01-15'
   inOffice: true
-HI-02:
+- code: HI-02
   id: G000571
   name: Tulsi Gabbard
   title: Rep.
@@ -754,7 +772,7 @@ HI-02:
   uri: 'https://api.propublica.org/congress/v1/members/G000571.json'
   date: '2019-01-22'
   inOffice: true
-HI-Sen:
+- code: HI-Sen
   id: S001194
   name: Brian Schatz
   title: Sen.
@@ -763,7 +781,16 @@ HI-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/S001194.json'
   date: '2019-02-28'
   inOffice: true
-IA-01:
+- code: HI-Sen
+  id: H001042
+  name: Mazie K. Hirono
+  title: Sen.
+  state: HI
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/H001042.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: IA-01
   id: F000467
   name: Abby Finkenauer
   title: Rep.
@@ -772,7 +799,7 @@ IA-01:
   uri: 'https://api.propublica.org/congress/v1/members/F000467.json'
   date: '2019-04-12'
   inOffice: true
-IA-02:
+- code: IA-02
   id: L000565
   name: Dave Loebsack
   title: Rep.
@@ -781,7 +808,7 @@ IA-02:
   uri: 'https://api.propublica.org/congress/v1/members/L000565.json'
   date: '2019-01-03'
   inOffice: true
-IL-01:
+- code: IL-01
   id: R000515
   name: Bobby L. Rush
   title: Rep.
@@ -790,7 +817,7 @@ IL-01:
   uri: 'https://api.propublica.org/congress/v1/members/R000515.json'
   date: '2019-01-03'
   inOffice: true
-IL-02:
+- code: IL-02
   id: K000385
   name: Robin Kelly
   title: Rep.
@@ -799,7 +826,7 @@ IL-02:
   uri: 'https://api.propublica.org/congress/v1/members/K000385.json'
   date: '2019-01-03'
   inOffice: true
-IL-03:
+- code: IL-03
   id: L000563
   name: Daniel Lipinski
   title: Rep.
@@ -808,7 +835,7 @@ IL-03:
   uri: 'https://api.propublica.org/congress/v1/members/L000563.json'
   date: '2019-01-03'
   inOffice: true
-IL-04:
+- code: IL-04
   id: G000586
   name: Jesús García
   title: Rep.
@@ -817,7 +844,7 @@ IL-04:
   uri: 'https://api.propublica.org/congress/v1/members/G000586.json'
   date: '2019-01-10'
   inOffice: true
-IL-05:
+- code: IL-05
   id: Q000023
   name: Mike Quigley
   title: Rep.
@@ -826,7 +853,7 @@ IL-05:
   uri: 'https://api.propublica.org/congress/v1/members/Q000023.json'
   date: '2019-01-03'
   inOffice: true
-IL-06:
+- code: IL-06
   id: C001117
   name: Sean Casten
   title: Rep.
@@ -835,7 +862,7 @@ IL-06:
   uri: 'https://api.propublica.org/congress/v1/members/C001117.json'
   date: '2019-02-04'
   inOffice: true
-IL-07:
+- code: IL-07
   id: D000096
   name: Danny K. Davis
   title: Rep.
@@ -844,7 +871,7 @@ IL-07:
   uri: 'https://api.propublica.org/congress/v1/members/D000096.json'
   date: '2019-01-03'
   inOffice: true
-IL-08:
+- code: IL-08
   id: K000391
   name: Raja Krishnamoorthi
   title: Rep.
@@ -853,7 +880,7 @@ IL-08:
   uri: 'https://api.propublica.org/congress/v1/members/K000391.json'
   date: '2019-01-03'
   inOffice: true
-IL-09:
+- code: IL-09
   id: S001145
   name: Jan Schakowsky
   title: Rep.
@@ -862,7 +889,7 @@ IL-09:
   uri: 'https://api.propublica.org/congress/v1/members/S001145.json'
   date: '2019-01-03'
   inOffice: true
-IL-10:
+- code: IL-10
   id: S001190
   name: Brad Schneider
   title: Rep.
@@ -871,7 +898,7 @@ IL-10:
   uri: 'https://api.propublica.org/congress/v1/members/S001190.json'
   date: '2019-04-29'
   inOffice: true
-IL-11:
+- code: IL-11
   id: F000454
   name: Bill Foster
   title: Rep.
@@ -880,7 +907,7 @@ IL-11:
   uri: 'https://api.propublica.org/congress/v1/members/F000454.json'
   date: '2019-01-03'
   inOffice: true
-IL-14:
+- code: IL-14
   id: U000040
   name: Lauren Underwood
   title: Rep.
@@ -889,7 +916,7 @@ IL-14:
   uri: 'https://api.propublica.org/congress/v1/members/U000040.json'
   date: '2019-01-08'
   inOffice: true
-IL-17:
+- code: IL-17
   id: B001286
   name: Cheri Bustos
   title: Rep.
@@ -898,7 +925,7 @@ IL-17:
   uri: 'https://api.propublica.org/congress/v1/members/B001286.json'
   date: '2019-01-03'
   inOffice: true
-IL-Sen:
+- code: IL-Sen
   id: D000563
   name: Richard J. Durbin
   title: Sen.
@@ -907,7 +934,16 @@ IL-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/D000563.json'
   date: '2019-02-28'
   inOffice: true
-IN-07:
+- code: IL-Sen
+  id: D000622
+  name: Tammy Duckworth
+  title: Sen.
+  state: IL
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/D000622.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: IN-07
   id: C001072
   name: André Carson
   title: Rep.
@@ -916,7 +952,7 @@ IN-07:
   uri: 'https://api.propublica.org/congress/v1/members/C001072.json'
   date: '2019-01-03'
   inOffice: true
-KS-03:
+- code: KS-03
   id: D000629
   name: Sharice Davids
   title: Rep.
@@ -925,7 +961,7 @@ KS-03:
   uri: 'https://api.propublica.org/congress/v1/members/D000629.json'
   date: '2019-03-11'
   inOffice: true
-KY-03:
+- code: KY-03
   id: Y000062
   name: John Yarmuth
   title: Rep.
@@ -934,7 +970,7 @@ KY-03:
   uri: 'https://api.propublica.org/congress/v1/members/Y000062.json'
   date: '2019-01-03'
   inOffice: true
-LA-02:
+- code: LA-02
   id: R000588
   name: Cedric Richmond
   title: Rep.
@@ -943,7 +979,7 @@ LA-02:
   uri: 'https://api.propublica.org/congress/v1/members/R000588.json'
   date: '2019-01-03'
   inOffice: true
-MA-01:
+- code: MA-01
   id: N000015
   name: Richard E. Neal
   title: Rep.
@@ -952,7 +988,7 @@ MA-01:
   uri: 'https://api.propublica.org/congress/v1/members/N000015.json'
   date: '2019-01-03'
   inOffice: true
-MA-02:
+- code: MA-02
   id: M000312
   name: Jim McGovern
   title: Rep.
@@ -961,7 +997,7 @@ MA-02:
   uri: 'https://api.propublica.org/congress/v1/members/M000312.json'
   date: '2019-01-03'
   inOffice: true
-MA-03:
+- code: MA-03
   id: T000482
   name: Lori Trahan
   title: Rep.
@@ -970,7 +1006,7 @@ MA-03:
   uri: 'https://api.propublica.org/congress/v1/members/T000482.json'
   date: '2019-01-16'
   inOffice: true
-MA-04:
+- code: MA-04
   id: K000379
   name: Joseph P. Kennedy III
   title: Rep.
@@ -979,7 +1015,7 @@ MA-04:
   uri: 'https://api.propublica.org/congress/v1/members/K000379.json'
   date: '2019-01-08'
   inOffice: true
-MA-05:
+- code: MA-05
   id: C001101
   name: Katherine Clark
   title: Rep.
@@ -988,7 +1024,7 @@ MA-05:
   uri: 'https://api.propublica.org/congress/v1/members/C001101.json'
   date: '2019-01-03'
   inOffice: true
-MA-06:
+- code: MA-06
   id: M001196
   name: Seth Moulton
   title: Rep.
@@ -997,7 +1033,7 @@ MA-06:
   uri: 'https://api.propublica.org/congress/v1/members/M001196.json'
   date: '2019-01-03'
   inOffice: true
-MA-07:
+- code: MA-07
   id: P000617
   name: Ayanna Pressley
   title: Rep.
@@ -1006,7 +1042,7 @@ MA-07:
   uri: 'https://api.propublica.org/congress/v1/members/P000617.json'
   date: '2019-01-10'
   inOffice: true
-MA-08:
+- code: MA-08
   id: L000562
   name: Stephen F. Lynch
   title: Rep.
@@ -1015,7 +1051,7 @@ MA-08:
   uri: 'https://api.propublica.org/congress/v1/members/L000562.json'
   date: '2019-01-03'
   inOffice: true
-MA-09:
+- code: MA-09
   id: K000375
   name: Bill Keating
   title: Rep.
@@ -1024,7 +1060,16 @@ MA-09:
   uri: 'https://api.propublica.org/congress/v1/members/K000375.json'
   date: '2019-01-03'
   inOffice: true
-MA-Sen:
+- code: MA-Sen
+  id: M000133
+  name: Edward J. Markey
+  title: Sen.
+  state: MA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/M000133.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: MA-Sen
   id: W000817
   name: Elizabeth Warren
   title: Sen.
@@ -1033,7 +1078,7 @@ MA-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/W000817.json'
   date: '2019-02-28'
   inOffice: true
-MD-02:
+- code: MD-02
   id: R000576
   name: C.A. Dutch Ruppersberger
   title: Rep.
@@ -1042,7 +1087,7 @@ MD-02:
   uri: 'https://api.propublica.org/congress/v1/members/R000576.json'
   date: '2019-01-03'
   inOffice: true
-MD-03:
+- code: MD-03
   id: S001168
   name: John Sarbanes
   title: Rep.
@@ -1051,7 +1096,7 @@ MD-03:
   uri: 'https://api.propublica.org/congress/v1/members/S001168.json'
   date: '2019-01-03'
   inOffice: true
-MD-04:
+- code: MD-04
   id: B001304
   name: Anthony Brown
   title: Rep.
@@ -1060,7 +1105,7 @@ MD-04:
   uri: 'https://api.propublica.org/congress/v1/members/B001304.json'
   date: '2019-01-03'
   inOffice: true
-MD-05:
+- code: MD-05
   id: H000874
   name: Steny H. Hoyer
   title: Rep.
@@ -1069,7 +1114,7 @@ MD-05:
   uri: 'https://api.propublica.org/congress/v1/members/H000874.json'
   date: '2019-06-04'
   inOffice: true
-MD-06:
+- code: MD-06
   id: T000483
   name: David Trone
   title: Rep.
@@ -1078,7 +1123,7 @@ MD-06:
   uri: 'https://api.propublica.org/congress/v1/members/T000483.json'
   date: '2019-01-08'
   inOffice: true
-MD-07:
+- code: MD-07
   id: C000984
   name: Elijah E. Cummings
   title: Rep.
@@ -1087,7 +1132,7 @@ MD-07:
   uri: 'https://api.propublica.org/congress/v1/members/C000984.json'
   date: '2019-01-03'
   inOffice: true
-MD-08:
+- code: MD-08
   id: R000606
   name: Jamie Raskin
   title: Rep.
@@ -1096,7 +1141,16 @@ MD-08:
   uri: 'https://api.propublica.org/congress/v1/members/R000606.json'
   date: '2019-01-03'
   inOffice: true
-MD-Sen:
+- code: MD-Sen
+  id: C000141
+  name: Benjamin L. Cardin
+  title: Sen.
+  state: MD
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/C000141.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: MD-Sen
   id: V000128
   name: Chris Van Hollen
   title: Sen.
@@ -1105,7 +1159,7 @@ MD-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/V000128.json'
   date: '2019-02-28'
   inOffice: true
-ME-01:
+- code: ME-01
   id: P000597
   name: Chellie Pingree
   title: Rep.
@@ -1114,7 +1168,7 @@ ME-01:
   uri: 'https://api.propublica.org/congress/v1/members/P000597.json'
   date: '2019-01-03'
   inOffice: true
-MI-05:
+- code: MI-05
   id: K000380
   name: Dan Kildee
   title: Rep.
@@ -1123,7 +1177,7 @@ MI-05:
   uri: 'https://api.propublica.org/congress/v1/members/K000380.json'
   date: '2019-01-03'
   inOffice: true
-MI-09:
+- code: MI-09
   id: L000592
   name: Andy Levin
   title: Rep.
@@ -1132,7 +1186,7 @@ MI-09:
   uri: 'https://api.propublica.org/congress/v1/members/L000592.json'
   date: '2019-01-08'
   inOffice: true
-MI-11:
+- code: MI-11
   id: S001215
   name: Haley Stevens
   title: Rep.
@@ -1141,7 +1195,7 @@ MI-11:
   uri: 'https://api.propublica.org/congress/v1/members/S001215.json'
   date: '2019-02-14'
   inOffice: true
-MI-12:
+- code: MI-12
   id: D000624
   name: Debbie Dingell
   title: Rep.
@@ -1150,7 +1204,7 @@ MI-12:
   uri: 'https://api.propublica.org/congress/v1/members/D000624.json'
   date: '2019-01-03'
   inOffice: true
-MI-13:
+- code: MI-13
   id: T000481
   name: Rashida Tlaib
   title: Rep.
@@ -1159,7 +1213,7 @@ MI-13:
   uri: 'https://api.propublica.org/congress/v1/members/T000481.json'
   date: '2019-01-08'
   inOffice: true
-MI-14:
+- code: MI-14
   id: L000581
   name: Brenda Lawrence
   title: Rep.
@@ -1168,7 +1222,7 @@ MI-14:
   uri: 'https://api.propublica.org/congress/v1/members/L000581.json'
   date: '2019-01-03'
   inOffice: true
-MN-03:
+- code: MN-03
   id: P000616
   name: Dean Phillips
   title: Rep.
@@ -1177,7 +1231,7 @@ MN-03:
   uri: 'https://api.propublica.org/congress/v1/members/P000616.json'
   date: '2019-04-08'
   inOffice: true
-MN-04:
+- code: MN-04
   id: M001143
   name: Betty McCollum
   title: Rep.
@@ -1186,7 +1240,7 @@ MN-04:
   uri: 'https://api.propublica.org/congress/v1/members/M001143.json'
   date: '2019-01-03'
   inOffice: true
-MN-05:
+- code: MN-05
   id: O000173
   name: Ilhan Omar
   title: Rep.
@@ -1195,7 +1249,16 @@ MN-05:
   uri: 'https://api.propublica.org/congress/v1/members/O000173.json'
   date: '2019-01-08'
   inOffice: true
-MN-Sen:
+- code: MN-Sen
+  id: K000367
+  name: Amy Klobuchar
+  title: Sen.
+  state: MN
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/K000367.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: MN-Sen
   id: S001203
   name: Tina Smith
   title: Sen.
@@ -1204,7 +1267,7 @@ MN-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/S001203.json'
   date: '2019-02-28'
   inOffice: true
-MO-01:
+- code: MO-01
   id: C001049
   name: William Lacy Clay
   title: Rep.
@@ -1213,7 +1276,7 @@ MO-01:
   uri: 'https://api.propublica.org/congress/v1/members/C001049.json'
   date: '2019-01-03'
   inOffice: true
-MO-05:
+- code: MO-05
   id: C001061
   name: Emanuel Cleaver II
   title: Rep.
@@ -1222,7 +1285,7 @@ MO-05:
   uri: 'https://api.propublica.org/congress/v1/members/C001061.json'
   date: '2019-01-03'
   inOffice: true
-MP-AL:
+- code: MP-AL
   id: S001177
   name: Gregorio Kilili Camacho Sablan
   title: Del.
@@ -1231,7 +1294,7 @@ MP-AL:
   uri: 'https://api.propublica.org/congress/v1/members/S001177.json'
   date: '2019-01-03'
   inOffice: true
-MS-02:
+- code: MS-02
   id: T000193
   name: Bennie Thompson
   title: Rep.
@@ -1240,7 +1303,7 @@ MS-02:
   uri: 'https://api.propublica.org/congress/v1/members/T000193.json'
   date: '2019-01-03'
   inOffice: true
-NC-01:
+- code: NC-01
   id: B001251
   name: G. K. Butterfield
   title: Rep.
@@ -1249,7 +1312,7 @@ NC-01:
   uri: 'https://api.propublica.org/congress/v1/members/B001251.json'
   date: '2019-01-03'
   inOffice: true
-NC-04:
+- code: NC-04
   id: P000523
   name: David E. Price
   title: Rep.
@@ -1258,7 +1321,7 @@ NC-04:
   uri: 'https://api.propublica.org/congress/v1/members/P000523.json'
   date: '2019-01-03'
   inOffice: true
-NC-12:
+- code: NC-12
   id: A000370
   name: Alma Adams
   title: Rep.
@@ -1267,7 +1330,7 @@ NC-12:
   uri: 'https://api.propublica.org/congress/v1/members/A000370.json'
   date: '2019-01-03'
   inOffice: true
-NH-01:
+- code: NH-01
   id: P000614
   name: Chris Pappas
   title: Rep.
@@ -1276,7 +1339,7 @@ NH-01:
   uri: 'https://api.propublica.org/congress/v1/members/P000614.json'
   date: '2019-01-09'
   inOffice: true
-NH-02:
+- code: NH-02
   id: K000382
   name: Ann McLane Kuster
   title: Rep.
@@ -1285,7 +1348,16 @@ NH-02:
   uri: 'https://api.propublica.org/congress/v1/members/K000382.json'
   date: '2019-01-03'
   inOffice: true
-NH-Sen:
+- code: NH-Sen
+  id: H001076
+  name: Margaret Hassan
+  title: Sen.
+  state: NH
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/H001076.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: NH-Sen
   id: S001181
   name: Jeanne Shaheen
   title: Sen.
@@ -1294,7 +1366,7 @@ NH-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/S001181.json'
   date: '2019-06-18'
   inOffice: true
-NJ-01:
+- code: NJ-01
   id: N000188
   name: Donald W. Norcross
   title: Rep.
@@ -1303,7 +1375,7 @@ NJ-01:
   uri: 'https://api.propublica.org/congress/v1/members/N000188.json'
   date: '2019-01-03'
   inOffice: true
-NJ-02:
+- code: NJ-02
   id: V000133
   name: Jefferson Van Drew
   title: Rep.
@@ -1312,7 +1384,7 @@ NJ-02:
   uri: 'https://api.propublica.org/congress/v1/members/V000133.json'
   date: '2019-06-24'
   inOffice: true
-NJ-03:
+- code: NJ-03
   id: K000394
   name: Andy Kim
   title: Rep.
@@ -1321,7 +1393,7 @@ NJ-03:
   uri: 'https://api.propublica.org/congress/v1/members/K000394.json'
   date: '2019-01-17'
   inOffice: true
-NJ-05:
+- code: NJ-05
   id: G000583
   name: Josh Gottheimer
   title: Rep.
@@ -1330,7 +1402,7 @@ NJ-05:
   uri: 'https://api.propublica.org/congress/v1/members/G000583.json'
   date: '2019-08-16'
   inOffice: true
-NJ-06:
+- code: NJ-06
   id: P000034
   name: Frank Pallone
   title: Rep.
@@ -1339,7 +1411,7 @@ NJ-06:
   uri: 'https://api.propublica.org/congress/v1/members/P000034.json'
   date: '2019-01-03'
   inOffice: true
-NJ-07:
+- code: NJ-07
   id: M001203
   name: Tom Malinowski
   title: Rep.
@@ -1348,7 +1420,7 @@ NJ-07:
   uri: 'https://api.propublica.org/congress/v1/members/M001203.json'
   date: '2019-01-15'
   inOffice: true
-NJ-08:
+- code: NJ-08
   id: S001165
   name: Albio Sires
   title: Rep.
@@ -1357,7 +1429,7 @@ NJ-08:
   uri: 'https://api.propublica.org/congress/v1/members/S001165.json'
   date: '2019-01-03'
   inOffice: true
-NJ-09:
+- code: NJ-09
   id: P000096
   name: Bill Pascrell Jr.
   title: Rep.
@@ -1366,7 +1438,7 @@ NJ-09:
   uri: 'https://api.propublica.org/congress/v1/members/P000096.json'
   date: '2019-01-03'
   inOffice: true
-NJ-10:
+- code: NJ-10
   id: P000604
   name: Donald M. Payne Jr.
   title: Rep.
@@ -1375,7 +1447,7 @@ NJ-10:
   uri: 'https://api.propublica.org/congress/v1/members/P000604.json'
   date: '2019-01-03'
   inOffice: true
-NJ-11:
+- code: NJ-11
   id: S001207
   name: Mikie Sherrill
   title: Rep.
@@ -1384,7 +1456,7 @@ NJ-11:
   uri: 'https://api.propublica.org/congress/v1/members/S001207.json'
   date: '2019-06-11'
   inOffice: true
-NJ-12:
+- code: NJ-12
   id: W000822
   name: Bonnie Watson Coleman
   title: Rep.
@@ -1393,7 +1465,16 @@ NJ-12:
   uri: 'https://api.propublica.org/congress/v1/members/W000822.json'
   date: '2019-01-03'
   inOffice: true
-NJ-Sen:
+- code: NJ-Sen
+  id: B001288
+  name: Cory Booker
+  title: Sen.
+  state: NJ
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/B001288.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: NJ-Sen
   id: M000639
   name: Robert Menendez
   title: Sen.
@@ -1402,7 +1483,7 @@ NJ-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/M000639.json'
   date: '2019-03-14'
   inOffice: true
-NM-01:
+- code: NM-01
   id: H001080
   name: Debra Haaland
   title: Rep.
@@ -1411,7 +1492,7 @@ NM-01:
   uri: 'https://api.propublica.org/congress/v1/members/H001080.json'
   date: '2019-01-08'
   inOffice: true
-NM-03:
+- code: NM-03
   id: L000570
   name: Ben Ray Luján
   title: Rep.
@@ -1420,7 +1501,16 @@ NM-03:
   uri: 'https://api.propublica.org/congress/v1/members/L000570.json'
   date: '2019-01-03'
   inOffice: true
-NM-Sen:
+- code: NM-Sen
+  id: H001046
+  name: Martin Heinrich
+  title: Sen.
+  state: NM
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/H001046.json'
+  date: '2019-03-06'
+  inOffice: true
+- code: NM-Sen
   id: U000039
   name: Tom Udall
   title: Sen.
@@ -1429,7 +1519,7 @@ NM-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/U000039.json'
   date: '2019-03-25'
   inOffice: true
-NV-01:
+- code: NV-01
   id: T000468
   name: Dina Titus
   title: Rep.
@@ -1438,7 +1528,7 @@ NV-01:
   uri: 'https://api.propublica.org/congress/v1/members/T000468.json'
   date: '2019-01-03'
   inOffice: true
-NV-03:
+- code: NV-03
   id: L000590
   name: Susie Lee
   title: Rep.
@@ -1447,7 +1537,7 @@ NV-03:
   uri: 'https://api.propublica.org/congress/v1/members/L000590.json'
   date: '2019-01-25'
   inOffice: true
-NV-04:
+- code: NV-04
   id: H001066
   name: Steven Horsford
   title: Rep.
@@ -1456,7 +1546,7 @@ NV-04:
   uri: 'https://api.propublica.org/congress/v1/members/H001066.json'
   date: '2019-01-15'
   inOffice: true
-NV-Sen:
+- code: NV-Sen
   id: C001113
   name: Catherine Cortez Masto
   title: Sen.
@@ -1465,7 +1555,7 @@ NV-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/C001113.json'
   date: '2019-02-28'
   inOffice: true
-NY-03:
+- code: NY-03
   id: S001201
   name: Thomas Suozzi
   title: Rep.
@@ -1474,7 +1564,7 @@ NY-03:
   uri: 'https://api.propublica.org/congress/v1/members/S001201.json'
   date: '2019-01-03'
   inOffice: true
-NY-04:
+- code: NY-04
   id: R000602
   name: Kathleen Rice
   title: Rep.
@@ -1483,7 +1573,7 @@ NY-04:
   uri: 'https://api.propublica.org/congress/v1/members/R000602.json'
   date: '2019-01-03'
   inOffice: true
-NY-05:
+- code: NY-05
   id: M001137
   name: Gregory W. Meeks
   title: Rep.
@@ -1492,7 +1582,7 @@ NY-05:
   uri: 'https://api.propublica.org/congress/v1/members/M001137.json'
   date: '2019-01-03'
   inOffice: true
-NY-06:
+- code: NY-06
   id: M001188
   name: Grace Meng
   title: Rep.
@@ -1501,7 +1591,7 @@ NY-06:
   uri: 'https://api.propublica.org/congress/v1/members/M001188.json'
   date: '2019-01-03'
   inOffice: true
-NY-07:
+- code: NY-07
   id: V000081
   name: Nydia M. Velázquez
   title: Rep.
@@ -1510,7 +1600,7 @@ NY-07:
   uri: 'https://api.propublica.org/congress/v1/members/V000081.json'
   date: '2019-01-03'
   inOffice: true
-NY-08:
+- code: NY-08
   id: J000294
   name: Hakeem Jeffries
   title: Rep.
@@ -1519,7 +1609,7 @@ NY-08:
   uri: 'https://api.propublica.org/congress/v1/members/J000294.json'
   date: '2019-01-03'
   inOffice: true
-NY-09:
+- code: NY-09
   id: C001067
   name: Yvette D. Clarke
   title: Rep.
@@ -1528,7 +1618,7 @@ NY-09:
   uri: 'https://api.propublica.org/congress/v1/members/C001067.json'
   date: '2019-01-03'
   inOffice: true
-NY-10:
+- code: NY-10
   id: N000002
   name: Jerrold Nadler
   title: Rep.
@@ -1537,7 +1627,7 @@ NY-10:
   uri: 'https://api.propublica.org/congress/v1/members/N000002.json'
   date: '2019-01-03'
   inOffice: true
-NY-11:
+- code: NY-11
   id: R000613
   name: Max Rose
   title: Rep.
@@ -1546,7 +1636,7 @@ NY-11:
   uri: 'https://api.propublica.org/congress/v1/members/R000613.json'
   date: '2019-01-22'
   inOffice: true
-NY-12:
+- code: NY-12
   id: M000087
   name: Carolyn B. Maloney
   title: Rep.
@@ -1555,7 +1645,7 @@ NY-12:
   uri: 'https://api.propublica.org/congress/v1/members/M000087.json'
   date: '2019-01-03'
   inOffice: true
-NY-13:
+- code: NY-13
   id: E000297
   name: Adriano Espaillat
   title: Rep.
@@ -1564,7 +1654,7 @@ NY-13:
   uri: 'https://api.propublica.org/congress/v1/members/E000297.json'
   date: '2019-01-03'
   inOffice: true
-NY-14:
+- code: NY-14
   id: O000172
   name: Alexandria Ocasio-Cortez
   title: Rep.
@@ -1573,7 +1663,7 @@ NY-14:
   uri: 'https://api.propublica.org/congress/v1/members/O000172.json'
   date: '2019-01-10'
   inOffice: true
-NY-15:
+- code: NY-15
   id: S000248
   name: José E. Serrano
   title: Rep.
@@ -1582,7 +1672,7 @@ NY-15:
   uri: 'https://api.propublica.org/congress/v1/members/S000248.json'
   date: '2019-01-03'
   inOffice: true
-NY-16:
+- code: NY-16
   id: E000179
   name: Eliot L. Engel
   title: Rep.
@@ -1591,7 +1681,7 @@ NY-16:
   uri: 'https://api.propublica.org/congress/v1/members/E000179.json'
   date: '2019-01-03'
   inOffice: true
-NY-17:
+- code: NY-17
   id: L000480
   name: Nita M. Lowey
   title: Rep.
@@ -1600,7 +1690,7 @@ NY-17:
   uri: 'https://api.propublica.org/congress/v1/members/L000480.json'
   date: '2019-01-03'
   inOffice: true
-NY-18:
+- code: NY-18
   id: M001185
   name: Sean Patrick Maloney
   title: Rep.
@@ -1609,7 +1699,7 @@ NY-18:
   uri: 'https://api.propublica.org/congress/v1/members/M001185.json'
   date: '2019-01-03'
   inOffice: true
-NY-19:
+- code: NY-19
   id: D000630
   name: Antonio Delgado
   title: Rep.
@@ -1618,7 +1708,7 @@ NY-19:
   uri: 'https://api.propublica.org/congress/v1/members/D000630.json'
   date: '2019-03-05'
   inOffice: true
-NY-20:
+- code: NY-20
   id: T000469
   name: Paul Tonko
   title: Rep.
@@ -1627,7 +1717,7 @@ NY-20:
   uri: 'https://api.propublica.org/congress/v1/members/T000469.json'
   date: '2019-01-03'
   inOffice: true
-NY-26:
+- code: NY-26
   id: H001038
   name: Brian Higgins
   title: Rep.
@@ -1636,7 +1726,7 @@ NY-26:
   uri: 'https://api.propublica.org/congress/v1/members/H001038.json'
   date: '2019-01-03'
   inOffice: true
-NY-Sen:
+- code: NY-Sen
   id: S000148
   name: Charles E. Schumer
   title: Sen.
@@ -1645,7 +1735,16 @@ NY-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/S000148.json'
   date: '2019-02-28'
   inOffice: true
-OH-03:
+- code: NY-Sen
+  id: G000555
+  name: Kirsten E. Gillibrand
+  title: Sen.
+  state: NY
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/G000555.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: OH-03
   id: B001281
   name: Joyce Beatty
   title: Rep.
@@ -1654,7 +1753,7 @@ OH-03:
   uri: 'https://api.propublica.org/congress/v1/members/B001281.json'
   date: '2019-01-03'
   inOffice: true
-OH-09:
+- code: OH-09
   id: K000009
   name: Marcy Kaptur
   title: Rep.
@@ -1663,7 +1762,7 @@ OH-09:
   uri: 'https://api.propublica.org/congress/v1/members/K000009.json'
   date: '2019-01-03'
   inOffice: true
-OH-11:
+- code: OH-11
   id: F000455
   name: Marcia L. Fudge
   title: Rep.
@@ -1672,7 +1771,7 @@ OH-11:
   uri: 'https://api.propublica.org/congress/v1/members/F000455.json'
   date: '2019-01-03'
   inOffice: true
-OH-13:
+- code: OH-13
   id: R000577
   name: Tim Ryan
   title: Rep.
@@ -1681,7 +1780,7 @@ OH-13:
   uri: 'https://api.propublica.org/congress/v1/members/R000577.json'
   date: '2019-01-03'
   inOffice: true
-OH-Sen:
+- code: OH-Sen
   id: B000944
   name: Sherrod Brown
   title: Sen.
@@ -1690,7 +1789,7 @@ OH-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/B000944.json'
   date: '2019-02-28'
   inOffice: true
-OR-01:
+- code: OR-01
   id: B001278
   name: Suzanne Bonamici
   title: Rep.
@@ -1699,7 +1798,7 @@ OR-01:
   uri: 'https://api.propublica.org/congress/v1/members/B001278.json'
   date: '2019-01-03'
   inOffice: true
-OR-03:
+- code: OR-03
   id: B000574
   name: Earl Blumenauer
   title: Rep.
@@ -1708,7 +1807,7 @@ OR-03:
   uri: 'https://api.propublica.org/congress/v1/members/B000574.json'
   date: '2019-01-03'
   inOffice: true
-OR-04:
+- code: OR-04
   id: D000191
   name: Peter A. DeFazio
   title: Rep.
@@ -1717,7 +1816,7 @@ OR-04:
   uri: 'https://api.propublica.org/congress/v1/members/D000191.json'
   date: '2019-01-03'
   inOffice: true
-OR-05:
+- code: OR-05
   id: S001180
   name: Kurt Schrader
   title: Rep.
@@ -1726,7 +1825,7 @@ OR-05:
   uri: 'https://api.propublica.org/congress/v1/members/S001180.json'
   date: '2019-01-15'
   inOffice: true
-OR-Sen:
+- code: OR-Sen
   id: M001176
   name: Jeff Merkley
   title: Sen.
@@ -1735,7 +1834,7 @@ OR-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/M001176.json'
   date: '2019-02-28'
   inOffice: true
-PA-02:
+- code: PA-02
   id: B001296
   name: Brendan Boyle
   title: Rep.
@@ -1744,7 +1843,7 @@ PA-02:
   uri: 'https://api.propublica.org/congress/v1/members/B001296.json'
   date: '2019-01-03'
   inOffice: true
-PA-03:
+- code: PA-03
   id: E000296
   name: Dwight Evans
   title: Rep.
@@ -1753,7 +1852,7 @@ PA-03:
   uri: 'https://api.propublica.org/congress/v1/members/E000296.json'
   date: '2019-01-03'
   inOffice: true
-PA-04:
+- code: PA-04
   id: D000631
   name: Madeleine Dean
   title: Rep.
@@ -1762,7 +1861,7 @@ PA-04:
   uri: 'https://api.propublica.org/congress/v1/members/D000631.json'
   date: '2019-01-29'
   inOffice: true
-PA-05:
+- code: PA-05
   id: S001205
   name: Mary Gay Scanlon
   title: Rep.
@@ -1771,7 +1870,7 @@ PA-05:
   uri: 'https://api.propublica.org/congress/v1/members/S001205.json'
   date: '2019-01-03'
   inOffice: true
-PA-06:
+- code: PA-06
   id: H001085
   name: Chrissy Houlahan
   title: Rep.
@@ -1780,7 +1879,7 @@ PA-06:
   uri: 'https://api.propublica.org/congress/v1/members/H001085.json'
   date: '2019-01-25'
   inOffice: true
-PA-07:
+- code: PA-07
   id: W000826
   name: Susan Wild
   title: Rep.
@@ -1789,7 +1888,7 @@ PA-07:
   uri: 'https://api.propublica.org/congress/v1/members/W000826.json'
   date: '2019-01-03'
   inOffice: true
-PA-08:
+- code: PA-08
   id: C001090
   name: Matt Cartwright
   title: Rep.
@@ -1798,7 +1897,7 @@ PA-08:
   uri: 'https://api.propublica.org/congress/v1/members/C001090.json'
   date: '2019-01-03'
   inOffice: true
-PA-18:
+- code: PA-18
   id: D000482
   name: Mike Doyle
   title: Rep.
@@ -1807,7 +1906,7 @@ PA-18:
   uri: 'https://api.propublica.org/congress/v1/members/D000482.json'
   date: '2019-01-03'
   inOffice: true
-PA-Sen:
+- code: PA-Sen
   id: C001070
   name: Bob Casey
   title: Sen.
@@ -1816,7 +1915,7 @@ PA-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/C001070.json'
   date: '2019-03-26'
   inOffice: true
-RI-01:
+- code: RI-01
   id: C001084
   name: David Cicilline
   title: Rep.
@@ -1825,7 +1924,7 @@ RI-01:
   uri: 'https://api.propublica.org/congress/v1/members/C001084.json'
   date: '2019-01-03'
   inOffice: true
-RI-02:
+- code: RI-02
   id: L000559
   name: Jim Langevin
   title: Rep.
@@ -1834,7 +1933,7 @@ RI-02:
   uri: 'https://api.propublica.org/congress/v1/members/L000559.json'
   date: '2019-01-03'
   inOffice: true
-SC-06:
+- code: SC-06
   id: C000537
   name: James E. Clyburn
   title: Rep.
@@ -1843,7 +1942,7 @@ SC-06:
   uri: 'https://api.propublica.org/congress/v1/members/C000537.json'
   date: '2019-01-03'
   inOffice: true
-TN-09:
+- code: TN-09
   id: C001068
   name: Steve Cohen
   title: Rep.
@@ -1852,7 +1951,7 @@ TN-09:
   uri: 'https://api.propublica.org/congress/v1/members/C001068.json'
   date: '2019-01-03'
   inOffice: true
-TX-07:
+- code: TX-07
   id: F000468
   name: Lizzie Fletcher
   title: Rep.
@@ -1861,7 +1960,7 @@ TX-07:
   uri: 'https://api.propublica.org/congress/v1/members/F000468.json'
   date: '2019-06-27'
   inOffice: true
-TX-09:
+- code: TX-09
   id: G000553
   name: Al Green
   title: Rep.
@@ -1870,7 +1969,7 @@ TX-09:
   uri: 'https://api.propublica.org/congress/v1/members/G000553.json'
   date: '2019-01-03'
   inOffice: true
-TX-15:
+- code: TX-15
   id: G000581
   name: Vicente Gonzalez
   title: Rep.
@@ -1879,7 +1978,7 @@ TX-15:
   uri: 'https://api.propublica.org/congress/v1/members/G000581.json'
   date: '2019-06-12'
   inOffice: true
-TX-16:
+- code: TX-16
   id: E000299
   name: Veronica Escobar
   title: Rep.
@@ -1888,7 +1987,7 @@ TX-16:
   uri: 'https://api.propublica.org/congress/v1/members/E000299.json'
   date: '2019-01-30'
   inOffice: true
-TX-18:
+- code: TX-18
   id: J000032
   name: Sheila Jackson Lee
   title: Rep.
@@ -1897,7 +1996,7 @@ TX-18:
   uri: 'https://api.propublica.org/congress/v1/members/J000032.json'
   date: '2019-01-03'
   inOffice: true
-TX-20:
+- code: TX-20
   id: C001091
   name: Joaquín Castro
   title: Rep.
@@ -1906,7 +2005,7 @@ TX-20:
   uri: 'https://api.propublica.org/congress/v1/members/C001091.json'
   date: '2019-01-03'
   inOffice: true
-TX-28:
+- code: TX-28
   id: C001063
   name: Henry Cuellar
   title: Rep.
@@ -1915,7 +2014,7 @@ TX-28:
   uri: 'https://api.propublica.org/congress/v1/members/C001063.json'
   date: '2019-06-13'
   inOffice: true
-TX-29:
+- code: TX-29
   id: G000587
   name: Sylvia Garcia
   title: Rep.
@@ -1924,7 +2023,7 @@ TX-29:
   uri: 'https://api.propublica.org/congress/v1/members/G000587.json'
   date: '2019-01-08'
   inOffice: true
-TX-30:
+- code: TX-30
   id: J000126
   name: Eddie Bernice Johnson
   title: Rep.
@@ -1933,7 +2032,7 @@ TX-30:
   uri: 'https://api.propublica.org/congress/v1/members/J000126.json'
   date: '2019-01-03'
   inOffice: true
-TX-32:
+- code: TX-32
   id: A000376
   name: Colin Allred
   title: Rep.
@@ -1942,7 +2041,7 @@ TX-32:
   uri: 'https://api.propublica.org/congress/v1/members/A000376.json'
   date: '2019-01-23'
   inOffice: true
-TX-33:
+- code: TX-33
   id: V000131
   name: Marc Veasey
   title: Rep.
@@ -1951,7 +2050,7 @@ TX-33:
   uri: 'https://api.propublica.org/congress/v1/members/V000131.json'
   date: '2019-01-03'
   inOffice: true
-TX-34:
+- code: TX-34
   id: V000132
   name: Filemon Vela
   title: Rep.
@@ -1960,7 +2059,7 @@ TX-34:
   uri: 'https://api.propublica.org/congress/v1/members/V000132.json'
   date: '2019-01-03'
   inOffice: true
-TX-35:
+- code: TX-35
   id: D000399
   name: Lloyd Doggett
   title: Rep.
@@ -1969,7 +2068,7 @@ TX-35:
   uri: 'https://api.propublica.org/congress/v1/members/D000399.json'
   date: '2019-01-03'
   inOffice: true
-VA-02:
+- code: VA-02
   id: L000591
   name: Elaine Luria
   title: Rep.
@@ -1978,7 +2077,7 @@ VA-02:
   uri: 'https://api.propublica.org/congress/v1/members/L000591.json'
   date: '2019-02-07'
   inOffice: true
-VA-03:
+- code: VA-03
   id: S000185
   name: Robert C. Scott
   title: Rep.
@@ -1987,7 +2086,7 @@ VA-03:
   uri: 'https://api.propublica.org/congress/v1/members/S000185.json'
   date: '2019-01-03'
   inOffice: true
-VA-04:
+- code: VA-04
   id: M001200
   name: A. Donald McEachin
   title: Rep.
@@ -1996,7 +2095,7 @@ VA-04:
   uri: 'https://api.propublica.org/congress/v1/members/M001200.json'
   date: '2019-01-03'
   inOffice: true
-VA-07:
+- code: VA-07
   id: S001209
   name: Abigail Spanberger
   title: Rep.
@@ -2005,7 +2104,7 @@ VA-07:
   uri: 'https://api.propublica.org/congress/v1/members/S001209.json'
   date: '2019-01-31'
   inOffice: true
-VA-08:
+- code: VA-08
   id: B001292
   name: Donald Beyer
   title: Rep.
@@ -2014,7 +2113,7 @@ VA-08:
   uri: 'https://api.propublica.org/congress/v1/members/B001292.json'
   date: '2019-01-03'
   inOffice: true
-VA-10:
+- code: VA-10
   id: W000825
   name: Jennifer Wexton
   title: Rep.
@@ -2023,7 +2122,7 @@ VA-10:
   uri: 'https://api.propublica.org/congress/v1/members/W000825.json'
   date: '2019-01-08'
   inOffice: true
-VA-11:
+- code: VA-11
   id: C001078
   name: Gerald E. Connolly
   title: Rep.
@@ -2032,7 +2131,7 @@ VA-11:
   uri: 'https://api.propublica.org/congress/v1/members/C001078.json'
   date: '2019-01-03'
   inOffice: true
-VA-Sen:
+- code: VA-Sen
   id: W000805
   name: Mark Warner
   title: Sen.
@@ -2041,7 +2140,16 @@ VA-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/W000805.json'
   date: '2019-02-28'
   inOffice: true
-VI-AL:
+- code: VA-Sen
+  id: K000384
+  name: Tim Kaine
+  title: Sen.
+  state: VA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/K000384.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: VI-AL
   id: P000610
   name: Stacey Plaskett
   title: Del.
@@ -2050,7 +2158,7 @@ VI-AL:
   uri: 'https://api.propublica.org/congress/v1/members/P000610.json'
   date: '2019-01-09'
   inOffice: true
-VT-AL:
+- code: VT-AL
   id: W000800
   name: Peter Welch
   title: Rep.
@@ -2059,7 +2167,7 @@ VT-AL:
   uri: 'https://api.propublica.org/congress/v1/members/W000800.json'
   date: '2019-01-03'
   inOffice: true
-VT-Sen:
+- code: VT-Sen
   id: S000033
   name: Bernard Sanders
   title: Sen.
@@ -2068,7 +2176,16 @@ VT-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/S000033.json'
   date: '2019-02-28'
   inOffice: true
-WA-01:
+- code: VT-Sen
+  id: L000174
+  name: Patrick J. Leahy
+  title: Sen.
+  state: VT
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/L000174.json'
+  date: '2019-02-28'
+  inOffice: true
+- code: WA-01
   id: D000617
   name: Suzan K. DelBene
   title: Rep.
@@ -2077,7 +2194,7 @@ WA-01:
   uri: 'https://api.propublica.org/congress/v1/members/D000617.json'
   date: '2019-01-03'
   inOffice: true
-WA-02:
+- code: WA-02
   id: L000560
   name: Rick Larsen
   title: Rep.
@@ -2086,7 +2203,7 @@ WA-02:
   uri: 'https://api.propublica.org/congress/v1/members/L000560.json'
   date: '2019-01-03'
   inOffice: true
-WA-06:
+- code: WA-06
   id: K000381
   name: Derek Kilmer
   title: Rep.
@@ -2095,7 +2212,7 @@ WA-06:
   uri: 'https://api.propublica.org/congress/v1/members/K000381.json'
   date: '2019-01-03'
   inOffice: true
-WA-07:
+- code: WA-07
   id: J000298
   name: Pramila Jayapal
   title: Rep.
@@ -2104,7 +2221,7 @@ WA-07:
   uri: 'https://api.propublica.org/congress/v1/members/J000298.json'
   date: '2019-01-03'
   inOffice: true
-WA-08:
+- code: WA-08
   id: S001216
   name: Kim Schrier
   title: Rep.
@@ -2113,7 +2230,7 @@ WA-08:
   uri: 'https://api.propublica.org/congress/v1/members/S001216.json'
   date: '2019-09-10'
   inOffice: true
-WA-09:
+- code: WA-09
   id: S000510
   name: Adam Smith
   title: Rep.
@@ -2122,7 +2239,7 @@ WA-09:
   uri: 'https://api.propublica.org/congress/v1/members/S000510.json'
   date: '2019-01-03'
   inOffice: true
-WA-10:
+- code: WA-10
   id: H001064
   name: Denny Heck
   title: Rep.
@@ -2131,7 +2248,7 @@ WA-10:
   uri: 'https://api.propublica.org/congress/v1/members/H001064.json'
   date: '2019-06-11'
   inOffice: true
-WA-Sen:
+- code: WA-Sen
   id: M001111
   name: Patty Murray
   title: Sen.
@@ -2140,7 +2257,7 @@ WA-Sen:
   uri: 'https://api.propublica.org/congress/v1/members/M001111.json'
   date: '2019-02-28'
   inOffice: true
-WI-02:
+- code: WI-02
   id: P000607
   name: Mark Pocan
   title: Rep.
@@ -2149,7 +2266,7 @@ WI-02:
   uri: 'https://api.propublica.org/congress/v1/members/P000607.json'
   date: '2019-01-03'
   inOffice: true
-WI-04:
+- code: WI-04
   id: M001160
   name: Gwen Moore
   title: Rep.
@@ -2158,7 +2275,7 @@ WI-04:
   uri: 'https://api.propublica.org/congress/v1/members/M001160.json'
   date: '2019-01-03'
   inOffice: true
-WI-Sen:
+- code: WI-Sen
   id: B001230
   name: Tammy Baldwin
   title: Sen.
