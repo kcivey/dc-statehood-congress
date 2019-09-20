@@ -41,6 +41,8 @@ AL-02:
       party: Republican
     - name: Will Dismukes
       party: Republican
+    - name: Troy King
+      party: Republican
     - name: Barry Moore
       party: Republican
 AL-03:
@@ -278,6 +280,8 @@ CA-08:
       party: Republican
     - name: Peter Mathisen
       party: No Party Preference
+    - name: Jay Obernolte
+      party: Republican
 CA-09:
   pvi: D+8
   party: Democratic
@@ -412,8 +416,6 @@ CA-28:
       party: no party preference
     - name: Eric Early
       party: Republican
-    - name: Maebe A. Girl
-      party: Democratic
     - name: Jon Hollis
       party: Republican
 CA-29:
@@ -732,6 +734,8 @@ FL-02:
   pvi: R+18
   party: Republican
   candidates:
+    - name: Willie Anderson
+      party: Democratic
     - name: Neal Dunn
       party: Republican
     - name: Connor Oswald
@@ -774,6 +778,8 @@ FL-06:
   candidates:
     - name: Samuel Adams
       party: Libertarian
+    - name: Oscar Celico
+      party: Independent
 FL-07:
   pvi: EVEN
   party: Democratic
@@ -806,6 +812,8 @@ FL-09:
   candidates:
     - name: Gregory Andersen
       party: Independent
+    - name: Jose Castillo
+      party: Republican
     - name: Anthony Davila
       party: Independent
     - name: Bill Olson
@@ -821,6 +829,8 @@ FL-10:
     - name: Roland McCoy
       party: Democratic
     - name: Kirk Troen
+      party: Republican
+    - name: Angela Walls-Windhauser
       party: Republican
 FL-11:
   pvi: R+15
@@ -910,6 +920,10 @@ FL-19:
   pvi: R+13
   party: Republican
   candidates:
+    - name: Cindy Banyai
+      party: Democratic
+    - name: Antonio Dumornay
+      party: Republican
     - name: Francis Rooney
       party: Republican
 FL-20:
@@ -960,6 +974,8 @@ FL-24:
   candidates:
     - name: Howard Knepper
       party: Republican
+    - name: Sakinah Lehtola
+      party: Democratic
     - name: Christine Olivo
       party: Democratic
     - name: Courtney Omega-Turner
@@ -991,6 +1007,8 @@ FL-27:
     - name: Donna Shalala
       party: Democratic
     - name: Gabe Ferrer
+      party: Republican
+    - name: Frank Polo
       party: Republican
     - name: Maria Elvira Salazar
       party: Republican
@@ -1352,6 +1370,8 @@ IL-17:
   pvi: D+3
   party: Democratic
   candidates:
+    - name: Eugene Farrell
+      party: Republican
     - name: Esther Joy King
       party: Republican
     - name: William Swisher
@@ -1829,7 +1849,9 @@ MI-11:
 MI-12:
   pvi: D+14
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Solomon Rajput
+      party: Democratic
 MI-13:
   pvi: D+32
   party: Democratic
@@ -3626,7 +3648,9 @@ WI-04:
 WI-05:
   pvi: R+13
   party: Republican
-  candidates: []
+  candidates:
+    - name: Scott Fitzgerald
+      party: Republican
 WI-06:
   pvi: R+8
   party: Republican

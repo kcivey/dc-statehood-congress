@@ -439,6 +439,15 @@
   uri: 'https://api.propublica.org/congress/v1/members/H001075.json'
   date: '2019-02-28'
   inOffice: true
+- code: CA-Sen
+  id: F000062
+  name: Dianne Feinstein
+  title: Sen.
+  state: CA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/F000062.json'
+  date: '2019-09-18'
+  inOffice: true
 - code: CO-01
   id: D000197
   name: Diana DeGette
@@ -807,6 +816,15 @@
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/L000565.json'
   date: '2019-01-03'
+  inOffice: true
+- code: IA-03
+  id: A000378
+  name: Cynthia Axne
+  title: Rep.
+  state: IA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/A000378.json'
+  date: '2019-09-18'
   inOffice: true
 - code: IL-01
   id: R000515
