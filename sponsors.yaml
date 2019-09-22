@@ -1240,6 +1240,15 @@
   uri: 'https://api.propublica.org/congress/v1/members/L000581.json'
   date: '2019-01-03'
   inOffice: true
+- code: MN-02
+  id: C001119
+  name: Angie Craig
+  title: Rep.
+  state: MN
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/C001119.json'
+  date: '2019-09-20'
+  inOffice: true
 - code: MN-03
   id: P000616
   name: Dean Phillips
