@@ -284,6 +284,8 @@ CA-08:
       party: No Party Preference
     - name: Jay Obernolte
       party: Republican
+    - name: Jeremy Staat
+      party: Republican
 CA-09:
   pvi: D+8
   party: Democratic
@@ -314,6 +316,8 @@ CA-12:
       party: Democratic
     - name: Tom Gallagher
       party: Democratic
+    - name: DeAnna Lorraine
+      party: Republican
 CA-13:
   pvi: D+40
   party: Democratic
@@ -377,7 +381,9 @@ CA-22:
 CA-23:
   pvi: R+14
   party: Republican
-  candidates: []
+  candidates:
+    - name: Kim Mangone
+      party: Democratic
 CA-24:
   pvi: D+7
   party: Democratic
@@ -441,7 +447,9 @@ CA-32:
 CA-33:
   pvi: D+16
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Brandon Fricke
+      party: no party preference
 CA-34:
   pvi: D+35
   party: Democratic
@@ -465,7 +473,9 @@ CA-36:
 CA-37:
   pvi: D+37
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Errol Webber
+      party: Republican
 CA-38:
   pvi: D+17
   party: Democratic
@@ -538,6 +548,8 @@ CA-47:
   pvi: D+13
   party: Democratic
   candidates:
+    - name: Sou Mana
+      party: Republican
     - name: Amy Phan West
       party: Republican
 CA-48:
@@ -592,6 +604,8 @@ CA-52:
   pvi: D+6
   party: Democratic
   candidates:
+    - name: Nancy Casady
+      party: Democratic
     - name: Scott Peters
       party: Democratic
     - name: Famela Ramos
@@ -603,6 +617,12 @@ CA-53:
     - name: Jose Caballero
       party: Democratic
     - name: John-Christian Carey
+      party: Democratic
+    - name: Janessa Goldbeck
+      party: Democratic
+    - name: Georgette Gomez
+      party: Democratic
+    - name: Sara Jacobs
       party: Democratic
     - name: Joaquin Vazquez
       party: Democratic
@@ -623,6 +643,8 @@ CO-03:
     - name: Scott Tipton
       party: Republican
     - name: Diane Mitsch Bush
+      party: Democratic
+    - name: Root Routledge
       party: Democratic
     - name: Donald Valdez
       party: Democratic
@@ -682,7 +704,9 @@ CO-Sen:
 CT-01:
   pvi: D+12
   party: Democratic
-  candidates: []
+  candidates:
+    - name: John Larson
+      party: Democratic
 CT-02:
   pvi: D+3
   party: Democratic
@@ -1653,6 +1677,8 @@ MA-Sen:
   candidates:
     - name: Shiva Ayyadurai
       party: Republican
+    - name: Joe Kennedy III
+      party: Democratic
     - name: Shannon Liss-Riordan
       party: Democratic
     - name: Ed Markey
