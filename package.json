@@ -29,9 +29,9 @@
     "request-plus": "^2.0.0",
     "underscore": "^1.9.1",
     "us-regions": "0.0.2",
-    "yargs": "^14.0.0"
+    "yargs": "^14.2.0"
   },
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.5.1"
   }
 }
