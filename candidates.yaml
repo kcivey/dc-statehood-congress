@@ -238,6 +238,8 @@ AZ-Sen-S:
       party: Republican
     - name: Mark Kelly
       party: Democratic
+    - name: Daniel McCarthy
+      party: Republican
     - name: Martha McSally
       party: Republican
 CA-01:
@@ -614,8 +616,6 @@ CA-48:
       party: Republican
     - name: Christopher Engels
       party: Republican
-    - name: Harley Rouda
-      party: Democratic
     - name: Michelle Park Steel
       party: Republican
     - name: Caleb Sturges
@@ -657,6 +657,8 @@ CA-51:
   party: Democratic
   candidates:
     - name: Aeiramique Glass-Blake
+      party: Democratic
+    - name: Juan Vargas
       party: Democratic
 CA-52:
   pvi: D+6
@@ -714,6 +716,8 @@ CO-04:
   pvi: R+13
   party: Republican
   candidates:
+    - name: Ken Buck
+      party: Republican
     - name: Isaac McCorkle
       party: Democratic
 CO-05:
@@ -730,6 +734,8 @@ CO-06:
       party: Democratic
     - name: Steve House
       party: Republican
+    - name: Jaimie Kulikowski
+      party: Democratic
     - name: Casper Stockham
       party: Republican
     - name: John Szemler
@@ -813,6 +819,8 @@ DE-Sen:
   party: Democratic
   candidates:
     - name: Chris Coons
+      party: Democratic
+    - name: Scott Walker
       party: Democratic
 FL-01:
   pvi: R+22
@@ -1271,11 +1279,13 @@ GA-Sen:
       party: Democratic
     - name: Teresa Tomlinson
       party: Democratic
-    - name: Elaine Wigham
+    - name: Elaine Willaims
       party: Democratic
 GA-Sen-S:
-  party: Republican
-  candidates: []
+  party: TBD
+  candidates:
+    - name: Matt Lieberman
+      party: Democratic
 HI-01:
   pvi: D+17
   party: Democratic
@@ -1365,6 +1375,8 @@ ID-Sen:
   party: Republican
   candidates:
     - name: Nancy Harris
+      party: Democratic
+    - name: Travis Oler
       party: Democratic
     - name: Jim Risch
       party: Republican
@@ -1537,15 +1549,21 @@ IL-18:
 IL-Sen:
   party: Democratic
   candidates:
+    - name: Casey Chlebek
+      party: Republican
     - name: Mark Curran
       party: Republican
     - name: Dick Durbin
       party: Democratic
     - name: Peggy Hubbard
       party: Republican
+    - name: Marilyn Jordan Lawlor
+      party: Democratic
     - name: Robert Marshall
       party: Republican
     - name: Omeed Memar
+      party: Republican
+    - name: Preston Gabriel Nelson
       party: Republican
     - name: Dean Seppelfrick
       party: Republican
@@ -1664,6 +1682,8 @@ KS-Sen:
       party: Republican
     - name: Bryan Pruitt
       party: Republican
+    - name: Usha Reddi
+      party: Democratic
     - name: Robert Tillman
       party: Democratic
     - name: Susan Wagle
@@ -1699,9 +1719,13 @@ KY-06:
 KY-Sen:
   party: Republican
   candidates:
+    - name: Jimmy Ausbrooks
+      party: Democratic
     - name: Mike Broihier
       party: Democratic
     - name: Steven Cox
+      party: Democratic
+    - name: Matt Jones
       party: Democratic
     - name: Mitch McConnell
       party: Republican
@@ -1744,6 +1768,8 @@ LA-Sen:
   candidates:
     - name: Bill Cassidy
       party: Republican
+    - name: Antoine Pierce
+      party: Democratic
 MA-01:
   pvi: D+12
   party: Democratic
@@ -1764,7 +1790,7 @@ MA-04:
   pvi: D+9
   party: Democratic
   candidates:
-    - name: Deborah Goldberg
+    - name: Jake Auchincloss
       party: Democratic
     - name: Becky Grossman
       party: Democratic
@@ -1909,7 +1935,11 @@ ME-02:
   pvi: R+2
   party: Democratic
   candidates:
+    - name: Adrienne Bennett
+      party: Republican
     - name: Eric Brakey
+      party: Republican
+    - name: Dale Crafts
       party: Republican
     - name: Jared Golden
       party: Democratic
@@ -1919,14 +1949,16 @@ ME-Sen:
     - name: Michael Bunker
       party: Democratic
     - name: David Gibson
-      party: Green
+      party: Green Independent
     - name: Sara Gideon
       party: Democratic
     - name: Bre Kidman
       party: Democratic
-    - name: Max Linn
-      party: Republican
+    - name: Lisa Savage
+      party: Green Independent
     - name: Betsy Sweet
+      party: Democratic
+    - name: Jon Treacy
       party: Democratic
     - name: Danielle VanHelsing
       party: Independent
@@ -2131,6 +2163,8 @@ MN-08:
   pvi: R+4
   party: Republican
   candidates:
+    - name: Quinn Nystrom
+      party: Democratic
     - name: Pete Stauber
       party: Republican
 MN-Sen:
@@ -2142,6 +2176,8 @@ MN-Sen:
       party: Republican
     - name: Tina Smith
       party: Democratic
+    - name: Theron Preston Washington
+      party: Republican
 MO-01:
   pvi: D+29
   party: Democratic
@@ -2239,6 +2275,8 @@ MT-Sen:
     - name: Steve Daines
       party: Republican
     - name: John Mues
+      party: Democratic
+    - name: Cora Neumann
       party: Democratic
 NC-01:
   pvi: D+17
@@ -2380,10 +2418,14 @@ NE-Sen:
       party: Republican
     - name: Chris Janicek
       party: Democratic
+    - name: Larry Marvin
+      party: Democratic
     - name: Angie Philips
       party: Democratic
     - name: Ben Sasse
       party: Republican
+    - name: Dan Wik
+      party: Democratic
 NH-01:
   pvi: R+2
   party: Democratic
@@ -2399,7 +2441,7 @@ NH-Sen:
   candidates:
     - name: Don Bolduc
       party: Republican
-    - name: Bryant "Corky" Messner
+    - name: Bryant Messner
       party: Republican
     - name: Bill O'Brien
       party: Republican
@@ -2488,7 +2530,9 @@ NJ-07:
 NJ-08:
   pvi: D+27
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Hector Oseguera
+      party: Democratic
 NJ-09:
   pvi: D+16
   party: Democratic
@@ -2527,6 +2571,10 @@ NJ-Sen:
     - name: Daniel Burke
       party: Independent
     - name: Tricia Flanagan
+      party: Republican
+    - name: Lisa McCormick
+      party: Democratic
+    - name: Stuart Meissner
       party: Republican
     - name: Harsh Naik
       party: Democratic
@@ -3060,6 +3108,10 @@ OK-05:
 OK-Sen:
   party: Republican
   candidates:
+    - name: Dylan Billings
+      party: Democratic
+    - name: Bevon Rogers
+      party: Democratic
     - name: Mike Workman
       party: Democratic
 OR-01:
@@ -3119,6 +3171,8 @@ OR-Sen:
   candidates:
     - name: Jeff Merkley
       party: Democratic
+    - name: Paul Romero
+      party: Republican
 PA-01:
   pvi: R+1
   party: Republican
@@ -3313,11 +3367,17 @@ SC-Sen:
   candidates:
     - name: Gloria Bromell Tinubu
       party: Democratic
+    - name: Dwayne Buckner
+      party: Republican
     - name: Lindsey Graham
       party: Republican
     - name: Jaime Harrison
       party: Democratic
     - name: Peggy Kandies
+      party: Republican
+    - name: Matthew Knights
+      party: Democratic
+    - name: Michael J. Lapierre
       party: Republican
     - name: Joe Reynolds
       party: Republican
@@ -3340,6 +3400,8 @@ SD-AL:
 SD-Sen:
   party: Republican
   candidates:
+    - name: Dan Ahlers
+      party: Democratic
     - name: Scyller Borglum
       party: Republican
     - name: Mike Rounds
@@ -3409,6 +3471,8 @@ TN-09:
 TN-Sen:
   party: Republican
   candidates:
+    - name: Gary G. Davis
+      party: Democratic
     - name: Josh Gapp
       party: Republican
     - name: Bill Hagerty
@@ -3531,6 +3595,8 @@ TX-13:
   candidates:
     - name: Greg Sagan
       party: Democratic
+    - name: 'Vance Snider, II'
+      party: Republican
 TX-14:
   pvi: R+12
   party: Republican
@@ -3553,6 +3619,8 @@ TX-17:
   candidates:
     - name: Rick Kennedy
       party: Democratic
+    - name: Pete Sessions
+      party: Republican
 TX-18:
   pvi: D+27
   party: Democratic
@@ -3710,7 +3778,9 @@ TX-29:
 TX-30:
   pvi: D+18
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Eddie Bernice Johnson
+      party: Democratic
 TX-31:
   pvi: R+10
   party: Republican
@@ -3784,14 +3854,20 @@ TX-Sen:
       party: Democratic
     - name: Sema Hernandez
       party: Democratic
+    - name: John B. Love III
+      party: Democratic
+    - name: Kerry McKennon
+      party: Libertarian
     - name: Adrian Ocegueda
       party: Democratic
     - name: Dwayne Stovall
-      party: Independent
+      party: Republican
     - name: Cristina Tzintzún Ramirez
       party: Democratic
     - name: Royce West
       party: Democratic
+    - name: Mark Yancey
+      party: Republican
 UT-01:
   pvi: R+26
   party: Republican
@@ -3915,16 +3991,20 @@ VA-11:
 VA-Sen:
   party: Democratic
   candidates:
+    - name: Gary Adkins
+      party: Republican
     - name: Alissa Baldwin
       party: Republican
     - name: Daniel Gade
       party: Republican
-    - name: Scott Taylor
+    - name: Thomas Speciale
       party: Republican
-    - name: Victor Williams
+    - name: Scott Taylor
       party: Republican
     - name: Mark Warner
       party: Democratic
+    - name: Victor Williams
+      party: Republican
 VT-AL:
   pvi: D+15
   party: Democratic
@@ -4029,6 +4109,8 @@ WI-06:
   candidates:
     - name: Matt Boor
       party: Democratic
+    - name: Jessica King
+      party: Democratic
     - name: Melissa McClintick
       party: Republican
 WI-07:
@@ -4064,6 +4146,8 @@ WV-Sen:
       party: Republican
     - name: Paula Jean Swearengin
       party: Democratic
+    - name: Allen Whitt
+      party: Republican
 WY-AL:
   pvi: R+25
   party: Republican
@@ -4073,6 +4157,8 @@ WY-AL:
 WY-Sen:
   party: Republican
   candidates:
+    - name: Mark Armstrong
+      party: Republican
     - name: Yana Ludwig
       party: Democratic
     - name: Cynthia Lummis
