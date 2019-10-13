@@ -50,7 +50,9 @@ AL-02:
 AL-03:
   pvi: R+16
   party: Republican
-  candidates: []
+  candidates:
+    - name: Mike Rogers
+      party: Republican
 AL-04:
   pvi: R+30
   party: Republican
@@ -692,8 +694,6 @@ CO-01:
   candidates:
     - name: Diana DeGette
       party: Democratic
-    - name: Crisanta Duran
-      party: Democratic
     - name: Charlie Madison Winters
       party: Democratic
 CO-02:
@@ -762,8 +762,6 @@ CO-Sen:
     - name: John Hickenlooper
       party: Democratic
     - name: Dustin Leitzel
-      party: Democratic
-    - name: Alice Madden
       party: Democratic
     - name: Andrew Romanoff
       party: Democratic
@@ -1194,8 +1192,6 @@ GA-07:
       party: Democratic
     - name: Ben Bullock
       party: Republican
-    - name: Marqus Cole
-      party: Democratic
     - name: John Eaves
       party: Democratic
     - name: Mark Gonsalves
@@ -1429,8 +1425,6 @@ IL-06:
     - name: Sean Casten
       party: Democratic
     - name: Jeanne Ives
-      party: Republican
-    - name: Evelyn Sanguinetti
       party: Republican
 IL-07:
   pvi: D+38
@@ -1670,8 +1664,6 @@ KS-04:
 KS-Sen:
   party: Republican
   candidates:
-    - name: Nancy Boyda
-      party: Democratic
     - name: Barry Grissom
       party: Democratic
     - name: Kris Kobach
