@@ -133,6 +133,15 @@
   uri: 'https://api.propublica.org/congress/v1/members/S001193.json'
   date: '2019-01-03'
   inOffice: true
+- code: CA-16
+  id: C001059
+  name: Jim Costa
+  title: Rep.
+  state: CA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/C001059.json'
+  date: '2019-10-23'
+  inOffice: true
 - code: CA-17
   id: K000389
   name: Ro Khanna
@@ -1149,7 +1158,7 @@
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/C000984.json'
   date: '2019-01-03'
-  inOffice: true
+  inOffice: false
 - code: MD-08
   id: R000606
   name: Jamie Raskin
