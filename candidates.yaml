@@ -39,8 +39,6 @@ AL-02:
   candidates:
     - name: Jeff Coleman
       party: Republican
-    - name: Will Dismukes
-      party: Republican
     - name: Troy King
       party: Republican
     - name: Barry Moore
@@ -282,8 +280,6 @@ CA-04:
   candidates:
     - name: Julianne Benzel
       party: Republican
-    - name: Sean Frame
-      party: Democratic
     - name: Brynne Kennedy
       party: Democratic
     - name: Tom McClintock
@@ -654,8 +650,6 @@ CA-50:
   pvi: R+11
   party: Republican
   candidates:
-    - name: Sam Abed
-      party: Republican
     - name: Ammar Campa-Najjar
       party: Democratic
     - name: Carl DeMaio
@@ -665,10 +659,6 @@ CA-50:
     - name: Darrell Issa
       party: Republican
     - name: Brian Jones
-      party: Republican
-    - name: Bill Wells
-      party: Republican
-    - name: Larry Wilske
       party: Republican
 CA-51:
   pvi: D+22
@@ -1673,8 +1663,6 @@ KS-02:
   pvi: R+10
   party: Republican
   candidates:
-    - name: Abbie Hodgson
-      party: Democratic
     - name: Jake LaTurner
       party: Republican
     - name: Steve Watkins
@@ -2663,8 +2651,6 @@ NM-Sen:
       party: Democratic
     - name: Mick Rich
       party: Republican
-    - name: Maggie Toulouse Oliver
-      party: Democratic
 NV-01:
   pvi: D+15
   party: Democratic

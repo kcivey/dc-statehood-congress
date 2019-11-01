@@ -34,6 +34,15 @@
   uri: 'https://api.propublica.org/congress/v1/members/G000574.json'
   date: '2019-01-03'
   inOffice: true
+- code: AZ-09
+  id: S001211
+  name: Greg Stanton
+  title: Rep.
+  state: AZ
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/S001211.json'
+  date: '2019-10-30'
+  inOffice: true
 - code: CA-02
   id: H001068
   name: Jared Huffman
