@@ -25,6 +25,8 @@ AL-01:
       party: Democratic
     - name: Jerry Carl
       party: Republican
+    - name: John Castorani
+      party: Republican
     - name: Kiani Gardner
       party: Democratic
     - name: Bill Hightower
@@ -141,10 +143,14 @@ AZ-01:
   candidates:
     - name: Barbara McGuire
       party: Democratic
+    - name: John Moore
+      party: Republican
     - name: Tom O'Halleran
       party: Democratic
     - name: Eva Putzova
       party: Democratic
+    - name: Nolan Reidhead
+      party: Republican
     - name: Tiffany Shedd
       party: Republican
     - name: Chris Taylor
@@ -163,6 +169,8 @@ AZ-02:
       party: Republican
     - name: James Morgan
       party: Republican
+    - name: Andres Portela
+      party: Democratic
     - name: Jim Schmidt
       party: Republican
     - name: Shay Stautz
@@ -201,6 +209,8 @@ AZ-06:
       party: Democratic
     - name: Stephanie Rimmer
       party: Democratic
+    - name: David Schweikert
+      party: Republican
     - name: Hiral Tipirneni
       party: Democratic
 AZ-07:
@@ -282,6 +292,8 @@ CA-04:
       party: Republican
     - name: Brynne Kennedy
       party: Democratic
+    - name: Robert Lawton
+      party: No party preference
     - name: Tom McClintock
       party: Republican
 CA-05:
@@ -302,8 +314,12 @@ CA-07:
       party: Democratic
     - name: Jeff Burdick
       party: Democratic
+    - name: Jon Ivy
+      party: Republican
     - name: Buzz Patterson
       party: Republican
+    - name: Robert Christian Richardson
+      party: Green
 CA-08:
   pvi: R+9
   party: Republican
@@ -311,6 +327,8 @@ CA-08:
     - name: Chris Bubser
       party: Democratic
     - name: Nathan Charette
+      party: Republican
+    - name: Tim Donnelly
       party: Republican
     - name: Destiny Lovato
       party: Republican
@@ -399,7 +417,9 @@ CA-18:
 CA-19:
   pvi: D+24
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Zoe Lofgren
+      party: Democratic
 CA-20:
   pvi: D+23
   party: Democratic
@@ -412,6 +432,8 @@ CA-21:
   pvi: D+5
   party: Democratic
   candidates:
+    - name: Ruben Macareno
+      party: No party preference
     - name: David Valadao
       party: Republican
 CA-22:
@@ -480,6 +502,8 @@ CA-29:
   candidates:
     - name: Angelica Dueñas
       party: Democratic
+    - name: Brian Perras
+      party: Republican
     - name: Abdeli Sanchez
       party: Democratic
 CA-30:
@@ -495,7 +519,9 @@ CA-31:
 CA-32:
   pvi: D+17
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Emanuel Gonzales
+      party: Democratic
 CA-33:
   pvi: D+16
   party: Democratic
@@ -646,6 +672,8 @@ CA-49:
       party: Democratic
     - name: Brian Maryott
       party: Republican
+    - name: Nadia Smalley
+      party: Democratic
 CA-50:
   pvi: R+11
   party: Republican
@@ -654,8 +682,12 @@ CA-50:
       party: Democratic
     - name: Carl DeMaio
       party: Republican
+    - name: 'David Edick, Jr.'
+      party: No party preference
     - name: Duncan Hunter
       party: Republican
+    - name: Helen Horvath
+      party: No party preference
     - name: Darrell Issa
       party: Republican
     - name: Brian Jones
@@ -676,8 +708,6 @@ CA-52:
       party: Democratic
     - name: Scott Peters
       party: Democratic
-    - name: Famela Ramos
-      party: Republican
 CA-53:
   pvi: D+14
   party: Democratic
@@ -692,6 +722,8 @@ CA-53:
       party: Democratic
     - name: Sara Jacobs
       party: Democratic
+    - name: Famela Ramos
+      party: Republican
     - name: Joaquin Vazquez
       party: Democratic
 CO-01:
@@ -864,6 +896,8 @@ FL-04:
   pvi: R+17
   party: Republican
   candidates:
+    - name: Erick Aguilar
+      party: Republican
     - name: Monica DePaul
       party: Democratic
     - name: Christopher Eagle
@@ -902,6 +936,8 @@ FL-07:
       party: Republican
     - name: Vennia Francois
       party: Republican
+    - name: Richard Goble
+      party: Republican
     - name: Stephanie Murphy
       party: Democratic
     - name: Armani Salado
@@ -930,6 +966,8 @@ FL-09:
       party: Republican
     - name: Sergio Ortiz
       party: Republican
+    - name: John Christian Rallison
+      party: Independent
     - name: Hendrith Smith Jr.
       party: Democratic
 FL-10:
@@ -1082,8 +1120,12 @@ FL-22:
   pvi: D+6
   party: Democratic
   candidates:
+    - name: Jessica Melton
+      party: Republican
     - name: Imtiaz Mohammad
       party: Democratic
+    - name: James Pruden
+      party: Republican
     - name: Omar Reyes
       party: Independent
 FL-23:
@@ -1178,6 +1220,10 @@ GA-04:
   pvi: D+24
   party: Democratic
   candidates:
+    - name: William Haston
+      party: Democratic
+    - name: Antonio Hicks
+      party: Democratic
     - name: Hank Johnson
       party: Democratic
 GA-05:
@@ -1458,6 +1504,8 @@ IL-07:
       party: Democratic
     - name: Danny Davis
       party: Democratic
+    - name: Tracy Jennings
+      party: Independent
     - name: Kristine Schanbacher
       party: Democratic
 IL-08:
