@@ -100,7 +100,11 @@ rules:
     - properties: never
   comma-dangle:
     - error
-    - always-multiline
+    - arrays: always-multiline
+      objects: always-multiline
+      imports: always-multiline
+      exports: always-multiline
+      functions: never
   comma-spacing: error
   comma-style: error
   computed-property-spacing:
@@ -174,7 +178,9 @@ rules:
   no-useless-computed-key: error
   no-var: error
   object-shorthand: error
-  prefer-const: error
+  prefer-const:
+    - error
+    - destructuring: all
   prefer-rest-params: error
   prefer-spread: error
   rest-spread-spacing: error

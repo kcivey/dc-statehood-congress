@@ -49,7 +49,7 @@ async function main() {
                     uri: c.cosponsor_uri,
                     date: c.date,
                 };
-            }),
+            })
         );
         for (const sponsor of sponsors) {
             const member = members.find(m => m.id === sponsor.id);
