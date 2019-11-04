@@ -167,7 +167,7 @@ AZ-02:
       party: Republican
     - name: Brandon Martin
       party: Republican
-    - name: James Morgan
+    - name: Joseph Morgan
       party: Republican
     - name: Andres Portela
       party: Democratic
@@ -1556,6 +1556,8 @@ IL-13:
       party: Republican
     - name: Betsy Dirksen Londrigan
       party: Democratic
+    - name: Stefanie Smith
+      party: Democratic
 IL-14:
   pvi: R+5
   party: Democratic
@@ -1580,9 +1582,15 @@ IL-15:
   pvi: R+21
   party: Republican
   candidates:
+    - name: Charles Ellington
+      party: Republican
     - name: 'John W. Hursey, Jr.'
       party: Democratic
+    - name: Mary Miller
+      party: Republican
     - name: Alex Walker
+      party: Republican
+    - name: Kerry Wolff
       party: Republican
 IL-16:
   pvi: R+8
@@ -1608,6 +1616,8 @@ IL-18:
   pvi: R+15
   party: Republican
   candidates:
+    - name: Mark Haasis
+      party: Democratic
     - name: Darin LaHood
       party: Republican
 IL-Sen:
@@ -1656,19 +1666,25 @@ IN-03:
 IN-04:
   pvi: R+17
   party: Republican
-  candidates: []
+  candidates:
+    - name: Joe Mackey
+      party: Democratic
 IN-05:
   pvi: R+9
   party: Republican
   candidates:
-    - name: Micah Beckwith
+    - name: Kent Abernathy
       party: Republican
-    - name: Steve Braun
+    - name: Micah Beckwith
       party: Republican
     - name: Jennifer Christie
       party: Democratic
+    - name: Chuck Dietzen
+      party: Republican
     - name: Christina Hale
       party: Democratic
+    - name: Beth Henderson
+      party: Republican
     - name: Andrew Jacobs
       party: Democratic
     - name: Kelly Mitchell
@@ -1705,7 +1721,11 @@ KS-01:
       party: Democratic
     - name: William Clifford
       party: Republican
+    - name: Christy Davis
+      party: Democratic
     - name: Tracey Mann
+      party: Republican
+    - name: Troy Waymaster
       party: Republican
 KS-02:
   pvi: R+10
@@ -1720,6 +1740,8 @@ KS-03:
   party: Democratic
   candidates:
     - name: Amanda Adkins
+      party: Republican
+    - name: Adrienne Foster
       party: Republican
     - name: Sara Hart Weir
       party: Republican
@@ -1967,6 +1989,8 @@ MD-06:
   pvi: D+6
   party: Democratic
   candidates:
+    - name: Kevin Caldwell
+      party: Republican
     - name: Neil Parrott
       party: Republican
 MD-07:
@@ -3039,6 +3063,8 @@ OH-01:
   pvi: R+5
   party: Republican
   candidates:
+    - name: Steve Chabot
+      party: Republican
     - name: Nikki Foster
       party: Democratic
     - name: Kate Schroder
@@ -3056,7 +3082,9 @@ OH-03:
 OH-04:
   pvi: R+14
   party: Republican
-  candidates: []
+  candidates:
+    - name: Jim Jordan
+      party: Republican
 OH-05:
   pvi: R+11
   party: Republican
