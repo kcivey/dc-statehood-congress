@@ -1879,6 +1879,15 @@
   uri: 'https://api.propublica.org/congress/v1/members/M001176.json'
   date: '2019-02-28'
   inOffice: true
+- code: OR-Sen
+  id: W000779
+  name: Ron Wyden
+  title: Sen.
+  state: OR
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/W000779.json'
+  date: '2019-11-07'
+  inOffice: true
 - code: PA-02
   id: B001296
   name: Brendan Boyle
