@@ -18,7 +18,7 @@ const request = require('./lib/request');
 const makeRaceCode = require('./lib/utils').makeRaceCode;
 const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL); // eslint-disable-line global-require
 const urls = [
-    'https://en.wikipedia.org/wiki/United_States_House_of_Representatives_elections,_2020',
+    'https://en.wikipedia.org/wiki/List_of_candidates_in_the_2020_United_States_House_of_Representatives_elections',
     'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
 ];
 
@@ -40,48 +40,39 @@ Promise.all(urls.map(processPage))
     .then(() => db && db.close())
     .catch(err => console.error(err));
 
-function processPage(url) {
-    return request(url)
-        .then(
-            function (html) {
-                const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
-                const races = [];
-                $('table.wikitable').each((i, table) => races.push(...processTable($, $(table))));
-                return Promise
-                    .all(
-                        races.map(
-                            function (race) {
-                                const names = race.candidates.map(c => c.name);
-                                return db
-                                    ? db.find('sponsors', {code: race.code, name: {$in: names}})
-                                        .then(cursor => cursor.toArray())
-                                    : null;
-                            }
-                        )
-                    )
-                    .then(() => races);
-            }
-        )
-        .then(
-            function (races) {
-                const operations = races.map(
-                    function (race) {
-                        return {
-                            updateMany: {
-                                filter: {code: race.code},
-                                update: {$set: race},
-                                upsert: true,
-                            },
-                        };
-                    }
-                );
-                const promise = db
-                    ? db.createIndex('races', {code: 1}, {unique: true})
-                        .then(() => db.bulkWrite('races', operations))
-                    : Promise.resolve();
-                return promise.then(() => races);
+async function processPage(url) {
+    const html = await request(url);
+    const $ = cheerio.load(html.replace(/<br\s*\/?>/g, '\n'));
+    const races = [];
+    for (const table of $('table.wikitable').get()) {
+        races.push(...processTable($, $(table)));
+    }
+    if (db) {
+
+        /*
+        for (const race of races) {
+            const names = race.candidates.map(c => c.name);
+            const cursor = await db.find('sponsors', {code: race.code, name: {$in: names}});
+            const sponsors = cursor.toArray();
+        }
+         */
+        const operations = races.map(
+            function (race) {
+                return {
+                    updateMany: {
+                        filter: {code: race.code},
+                        update: {$set: race},
+                        upsert: true,
+                    },
+                };
             }
         );
+        await db.createIndex('races', {code: 1}, {unique: true});
+        await db.bulkWrite('races', operations);
+    }
+    const expectedCount = /House/.test(url) ? 435 : 35;
+    assert.strictEqual(races.length, expectedCount, 'Wrong number of races');
+    return races;
 }
 
 function processTable($, $table) {
