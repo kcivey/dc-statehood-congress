@@ -161,8 +161,6 @@ AR-Sen:
   candidates:
     - name: Tom Cotton
       party: Republican
-    - name: Josh Mahony
-      party: Democratic
 AZ-01:
   pvi: R+2
   party: Democratic
@@ -2630,6 +2628,8 @@ NH-02:
   candidates:
     - name: Lynne Blankenbecker
       party: Republican
+    - name: Ann Kuster
+      party: Democratic
     - name: Steve Negron
       party: Republican
 NH-Sen:
@@ -2810,6 +2810,10 @@ NM-03:
       party: Democratic
     - name: Audra Lee Brown
       party: Republican
+    - name: Michelle Garcia Holmes
+      party: Republican
+    - name: Alexis Johnson
+      party: Republican
     - name: Gavin Kaiser
       party: Democratic
     - name: Teresa Leger de Fernandez
@@ -2818,6 +2822,8 @@ NM-03:
       party: Libertarian
     - name: Laura Montoya
       party: Democratic
+    - name: Anastacia Golden Morper
+      party: Republican
     - name: Valerie Plame
       party: Democratic
     - name: Joseph L. Sanchez
@@ -2838,7 +2844,9 @@ NM-Sen:
 NV-01:
   pvi: D+15
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Dina Titus
+      party: Democratic
 NV-02:
   pvi: R+7
   party: Republican
@@ -2851,8 +2859,8 @@ NV-03:
   pvi: R+2
   party: Democratic
   candidates:
-    - name: Tiger Helgelien
-      party: Republican
+    - name: Susie Lee
+      party: Democratic
     - name: Daniel Rodimer
       party: Republican
     - name: Dan Schwartz
@@ -2868,6 +2876,8 @@ NV-04:
     - name: Charles Navarro
       party: Republican
     - name: Sam Peters
+      party: Republican
+    - name: Catherine Prato
       party: Republican
     - name: Randi Reed
       party: Republican
