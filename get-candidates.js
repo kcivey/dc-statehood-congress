@@ -18,7 +18,7 @@ const request = require('./lib/request');
 const makeRaceCode = require('./lib/utils').makeRaceCode;
 const db = argv.mongo && require('./lib/db')(process.env.MONGODB_URL); // eslint-disable-line global-require
 const urls = [
-    'https://en.wikipedia.org/wiki/List_of_candidates_in_the_2020_United_States_House_of_Representatives_elections',
+    'https://en.wikipedia.org/wiki/2020_United_States_House_of_Representatives_elections',
     'https://en.wikipedia.org/wiki/United_States_Senate_elections,_2020',
 ];
 
