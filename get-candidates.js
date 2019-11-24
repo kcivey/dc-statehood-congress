@@ -159,6 +159,10 @@ function processTable($, $table) {
 }
 
 function makeRecord(code, rowData) {
+    if (rowData.Candidates == null) {
+        console.warn(rowData);
+        throw new Error(`Missing "Candidates"`);
+    }
     const record = {
         code,
         pvi: rowData['2017 PVI'],
