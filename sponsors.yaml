@@ -1951,6 +1951,15 @@
   uri: 'https://api.propublica.org/congress/v1/members/C001090.json'
   date: '2019-01-03'
   inOffice: true
+- code: PA-17
+  id: L000588
+  name: Conor Lamb
+  title: Rep.
+  state: PA
+  party: D
+  uri: 'https://api.propublica.org/congress/v1/members/L000588.json'
+  date: '2019-11-26'
+  inOffice: true
 - code: PA-18
   id: D000482
   name: Mike Doyle
