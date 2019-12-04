@@ -161,7 +161,7 @@ function processTable($, $table) {
 function makeRecord(code, rowData) {
     if (rowData.Candidates == null) {
         console.warn(rowData);
-        throw new Error(`Missing "Candidates"`);
+        throw new Error('Missing "Candidates"');
     }
     const record = {
         code,
@@ -170,16 +170,16 @@ function makeRecord(code, rowData) {
         candidates: rowData.Candidates.split('\n')
             .map(
                 function (text) {
-                    const m = text.match(/^(.+?)\s+\(([^)]+)\)/);
+                    if (/^(?:TBD|TBA|None yet)?$/.test(text)) {
+                        return null;
+                    }
+                    const m = text.match(/^([^()[\]{}]+?[IVa-z.])(?:,?\s+\(([^)]+)\))?(?:\s*\[[\d,]+])*$/);
                     if (!m) {
-                        if (/^(?:TBD|TBA|None yet)?$/.test(text)) {
-                            return null;
-                        }
                         throw new Error(`Unexpected format "${text}"`);
                     }
                     return {
                         name: m[1],
-                        party: m[2],
+                        party: m[2] || '',
                     };
                 }
             )
