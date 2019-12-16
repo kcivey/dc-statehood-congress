@@ -33,6 +33,7 @@ Promise.all(urls.map(processPage))
             .forEach(function (race) {
                 const r = Object.assign({}, race);
                 data[r.code] = r;
+                r.candidates.sort((a, b) => a.party.localeCompare(b.party) || a.name.localeCompare(b.name));
                 delete r.code;
             });
         return writeData(data);
