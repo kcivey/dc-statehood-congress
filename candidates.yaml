@@ -1684,6 +1684,8 @@ GA-01:
       party: Democratic
     - name: Lisa Ring
       party: Democratic
+    - name: Buddy Carter
+      party: Republican
     - name: Daniel Merritt
       party: Republican
 GA-02:
@@ -2842,6 +2844,8 @@ MI-08:
   pvi: R+4
   party: Democratic
   candidates:
+    - name: Elissa Slotkin
+      party: Democratic
     - name: Alan Hoover
       party: Republican
     - name: Kristina Lyke
@@ -3232,6 +3236,8 @@ NC-06:
       party: Democratic
     - name: Kathy Manning
       party: Democratic
+    - name: Rhonda Foxx
+      party: Democratic
     - name: Jennyfer Bucardo
       party: Independent
     - name: Laura Pichardo
@@ -3246,14 +3252,10 @@ NC-07:
       party: Democratic
     - name: David Rouzer
       party: Republican
-    - name: Pete D'Abrosca
-      party: Republican
 NC-08:
   pvi: R+5
   party: Republican
   candidates:
-    - name: Naveed Aziz
-      party: Democratic
     - name: Patricia Timmons-Goodson
       party: Democratic
     - name: Scott Huffman
@@ -3415,6 +3417,8 @@ NJ-01:
   candidates:
     - name: Donald Norcross
       party: Democratic
+    - name: Claire Gustafson
+      party: Republican
     - name: Josh Duvall
       party: Republican
 NJ-02:
@@ -3423,7 +3427,11 @@ NJ-02:
   candidates:
     - name: Ashley Bennett
       party: Democratic
+    - name: Brigid Harrison
+      party: Democratic
     - name: Jeff Van Drew
+      party: Democratic
+    - name: John Francis
       party: Democratic
     - name: Bob Patterson
       party: Republican
@@ -3451,6 +3459,8 @@ NJ-04:
       party: Democratic
     - name: Hassan Shehadeh
       party: Democratic
+    - name: Jim Keady
+      party: Democratic
     - name: Stephanie Schmid
       party: Democratic
     - name: Tiffany Kaszuba
@@ -3465,7 +3475,11 @@ NJ-05:
       party: Democratic
     - name: Josh Gottheimer
       party: Democratic
+    - name: Dana DiRisio
+      party: Republican
     - name: Frank Pallotta
+      party: Republican
+    - name: Hector Castillo
       party: Republican
     - name: James Baldini
       party: Republican
@@ -3485,10 +3499,14 @@ NJ-06:
       party: Democratic
     - name: Russell Cirincione
       party: Democratic
+    - name: Zac Roeill
+      party: Democratic
 NJ-07:
   pvi: R+3
   party: Democratic
   candidates:
+    - name: Rob Trugman
+      party: Republican
     - name: Rosemary Becchi
       party: Republican
     - name: Thomas Kean Jr.
@@ -3508,6 +3526,10 @@ NJ-09:
   party: Democratic
   candidates:
     - name: Alp Basaran
+      party: Democratic
+    - name: Blake Michael
+      party: Democratic
+    - name: Michael Wildes
       party: Democratic
     - name: Zina Spezakis
       party: Democratic
@@ -3529,6 +3551,12 @@ NJ-11:
   candidates:
     - name: Mark Washburne
       party: Democratic
+    - name: Jerry Langer
+      party: Republican
+    - name: Larry Casha
+      party: Republican
+    - name: Robert Crook
+      party: Republican
 NJ-12:
   pvi: D+16
   party: Democratic
