@@ -1428,7 +1428,7 @@
   party: D
   uri: 'https://api.propublica.org/congress/v1/members/V000133.json'
   date: '2019-06-24'
-  inOffice: true
+  inOffice: false
 - code: NJ-03
   id: K000394
   name: Andy Kim
