@@ -352,7 +352,7 @@ CA-04:
   pvi: R+10
   party: Republican
   candidates:
-    - name: Brynne S. Kennedy
+    - name: Brynne Kennedy
       party: D
     - name: Robert Lawton
       party: NPP
@@ -386,7 +386,7 @@ CA-06:
       party: D
     - name: Chris Bish
       party: R
-    - name: 'Sherwood Ellworth Haisty, Jr.'
+    - name: 'Sherwood Haisty, Jr.'
       party: R
 CA-07:
   pvi: D+3
@@ -416,9 +416,11 @@ CA-08:
       party: NPP
     - name: Jay Obernolte
       party: R
+    - name: Jeremy Staat
+      party: R
     - name: Jerry Laws
       party: R
-    - name: Justin David Whitehead
+    - name: Justin Whitehead
       party: R
     - name: Tim Donnelly
       party: R
@@ -428,7 +430,7 @@ CA-09:
   candidates:
     - name: Jerry McNerney
       party: D
-    - name: Antonio C. "Tony" Amador
+    - name: Antonio C. Amador
       party: R
     - name: William Martinek
       party: R
@@ -438,7 +440,7 @@ CA-10:
   candidates:
     - name: Josh Harder
       party: D
-    - name: Michael J. "Mike" Barkley
+    - name: Michael J. Barkley
       party: D
     - name: Ryan Blevins
       party: D
@@ -520,7 +522,7 @@ CA-16:
       party: D
     - name: Jim Costa
       party: D
-    - name: Kimberly Elizabeth Williams
+    - name: Kimberly Williams
       party: D
     - name: Kevin Cookingham
       party: R
@@ -678,6 +680,8 @@ CA-28:
   candidates:
     - name: Adam B. Schiff
       party: D
+    - name: Ara Manoogian
+      party: D
     - name: Chad D. Anderson
       party: D
     - name: G. "Maebe A. Girl" Pudlo
@@ -761,8 +765,6 @@ CA-34:
     - name: Frances Yasmeen Motiwalla
       party: D
     - name: Jimmy Gomez
-      party: D
-    - name: Joseph Kozel
       party: D
     - name: Keanakay Wright
       party: D
@@ -961,7 +963,7 @@ CA-50:
     - name: Lucinda KWH Jahn
       party: NPP
     - name: Jose Cortes
-      party: P & F
+      party: P&F
     - name: Brian W. Jones
       party: R
     - name: Carl DeMaio
@@ -1049,8 +1051,6 @@ CO-03:
     - name: Diane Mitsch Bush
       party: D
     - name: James Iacino
-      party: D
-    - name: Root Routledge
       party: D
     - name: Root Routledge
       party: D
@@ -1206,6 +1206,8 @@ FL-03:
   pvi: R+9
   party: Republican
   candidates:
+    - name: Adam Christensen
+      party: D
     - name: Philip Dodds
       party: D
     - name: Richard Rowe
@@ -1217,6 +1219,8 @@ FL-03:
     - name: Joseph Millado
       party: R
     - name: Judson Sapp
+      party: R
+    - name: Kat Cammack
       party: R
     - name: Matthew Raines
       party: R
@@ -1273,8 +1277,6 @@ FL-07:
     - name: Richard Goble
       party: R
     - name: Stephen Bacon
-      party: R
-    - name: Thomas Delia
       party: R
     - name: Vennia Francois
       party: R
@@ -2351,7 +2353,7 @@ LA-03:
   pvi: R+20
   party: Republican
   candidates:
-    - name: Bob Anderson
+    - name: Rob Anderson
       party: D
 LA-04:
   pvi: R+13
@@ -3082,7 +3084,7 @@ NC-01:
   pvi: D+5
   party: Democratic
   candidates:
-    - name: G.K. Butterfield
+    - name: G. K. Butterfield
       party: D
     - name: Ethan Baca
       party: R
@@ -3448,8 +3450,6 @@ NJ-05:
     - name: Dana DiRisio
       party: R
     - name: Frank Pallotta
-      party: R
-    - name: Hector Castillo
       party: R
     - name: James Baldini
       party: R
@@ -4119,10 +4119,6 @@ OH-07:
   pvi: R+12
   party: Republican
   candidates:
-    - name: Patrick Pikus
-      party: D
-    - name: Brandon Lape
-      party: L
     - name: Bob Gibbs
       party: R
 OH-08:
@@ -5516,13 +5512,23 @@ VA-02:
   pvi: R+3
   party: Democratic
   candidates:
+    - name: Joseph Mota
+      party: D
+    - name: Andy Baan
+      party: R
     - name: Ben Loyola
+      party: R
+    - name: Scott Taylor
       party: R
 VA-03:
   pvi: D+16
   party: Democratic
   candidates:
+    - name: Shaun Brown
+      party: I
     - name: John Collick
+      party: R
+    - name: Madison Downs
       party: R
 VA-04:
   pvi: D+10
@@ -5540,6 +5546,8 @@ VA-05:
       party: D
     - name: Roger Dean Huffstetler
       party: D
+    - name: Shadi Ayyas
+      party: D
     - name: Bob Good
       party: R
     - name: Denver Riggleman
@@ -5556,6 +5564,8 @@ VA-07:
       party: D
     - name: Andrew Knaggs
       party: R
+    - name: Bridgette Williams
+      party: R
     - name: Craig Ennis
       party: R
     - name: Jason Alexander Roberge
@@ -5571,16 +5581,26 @@ VA-07:
 VA-08:
   pvi: D+21
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Don Beyer
+      party: D
+    - name: Heerak Christian Kim
+      party: R
+    - name: Mark Ellmore
+      party: R
 VA-09:
   pvi: R+19
   party: Republican
-  candidates: []
+  candidates:
+    - name: Cameron Dickerson
+      party: D
 VA-10:
   pvi: D+1
   party: Democratic
   candidates:
     - name: Aliscia Andrews
+      party: R
+    - name: Elizabeth Stone
       party: R
     - name: Jeff Dove
       party: R
@@ -5591,7 +5611,9 @@ VA-10:
 VA-11:
   pvi: D+15
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Zainab Mohsini
+      party: D
 VA-Sen:
   party: Democratic
   candidates:
@@ -5655,6 +5677,8 @@ WA-06:
   pvi: D+6
   party: Democratic
   candidates:
+    - name: Elizabeth Kreiselmaier
+      party: D
     - name: Matthew Tirman
       party: D
     - name: Rebecca Parson
@@ -5683,16 +5707,28 @@ WA-10:
   candidates:
     - name: Joshua Collins
       party: D
+    - name: Marilyn Strickland
+      party: D
+    - name: Nancy Slotnick
+      party: R
+    - name: Ryan Tate
+      party: R
 WI-01:
   pvi: R+5
   party: Republican
   candidates:
+    - name: Angela Cunningham
+      party: D
     - name: Josh Pade
       party: D
+    - name: Jeremy J. Ryan
+      party: R
 WI-02:
   pvi: D+18
   party: Democratic
-  candidates: []
+  candidates:
+    - name: Mark Pocan
+      party: D
 WI-03:
   pvi: EVEN
   party: Democratic
@@ -5741,7 +5777,11 @@ WV-01:
   pvi: R+19
   party: Republican
   candidates:
+    - name: Jason Jones
+      party: D
     - name: Natalie Cline
+      party: D
+    - name: Vi Tran
       party: D
 WV-02:
   pvi: R+17
@@ -5749,10 +5789,16 @@ WV-02:
   candidates:
     - name: Cathy Kunkel
       party: D
+    - name: Matt Hahn
+      party: R
 WV-03:
   pvi: R+23
   party: Republican
-  candidates: []
+  candidates:
+    - name: Eugene Lacy Watson
+      party: D
+    - name: Hilary Turner
+      party: D
 WV-Sen:
   party: Republican
   candidates:
