@@ -21,9 +21,9 @@
     "cache-manager-fs": "^1.0.8",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
-    "googleapis": "^45.0.0",
+    "googleapis": "^46.0.0",
     "js-yaml": "^3.13.1",
-    "mongodb": "^3.3.5",
+    "mongodb": "^3.4.1",
     "propublica-congress": "github:kcivey/propublica-congress",
     "request": "^2.88.0",
     "request-plus": "^2.0.0",
@@ -32,6 +32,6 @@
     "yargs": "^15.0.2"
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.8.0"
   }
 }
