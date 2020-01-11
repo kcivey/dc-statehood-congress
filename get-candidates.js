@@ -175,7 +175,7 @@ function makeRecord(code, rowData) {
                         return null;
                     }
                     const m = text.match(
-                        /^((?:[^()[\]{}]+|\([^)]+\))+?[IVa-z.])(?:,?\s+\(([^)]+)\))?(?:\s*\[[\d,]+])*$/
+                        /^((?:[^()[\]{}]+|\([^)]+\))+?[IVa-z.])(?:,?\s+\(([^)]+)\))?(?:\s*\[.+])*$/
                     );
                     if (!m) {
                         throw new Error(`Unexpected format "${text}"`);
