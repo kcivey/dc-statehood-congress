@@ -17,19 +17,19 @@
   },
   "dependencies": {
     "bson-ext": "^2.0.3",
-    "cache-manager": "^2.10.1",
+    "cache-manager": "^2.11.1",
     "cache-manager-fs": "^1.0.8",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
-    "googleapis": "^46.0.0",
+    "googleapis": "^49.0.0",
     "js-yaml": "^3.13.1",
-    "mongodb": "^3.4.1",
+    "mongodb": "^3.5.6",
     "propublica-congress": "github:kcivey/propublica-congress",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-plus": "^2.0.0",
-    "underscore": "^1.9.1",
+    "underscore": "^1.10.2",
     "us-regions": "0.0.2",
-    "yargs": "^15.0.2"
+    "yargs": "^15.3.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
